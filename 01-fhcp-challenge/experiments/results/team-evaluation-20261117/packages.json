@@ -1,0 +1,56 @@
+{
+  "execution_revision": "19ac5eaa46fbacc5a034dae6d14befbf171928db",
+  "plan_sha256": "348df5525871354ff25a60b22ccb8da8d6aba9884de9a3a9b4026feafc0db250",
+  "packages": [
+    {
+      "member": "Arturo2430",
+      "url": "https://github.com/ZapataFrame/FHCP-Challenge/tree/main/experiments/deliveries/issue-83-partial-2417",
+      "filename": "FHCP-evaluation-Arturo2430-45f464ae-50be-441b-b7ff-a261fba5028e-partial-2417.zip",
+      "bytes": 14872923,
+      "sha256": "def1148bfd3b676f29f42634668dbb25147fbbc89397f8c89be3432b87958cbc",
+      "zip_entries": 14547,
+      "crc_valid": true,
+      "expected_attempts": 2417
+    },
+    {
+      "member": "ZapataFrame",
+      "url": "https://github.com/ZapataFrame/FHCP-Challenge/tree/main/experiments/deliveries/issue-84-partial-1325",
+      "filename": "FHCP-evaluation-ZapataFrame-45f464ae-50be-441b-b7ff-a261fba5028e-partial-1325.zip",
+      "bytes": 7581253,
+      "sha256": "a56c43a7949c2633d6096ae8c6420c82beb0f4f7db9c5a9ab43404182c4415f0",
+      "zip_entries": 7997,
+      "crc_valid": true,
+      "expected_attempts": 1325
+    },
+    {
+      "member": "cesar-upv",
+      "url": "https://drive.google.com/file/d/1TqJcMfuJSLfBAG-vmfIC3nXduu9BodU0/view",
+      "filename": "FHCP-evaluation-cesar-upv-45f464ae-50be-441b-b7ff-a261fba5028e-partial-20261116T060613Z.zip",
+      "bytes": 11086810,
+      "sha256": "cb25bbcddbd480b758f82dabd59eb27d97178d0a18beab2de47d2f3136800fca",
+      "zip_entries": 11163,
+      "crc_valid": true,
+      "expected_attempts": 1853
+    },
+    {
+      "member": "KirbyStone69",
+      "url": "https://drive.google.com/file/d/14I4AHsRortpVhxlcondclbo2di--rHG5/view",
+      "filename": "FHCP-evaluation-KirbyStone69-45f464ae-50be-441b-b7ff-a261fba5028e-partial-20261115T235207Z.zip",
+      "bytes": 6809427,
+      "sha256": "27be57458f2b653af83a3e7d1170af44bbac327ff88c0373965eb3d19ae9027d",
+      "zip_entries": 7190,
+      "crc_valid": true,
+      "expected_attempts": 1188
+    },
+    {
+      "member": "ELIASDEJESUSZUNIGADELEON",
+      "url": "https://drive.google.com/file/d/1a7I_tBOMzz51mbZYSOk0jL5dQyn79NdQ/view",
+      "filename": "FHCP-evaluation-ELIASDEJESUSZUNIGADELEON-45f464ae-50be-441b-b7ff-a261fba5028e-partial-600.zip",
+      "bytes": 3470482,
+      "sha256": "5d02eb32701b6999a3ee54948321dbbc32b4447440348c84c9720a63aade3721",
+      "zip_entries": 3654,
+      "crc_valid": true,
+      "expected_attempts": 600
+    }
+  ]
+}

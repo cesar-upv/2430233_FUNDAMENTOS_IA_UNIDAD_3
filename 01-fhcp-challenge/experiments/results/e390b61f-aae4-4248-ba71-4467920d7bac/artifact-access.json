@@ -1,0 +1,55 @@
+{
+  "schema_version": "fhcp-artifact-access/1",
+  "campaign_id": "e390b61f-aae4-4248-ba71-4467920d7bac",
+  "storage": "google_drive",
+  "status": "available",
+  "folder_url": "https://drive.google.com/drive/folders/1nRT-OhkU91qVaIR8cJDyFxrhinlCSLkZ",
+  "archive_index": "experiments/results/e390b61f-aae4-4248-ba71-4467920d7bac/archive-index-732914c2-7124-4bf1-bd13-b7ec6ce60a9e.json",
+  "archive_index_sha256": "eb45aa61c77844345adcc96f5bdd3bad9159a191290b5f485b058b29eddb3e4d",
+  "files": [
+    {
+      "path": "experiments/results/e390b61f-aae4-4248-ba71-4467920d7bac/archives/67191556-cc8d-4612-9517-e9b4cd0a2340-94cc6784-b55d-43af-a668-6fac9dc5213f.tar.gz",
+      "filename": "67191556-cc8d-4612-9517-e9b4cd0a2340-94cc6784-b55d-43af-a668-6fac9dc5213f.tar.gz",
+      "sha256": "869efbd0ff4f327f86794d345dd626329f280df166b824f4ab75110bd9c16e9c",
+      "size_bytes": 280354621,
+      "download_url": "https://drive.google.com/file/d/1xbIq-XEm1aTpx3L-KnMYA3B6LqeDAYw9/view?usp=drivesdk",
+      "drive_file_id": "1xbIq-XEm1aTpx3L-KnMYA3B6LqeDAYw9"
+    },
+    {
+      "path": "experiments/results/e390b61f-aae4-4248-ba71-4467920d7bac/archives/22560abf-18ec-4dab-87a9-8e1141f7ed05-4ccebcf6-ad05-47c1-b382-5d4d47b30c01.tar.gz",
+      "filename": "22560abf-18ec-4dab-87a9-8e1141f7ed05-4ccebcf6-ad05-47c1-b382-5d4d47b30c01.tar.gz",
+      "sha256": "c4215c2541e0c690868ccc9d9130a3a5d41bd6f56f426db419f037864a1b1411",
+      "size_bytes": 24361853,
+      "download_url": "https://drive.google.com/file/d/1xyJoJdckQEGRzhLkJ9HMYAxykMqvlChy/view?usp=drivesdk",
+      "drive_file_id": "1xyJoJdckQEGRzhLkJ9HMYAxykMqvlChy"
+    },
+    {
+      "path": "experiments/results/e390b61f-aae4-4248-ba71-4467920d7bac/archives/3db63fd9-6545-4199-a1ea-cf74bdd50444-ff3fbe6d-fa3f-4b0f-bb0a-26d6d1bd1017.tar.gz",
+      "filename": "3db63fd9-6545-4199-a1ea-cf74bdd50444-ff3fbe6d-fa3f-4b0f-bb0a-26d6d1bd1017.tar.gz",
+      "sha256": "3719b67f42a97a76bbb7937368070086872018b2f22df6090ecb7c77edbadd67",
+      "size_bytes": 307652,
+      "download_url": "https://drive.google.com/file/d/10GpBdpwAlsrc0k5sgL7rzM0pkVmI-Jtj/view?usp=drivesdk",
+      "drive_file_id": "10GpBdpwAlsrc0k5sgL7rzM0pkVmI-Jtj"
+    },
+    {
+      "path": "experiments/results/e390b61f-aae4-4248-ba71-4467920d7bac/archives/ef9646e3-1985-47b6-8f58-6744b2f70810-c5eed92f-a930-4e3c-9f74-7de123d36a05.tar.gz",
+      "filename": "ef9646e3-1985-47b6-8f58-6744b2f70810-c5eed92f-a930-4e3c-9f74-7de123d36a05.tar.gz",
+      "sha256": "6142d19b6898aa7d6fd8e0cdab9bf41a3b8f741f17e290f2544bcac8ed407577",
+      "size_bytes": 10015789,
+      "download_url": "https://drive.google.com/file/d/1LRmVGnOOe7hrZ2zGjB4RwO1zL-Sl6Qgq/view?usp=drivesdk",
+      "drive_file_id": "1LRmVGnOOe7hrZ2zGjB4RwO1zL-Sl6Qgq"
+    },
+    {
+      "path": "experiments/results/e390b61f-aae4-4248-ba71-4467920d7bac/archives/311e6dd4-2d47-4775-833d-c2969771094c-3c33d1b8-77f6-434f-b147-1da036a51994.tar.gz",
+      "filename": "311e6dd4-2d47-4775-833d-c2969771094c-3c33d1b8-77f6-434f-b147-1da036a51994.tar.gz",
+      "sha256": "e89611a325d10ab9760216c0dfd5d1df544f5010c97750cf1eb4e0a618a86b30",
+      "size_bytes": 219664,
+      "download_url": "https://drive.google.com/file/d/1sRQRA4j1vCWjJsAQ9S-u4PvqM9mVMthg/view?usp=drivesdk",
+      "drive_file_id": "1sRQRA4j1vCWjJsAQ9S-u4PvqM9mVMthg"
+    }
+  ],
+  "access_domain": "upv.edu.mx",
+  "access_role": "reader",
+  "metadata_checked_at_utc": "2026-11-13T14:06:25.438904+00:00",
+  "metadata_check_scope": "Folder listing, expected filenames and byte sizes"
+}

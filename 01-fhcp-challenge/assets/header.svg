@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">FHCP Challenge — Ciclos hamiltonianos</title>
+  <desc id="desc">Banner azul oscuro con un grafo de siete vértices y un ciclo cerrado resaltado en turquesa.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#24334b" stroke-width="0.6"/></pattern>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1426"/><stop offset="1" stop-color="#172841"/></linearGradient>
+  </defs>
+  <rect width="1200" height="340" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="20" fill="url(#grid)"/>
+  <rect x="48" y="49" width="5" height="26" rx="2" fill="#5eead4"/>
+  <g font-family="DejaVu Sans, sans-serif">
+    <text x="68" y="69" fill="#5eead4" font-size="17" letter-spacing="3">FHCP CHALLENGE</text>
+    <text x="48" y="137" fill="#f8fafc" font-size="43" font-weight="700">Ciclos</text>
+    <text x="48" y="190" fill="#f8fafc" font-size="43" font-weight="700">hamiltonianos</text>
+    <text x="49" y="232" fill="#cbd5e1" font-size="20">Un ciclo. Todos los vértices.</text>
+    <text x="49" y="291" fill="#94a3b8" font-size="14" letter-spacing="2">GRAFOS / METAHEURÍSTICAS / EVALUACIÓN</text>
+  </g>
+  <g fill="none" stroke="#405575" stroke-width="2">
+    <path d="M900 49L1027 237L771 237L900 49L957 288L1010 113L843 288L790 113L1027 237M790 113L1010 113M771 237L957 288"/>
+  </g>
+  <path d="M900 49L1010 113L1027 237L957 288L843 288L771 237L790 113Z" fill="none" stroke="#5eead4" stroke-width="4" stroke-linejoin="round"/>
+  <g fill="#0e1d31" stroke="#5eead4" stroke-width="3">
+    <circle cx="900" cy="49" r="10"/><circle cx="1010" cy="113" r="10"/><circle cx="1027" cy="237" r="10"/><circle cx="957" cy="288" r="10"/><circle cx="843" cy="288" r="10"/><circle cx="771" cy="237" r="10"/><circle cx="790" cy="113" r="10"/>
+  </g>
+  <circle cx="900" cy="49" r="4" fill="#fbbf24"/>
+</svg>

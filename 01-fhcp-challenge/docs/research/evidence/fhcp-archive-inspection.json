@@ -1,0 +1,95 @@
+{
+  "source_url": "https://sites.flinders.edu.au/flinders-hamiltonian-cycle-project/wp-content/uploads/sites/18/2020/01/FHCPCS.7z",
+  "download_completed_at_utc": "2026-10-30T15:11:31.436320+00:00",
+  "archive_size_bytes": 14957114,
+  "archive_sha256": "2f86aaf525977d1e45f1270c06d8153f3d84d32bd391b4058764c3c85db04f79",
+  "archive_member_count": 1001,
+  "hcp_member_count": 1001,
+  "inspection_scope": "Archive member listing and six selected text files; no project parser, cycle validation or solver benchmark. Published-number correspondence is supported by matching file numbering and dimensions; graph isomorphism to the participant website was not checked.",
+  "selected_members": [
+    {
+      "published_number": 1,
+      "archive_member": "graph1.hcp",
+      "name": "graph1.hcp",
+      "dimension": 66,
+      "edge_count": 99,
+      "type": "HCP",
+      "edge_data_format": "EDGE_LIST",
+      "sha256": "124c185cebd9782e037bf16c88cb26002352e10e3ab634bf51ff481296c2e0b2",
+      "observed_label_range": [
+        1,
+        66
+      ]
+    },
+    {
+      "published_number": 2,
+      "archive_member": "graph2.hcp",
+      "name": "graph2.hcp",
+      "dimension": 70,
+      "edge_count": 106,
+      "type": "HCP",
+      "edge_data_format": "EDGE_LIST",
+      "sha256": "6c92d89c11eea9c48dd1ec895b793cb634dd9ae56e524ab8b84ad33ff9a15c4c",
+      "observed_label_range": [
+        1,
+        70
+      ]
+    },
+    {
+      "published_number": 8,
+      "archive_member": "graph8.hcp",
+      "name": "graph8.hcp",
+      "dimension": 108,
+      "edge_count": 163,
+      "type": "HCP",
+      "edge_data_format": "EDGE_LIST",
+      "sha256": "19759010839a76640d62f8933bc17dda295de09cca0ecaa638f17b292fa981f0",
+      "observed_label_range": [
+        1,
+        108
+      ]
+    },
+    {
+      "published_number": 12,
+      "archive_member": "graph12.hcp",
+      "name": "graph12.hcp",
+      "dimension": 132,
+      "edge_count": 199,
+      "type": "HCP",
+      "edge_data_format": "EDGE_LIST",
+      "sha256": "01823d5a6f15b34a8008992fe3a402b4dce3f05e769625745be4b932a95f7af7",
+      "observed_label_range": [
+        1,
+        132
+      ]
+    },
+    {
+      "published_number": 1000,
+      "archive_member": "graph1000.hcp",
+      "name": "graph1000.hcp",
+      "dimension": 9058,
+      "edge_count": 13077,
+      "type": "HCP",
+      "edge_data_format": "EDGE_LIST",
+      "sha256": "4556e1238d2d7bfd8ae371162123683fb650a94a886a72fab5a7cc0a31379979",
+      "observed_label_range": [
+        1,
+        9058
+      ]
+    },
+    {
+      "published_number": 1001,
+      "archive_member": "graph1001.hcp",
+      "name": "graph1001.hcp",
+      "dimension": 9528,
+      "edge_count": 13968,
+      "type": "HCP",
+      "edge_data_format": "EDGE_LIST",
+      "sha256": "33f42e05e4009e1d2ba4b142604138bce1e641dc53dd9b2520af2900eb0f1d69",
+      "observed_label_range": [
+        1,
+        9528
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Keep measured source/catalog bytes identical on Linux and Windows.
+src/** text eol=lf
+experiments/configs/** text eol=lf
+docs/decisions/*.json text eol=lf
+
+# Preserve the original FHCP payload and its checksums without EOL conversion.
+data/raw/** -text

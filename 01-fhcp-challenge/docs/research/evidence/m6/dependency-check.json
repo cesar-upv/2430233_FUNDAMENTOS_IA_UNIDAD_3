@@ -1,0 +1,58 @@
+{
+  "checked_at_utc": "2026-11-13T17:26:48.173566+00:00",
+  "main_commit": "b83b19ef628712e9e10b9d9d9f5eaedacaa5bcee",
+  "dependencies": [
+    {
+      "issue": 67,
+      "issue_url": "https://github.com/ZapataFrame/FHCP-Challenge/issues/67",
+      "state": "closed",
+      "pr": 72,
+      "pr_url": "https://github.com/ZapataFrame/FHCP-Challenge/pull/72",
+      "merged_at": "2026-11-12T18:44:13Z",
+      "merge_commit": "9b6e6f1fcbc22c90c8e8b01a789090a75dc18714",
+      "base": "main"
+    },
+    {
+      "issue": 68,
+      "issue_url": "https://github.com/ZapataFrame/FHCP-Challenge/issues/68",
+      "state": "closed",
+      "pr": 73,
+      "pr_url": "https://github.com/ZapataFrame/FHCP-Challenge/pull/73",
+      "merged_at": "2026-11-13T01:37:21Z",
+      "merge_commit": "e208b06e7e0e60918d74229a1f3c102c017035aa",
+      "base": "main"
+    },
+    {
+      "issue": 69,
+      "issue_url": "https://github.com/ZapataFrame/FHCP-Challenge/issues/69",
+      "state": "closed",
+      "pr": 74,
+      "pr_url": "https://github.com/ZapataFrame/FHCP-Challenge/pull/74",
+      "merged_at": "2026-11-13T01:53:14Z",
+      "merge_commit": "1e502c7b9974718f8968cddb8d2722a6b521f43c",
+      "base": "main"
+    },
+    {
+      "issue": 70,
+      "issue_url": "https://github.com/ZapataFrame/FHCP-Challenge/issues/70",
+      "state": "closed",
+      "pr": 77,
+      "pr_url": "https://github.com/ZapataFrame/FHCP-Challenge/pull/77",
+      "merged_at": "2026-11-13T17:20:37Z",
+      "merge_commit": "b83b19ef628712e9e10b9d9d9f5eaedacaa5bcee",
+      "base": "main"
+    }
+  ],
+  "current_issue": {
+    "number": 71,
+    "state": "open",
+    "assignees": [
+      "Arturo2430"
+    ]
+  },
+  "milestone": {
+    "number": 6,
+    "state": "open",
+    "description": "Fijar instancias, semillas, presupuestos y configuraciones; ejecutar repeticiones y comparar con referencias FHCP. Cierre: resultados crudos y manifiestos conservados, \u00e9xitos validados, fallos y timeouts en el denominador, tablas y gr\u00e1ficos regenerables y limitaciones de comparaci\u00f3n documentadas."
+  }
+}

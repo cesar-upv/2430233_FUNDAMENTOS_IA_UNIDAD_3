@@ -1,0 +1,72 @@
+{
+  "checked_at_utc": "2026-11-17T17:54:31.526282+00:00",
+  "integration_base": "5c5f6ea8758f366bb7d0c4d31f22005264cca630",
+  "dependencies": [
+    {
+      "issue": 67,
+      "state": "CLOSED",
+      "pr": 72,
+      "merge_commit": "9b6e6f1fcbc22c90c8e8b01a789090a75dc18714",
+      "merged_at": "2026-11-12T18:44:13Z",
+      "in_main": true
+    },
+    {
+      "issue": 68,
+      "state": "CLOSED",
+      "pr": 73,
+      "merge_commit": "e208b06e7e0e60918d74229a1f3c102c017035aa",
+      "merged_at": "2026-11-13T01:37:21Z",
+      "in_main": true
+    },
+    {
+      "issue": 69,
+      "state": "CLOSED",
+      "pr": 74,
+      "merge_commit": "1e502c7b9974718f8968cddb8d2722a6b521f43c",
+      "merged_at": "2026-11-13T01:53:14Z",
+      "in_main": true
+    },
+    {
+      "issue": 70,
+      "state": "CLOSED",
+      "pr": 77,
+      "merge_commit": "b83b19ef628712e9e10b9d9d9f5eaedacaa5bcee",
+      "merged_at": "2026-11-13T17:20:37Z",
+      "in_main": true
+    }
+  ],
+  "scientific_criteria_verified": {
+    "protocol_frozen": true,
+    "all_repetitions_resolved": true,
+    "raw_artifacts_and_manifests_preserved": true,
+    "all_available_candidates_revalidated": 1014,
+    "successes": 0,
+    "denominator_evaluation_scale": 900,
+    "failures_and_time_limits_retained": true,
+    "all_five_phases_tables_and_figures_regenerated": true,
+    "source_conditions_and_limitations_documented": true
+  },
+  "comparison_tables": {
+    "campaign-cells.csv": "9602d534351be339e8636b1aee992968867be02dd2e187251ac479c925d3f3dd",
+    "published-contrast.csv": "11aec9ad62811c72e108854fd222a95b5822d4ad7737cfa4b2450c509457e01a"
+  },
+  "tests": {
+    "argv": [
+      "python",
+      "-m",
+      "pytest",
+      "-q",
+      "-W",
+      "error",
+      "tests/test_benchmark_config.py",
+      "tests/test_benchmark_analysis.py",
+      "tests/test_benchmark_campaign.py"
+    ],
+    "result": "50 passed in 2.41s"
+  },
+  "administrative_closure": {
+    "issue71": "pending merge of PR78",
+    "milestone6": "close only after PR78 is merged and all milestone issues/PRs are closed"
+  },
+  "new_solver_runs": 0
+}

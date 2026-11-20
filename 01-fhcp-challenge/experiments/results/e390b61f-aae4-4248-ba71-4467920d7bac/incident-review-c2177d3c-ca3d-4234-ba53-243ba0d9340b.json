@@ -1,0 +1,74 @@
+{
+  "schema_version": "fhcp-incident-review/1",
+  "reviewed_at_utc": "2026-11-13T05:20:37.085491+00:00",
+  "campaign_id": "e390b61f-aae4-4248-ba71-4467920d7bac",
+  "incident": {
+    "at_utc": "2026-11-13T05:19:22.566084+00:00",
+    "attempt_id": "52d07353-fe88-4117-9533-42b97badf343",
+    "code": "resource_incident",
+    "issues": [
+      "ac_power_unavailable"
+    ]
+  },
+  "resource_before": {
+    "ac_online": true,
+    "at_utc": "2026-11-13T05:18:52.365512+00:00",
+    "available_ram_bytes": 24948809728,
+    "governor": "powersave",
+    "load_1m": 1.11865234375,
+    "suspend_offset_ns": 28323065329122,
+    "swap_pages": {
+      "pswpin": 491,
+      "pswpout": 491
+    }
+  },
+  "resource_after": {
+    "ac_online": false,
+    "at_utc": "2026-11-13T05:19:22.566058+00:00",
+    "available_ram_bytes": 24940802048,
+    "governor": "powersave",
+    "load_1m": 1.19091796875,
+    "suspend_offset_ns": 28323065328735,
+    "swap_pages": {
+      "pswpin": 491,
+      "pswpout": 491
+    }
+  },
+  "current_sample": {
+    "available_ram_bytes": 24840425472,
+    "swap_pages": {
+      "pswpin": 491,
+      "pswpout": 491
+    },
+    "ac_online": false,
+    "governor": "powersave",
+    "suspend_offset_ns": 28323065328463,
+    "load_1m": 1.13671875,
+    "at_utc": "2026-11-13T05:20:37.076517+00:00"
+  },
+  "power_supplies": [
+    {
+      "name": "ucsi-source-psy-USBC000:001",
+      "type": "USB",
+      "online": "0",
+      "status": "Not charging"
+    },
+    {
+      "name": "ADP1",
+      "type": "Mains",
+      "online": "0"
+    },
+    {
+      "name": "BAT0",
+      "type": "Battery",
+      "status": "Discharging",
+      "capacity": "68"
+    }
+  ],
+  "verified_finished_attempts": 169,
+  "artifact_checksums": "passed",
+  "freeze_checksum": "passed",
+  "code_unchanged": true,
+  "environment_unchanged": true,
+  "recovery": "Restore and verify stable AC power before resuming the same campaign. Retain the affected completed primary with its incident; no replacement or automatic retry. No restart performed during review."
+}

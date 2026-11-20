@@ -1,0 +1,16 @@
+pytest-distributed.log
+................................................                         [100%]
+48 passed in 2.96s
+
+pytest-environment.log
+...                                                                      [100%]
+3 passed in 0.02s
+
+pip-check.log
+No broken requirements found.
+
+campaign-check-power-20261114T232615Z.log
+OK: 195 grafos; no se ejecutaron solvers. {'at_utc': '2026-11-14T23:26:15.946071+00:00', 'host': 'cachyos-x8664-nebu', 'os': 'Linux-7.3.3-1-cachyos-x86_64-with-glibc2.44', 'available_ram_bytes': 12808396800, 'ac_online': True, 'affinity': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}
+
+Recuperación local con combine
+1853/60060; éxitos=90; grafos distintos resueltos=3; errores=2

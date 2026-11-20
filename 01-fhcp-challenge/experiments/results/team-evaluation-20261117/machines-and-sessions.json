@@ -1,0 +1,507 @@
+[
+  {
+    "member": "Arturo2430",
+    "machine": {
+      "member": "Arturo2430",
+      "machine_id": "victus",
+      "host": "victus",
+      "os": "Linux",
+      "runtime": {
+        "python": "3.14.10",
+        "implementation": "CPython",
+        "numpy": "2.5.4",
+        "gil_enabled": true,
+        "bits": 64,
+        "architecture": "x86_64"
+      },
+      "platform": "Linux-7.2.9-2-cachyos-x86_64-with-glibc2.44",
+      "cpu": "",
+      "before": {
+        "at_utc": "2026-11-14T23:27:25.622638+00:00",
+        "host": "victus",
+        "os": "Linux-7.2.9-2-cachyos-x86_64-with-glibc2.44",
+        "available_ram_bytes": 25264115712,
+        "ac_online": true,
+        "affinity": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    "session_records": [
+      {
+        "at_utc": "2026-11-15T15:48:26.738209+00:00",
+        "stop_reason": "interrupted",
+        "new_attempts": 1001,
+        "total_attempted": 1001,
+        "session_seconds": 58861.027201129
+      },
+      {
+        "at_utc": "2026-11-16T03:38:36.450119+00:00",
+        "stop_reason": "interrupted",
+        "new_attempts": 672,
+        "total_attempted": 1673,
+        "session_seconds": 37812.529523273
+      },
+      {
+        "at_utc": "2026-11-16T18:22:37.311927+00:00",
+        "stop_reason": "interrupted",
+        "new_attempts": 744,
+        "total_attempted": 2417,
+        "session_seconds": 44763.593036092
+      }
+    ],
+    "last_session_total_attempted": 2417,
+    "packaged_attempts": 2417
+  },
+  {
+    "member": "ELIASDEJESUSZUNIGADELEON",
+    "machine": {
+      "member": "ELIASDEJESUSZUNIGADELEON",
+      "machine_id": "Elias",
+      "host": "Elias",
+      "os": "Windows",
+      "runtime": {
+        "python": "3.14.10",
+        "implementation": "CPython",
+        "numpy": "2.5.4",
+        "gil_enabled": true,
+        "bits": 64,
+        "architecture": "x86_64"
+      },
+      "platform": "Windows-11-10.0.26300-SP0",
+      "cpu": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+      "before": {
+        "at_utc": "2026-11-15T23:25:49.805135+00:00",
+        "host": "Elias",
+        "os": "Windows-11-10.0.26300-SP0",
+        "available_ram_bytes": 5945597952,
+        "ac_online": true,
+        "affinity": null
+      }
+    },
+    "session_records": [
+      {
+        "at_utc": "2026-11-16T01:39:13.660841+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 71,
+        "total_attempted": 131,
+        "session_seconds": 3658.9113958999997
+      },
+      {
+        "at_utc": "2026-11-16T02:48:45.790435+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 191,
+        "session_seconds": 3630.1574957999983
+      },
+      {
+        "at_utc": "2026-11-16T03:49:46.356008+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 251,
+        "session_seconds": 3632.065553299999
+      },
+      {
+        "at_utc": "2026-11-16T04:50:44.798581+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 311,
+        "session_seconds": 3629.3782490999984
+      },
+      {
+        "at_utc": "2026-11-16T05:51:43.381030+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 371,
+        "session_seconds": 3629.1329183999987
+      },
+      {
+        "at_utc": "2026-11-16T06:11:27.374694+00:00",
+        "stop_reason": "low_memory",
+        "new_attempts": 19,
+        "total_attempted": 390,
+        "session_seconds": 1149.5276261
+      },
+      {
+        "at_utc": "2026-11-16T22:33:18.063995+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 450,
+        "session_seconds": 3628.258062400002
+      },
+      {
+        "at_utc": "2026-11-17T04:09:00.276864+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 510,
+        "session_seconds": 3627.7148378
+      },
+      {
+        "at_utc": "2026-11-17T05:10:12.199441+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 570,
+        "session_seconds": 3636.8795252
+      }
+    ],
+    "last_session_total_attempted": 570,
+    "packaged_attempts": 600
+  },
+  {
+    "member": "KirbyStone69",
+    "machine": {
+      "member": "KirbyStone69",
+      "machine_id": "Stone",
+      "host": "Stone",
+      "os": "Linux",
+      "runtime": {
+        "python": "3.14.10",
+        "implementation": "CPython",
+        "numpy": "2.5.4",
+        "gil_enabled": true,
+        "bits": 64,
+        "architecture": "x86_64"
+      },
+      "platform": "Linux-6.12.113+deb13-amd64-x86_64-with-glibc2.41",
+      "cpu": "",
+      "before": {
+        "at_utc": "2026-11-15T00:28:28.671190+00:00",
+        "host": "Stone",
+        "os": "Linux-6.12.113+deb13-amd64-x86_64-with-glibc2.41",
+        "available_ram_bytes": 18465824768,
+        "ac_online": true,
+        "affinity": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    "session_records": [
+      {
+        "at_utc": "2026-11-15T01:28:58.263505+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 60,
+        "session_seconds": 3628.5470510880004
+      },
+      {
+        "at_utc": "2026-11-15T03:42:19.604092+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 120,
+        "session_seconds": 3621.8072379239984
+      },
+      {
+        "at_utc": "2026-11-15T04:52:15.129525+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 66,
+        "total_attempted": 186,
+        "session_seconds": 3640.3861287769996
+      },
+      {
+        "at_utc": "2026-11-15T05:53:36.968483+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 246,
+        "session_seconds": 3621.703549711001
+      },
+      {
+        "at_utc": "2026-11-15T06:54:12.298234+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 306,
+        "session_seconds": 3632.990246655998
+      },
+      {
+        "at_utc": "2026-11-15T07:54:35.167174+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 366,
+        "session_seconds": 3621.334672281002
+      },
+      {
+        "at_utc": "2026-11-15T08:54:58.792199+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 426,
+        "session_seconds": 3621.8835087059997
+      },
+      {
+        "at_utc": "2026-11-15T09:55:21.749810+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 486,
+        "session_seconds": 3621.009252976004
+      },
+      {
+        "at_utc": "2026-11-15T10:55:46.279987+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 546,
+        "session_seconds": 3622.341959874
+      },
+      {
+        "at_utc": "2026-11-15T11:56:10.920386+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 606,
+        "session_seconds": 3622.2206066900035
+      },
+      {
+        "at_utc": "2026-11-15T12:56:33.220528+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 666,
+        "session_seconds": 3619.6378316289993
+      },
+      {
+        "at_utc": "2026-11-15T13:56:57.605214+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 726,
+        "session_seconds": 3621.451675620003
+      },
+      {
+        "at_utc": "2026-11-15T14:57:22.796561+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 786,
+        "session_seconds": 3621.973290435002
+      },
+      {
+        "at_utc": "2026-11-15T15:57:48.714091+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 846,
+        "session_seconds": 3622.4153515979997
+      },
+      {
+        "at_utc": "2026-11-15T16:28:55.099755+00:00",
+        "stop_reason": "interrupted",
+        "new_attempts": 31,
+        "total_attempted": 877,
+        "session_seconds": 1862.6269779409995
+      },
+      {
+        "at_utc": "2026-11-15T20:50:37.589571+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 102,
+        "total_attempted": 979,
+        "session_seconds": 3614.3409407319996
+      },
+      {
+        "at_utc": "2026-11-15T21:51:04.044775+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 1039,
+        "session_seconds": 3621.7154703060005
+      },
+      {
+        "at_utc": "2026-11-15T22:51:31.239329+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 1099,
+        "session_seconds": 3622.153245521
+      },
+      {
+        "at_utc": "2026-11-15T23:52:05.647641+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 1159,
+        "session_seconds": 3629.080795742
+      },
+      {
+        "at_utc": "2026-11-16T00:21:27.524091+00:00",
+        "stop_reason": "interrupted",
+        "new_attempts": 29,
+        "total_attempted": 1188,
+        "session_seconds": 1756.284204923999
+      }
+    ],
+    "last_session_total_attempted": 1188,
+    "packaged_attempts": 1188
+  },
+  {
+    "member": "ZapataFrame",
+    "machine": {
+      "member": "ZapataFrame",
+      "machine_id": "z-Lap",
+      "host": "z-Lap",
+      "os": "Linux",
+      "runtime": {
+        "python": "3.14.10",
+        "implementation": "CPython",
+        "numpy": "2.5.4",
+        "gil_enabled": true,
+        "bits": 64,
+        "architecture": "x86_64"
+      },
+      "platform": "Linux-7.3.1-1-cachyos-x86_64-with-glibc2.44",
+      "cpu": "",
+      "before": {
+        "at_utc": "2026-11-15T00:42:36.816008+00:00",
+        "host": "z-Lap",
+        "os": "Linux-7.3.1-1-cachyos-x86_64-with-glibc2.44",
+        "available_ram_bytes": 5101572096,
+        "ac_online": true,
+        "affinity": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    "session_records": [
+      {
+        "at_utc": "2026-11-15T01:55:05.091615+00:00",
+        "stop_reason": "interrupted",
+        "new_attempts": 1,
+        "total_attempted": 94,
+        "session_seconds": 1.1935338119983498
+      },
+      {
+        "at_utc": "2026-11-15T03:00:52.225995+00:00",
+        "stop_reason": "interrupted",
+        "new_attempts": 52,
+        "total_attempted": 160,
+        "session_seconds": 3098.2432112959978
+      },
+      {
+        "at_utc": "2026-11-15T17:33:43.838504+00:00",
+        "stop_reason": "ac_disconnected",
+        "new_attempts": 0,
+        "total_attempted": 160,
+        "session_seconds": 0.08455237700002272
+      },
+      {
+        "at_utc": "2026-11-15T17:33:51.222819+00:00",
+        "stop_reason": "ac_disconnected",
+        "new_attempts": 0,
+        "total_attempted": 160,
+        "session_seconds": 0.08443006499999228
+      },
+      {
+        "at_utc": "2026-11-15T23:56:27.129730+00:00",
+        "stop_reason": "interrupted",
+        "new_attempts": 385,
+        "total_attempted": 545,
+        "session_seconds": 22946.386082094
+      },
+      {
+        "at_utc": "2026-11-16T08:21:06.362587+00:00",
+        "stop_reason": "ac_disconnected",
+        "new_attempts": 0,
+        "total_attempted": 545,
+        "session_seconds": 0.09331693200000046
+      },
+      {
+        "at_utc": "2026-11-16T20:43:11.335529+00:00",
+        "stop_reason": "interrupted",
+        "new_attempts": 780,
+        "total_attempted": 1325,
+        "session_seconds": 44517.736346645004
+      }
+    ],
+    "last_session_total_attempted": 1325,
+    "packaged_attempts": 1325
+  },
+  {
+    "member": "cesar-upv",
+    "machine": {
+      "member": "cesar-upv",
+      "machine_id": "cachyos-x8664-nebu",
+      "host": "cachyos-x8664-nebu",
+      "os": "Linux",
+      "runtime": {
+        "python": "3.14.10",
+        "implementation": "CPython",
+        "numpy": "2.5.4",
+        "gil_enabled": true,
+        "bits": 64,
+        "architecture": "x86_64"
+      },
+      "platform": "Linux-7.3.3-1-cachyos-x86_64-with-glibc2.44",
+      "cpu": "",
+      "before": {
+        "at_utc": "2026-11-14T23:28:40.112391+00:00",
+        "host": "cachyos-x8664-nebu",
+        "os": "Linux-7.3.3-1-cachyos-x86_64-with-glibc2.44",
+        "available_ram_bytes": 12603543552,
+        "ac_online": true,
+        "affinity": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    "session_records": [
+      {
+        "at_utc": "2026-11-15T00:29:00.664388+00:00",
+        "stop_reason": "session_limit",
+        "new_attempts": 60,
+        "total_attempted": 60,
+        "session_seconds": 3620.4401370170003
+      },
+      {
+        "at_utc": "2026-11-15T18:40:30.423663+00:00",
+        "stop_reason": "coordinator_error",
+        "new_attempts": 1109,
+        "total_attempted": 1169,
+        "session_seconds": 63951.107380466005
+      },
+      {
+        "at_utc": "2026-11-16T06:01:46.151944+00:00",
+        "stop_reason": "interrupted",
+        "new_attempts": 684,
+        "total_attempted": 1853,
+        "session_seconds": 38914.977880141
+      }
+    ],
+    "last_session_total_attempted": 1853,
+    "packaged_attempts": 1853
+  }
+]

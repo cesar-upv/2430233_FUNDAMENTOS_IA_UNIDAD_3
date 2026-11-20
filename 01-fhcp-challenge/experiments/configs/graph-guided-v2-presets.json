@@ -1,0 +1,78 @@
+{
+  "schema_version": "fhcp-graph-guided-presets/1",
+  "purpose": "Experimental graph-aware variants; separate from accepted M6 campaign",
+  "base_freeze": "experiments/results/e390b61f-aae4-4248-ba71-4467920d7bac/freeze.json",
+  "instance": "graph2",
+  "seed": 1001,
+  "max_evaluations": 10000,
+  "max_elapsed_ns": 5000000000,
+  "solvers": [
+    {
+      "algorithm": "ga",
+      "parameters": {
+        "crossover_rate": 0.8,
+        "elite_count": 1,
+        "mutation_rate": 0.1,
+        "population_size": 20,
+        "tournament_size": 3,
+        "initialization": "greedy",
+        "guided_move_rate": 0.5
+      }
+    },
+    {
+      "algorithm": "sa",
+      "parameters": {
+        "cooling_factor": 0.95,
+        "initial_temperature": 2.0,
+        "minimum_temperature": 1e-06,
+        "moves_per_temperature": 50,
+        "initialization": "greedy",
+        "guided_move_rate": 0.5
+      }
+    },
+    {
+      "algorithm": "as",
+      "parameters": {
+        "alpha": 1.0,
+        "ant_count": 20,
+        "beta": 4.0,
+        "epsilon": 0.05,
+        "initial_pheromone": 1.0,
+        "pheromone_max": 10.0,
+        "pheromone_min": 0.1,
+        "q": 1.0,
+        "rho": 0.2,
+        "construction": "neighbor_guided"
+      }
+    },
+    {
+      "algorithm": "abc",
+      "parameters": {
+        "limit": 200,
+        "source_count": 20,
+        "initialization": "greedy",
+        "guided_move_rate": 0.5
+      }
+    },
+    {
+      "algorithm": "de",
+      "parameters": {
+        "crossover_rate": 0.8,
+        "differential_weight": 0.8,
+        "population_size": 20,
+        "initialization": "greedy"
+      }
+    },
+    {
+      "algorithm": "pso",
+      "parameters": {
+        "cognitive_coefficient": 1.0,
+        "inertia": 0.5,
+        "social_coefficient": 1.0,
+        "swarm_size": 20,
+        "velocity_limit": 0.5,
+        "initialization": "greedy"
+      }
+    }
+  ]
+}

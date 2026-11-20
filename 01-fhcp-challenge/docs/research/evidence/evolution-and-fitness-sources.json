@@ -1,0 +1,133 @@
+{
+  "consulted_on": "2026-11-01",
+  "timezone": "America/Mexico_City",
+  "issue": 5,
+  "source_files_committed": false,
+  "method": "PDF originales consultados con pdftotext; PNG bibliográficos reutilizados sin modificación. Las imágenes importadas de #2 son páginas completas a 200 ppp; las demás conservan la procedencia de #1/#3. No se reconstruyeron capturas.",
+  "numbering": "Las páginas PDF se cuentan desde uno; printed_page corresponde a la numeración impresa.",
+  "metaheuristics_reviewed_commit": "0642c4fcfbe6656cf53b6901a29af35e9db37252",
+  "documents": [
+    {
+      "citation_key": "luke2013Metaheuristics2",
+      "download_url": "https://people.cs.gmu.edu/~sean/book/metaheuristics/Essentials.pdf",
+      "sha256": "2385e5737016bba7e131affb12d6413d664bcd60169414b6ce63cfc474cc0ed8",
+      "bytes": 3595866,
+      "captures": [
+        {
+          "image": "luke2013Metaheuristics2.png",
+          "pdf_page": 1,
+          "printed_page": null,
+          "sha256": "5d4922c48a46aaa5bdb976e2dec9923f385759d0851b39d30b7553563c596ae9",
+          "original_capture_date": "2026-11-01",
+          "reused_from_commit": "0642c4fcfbe6656cf53b6901a29af35e9db37252"
+        },
+        {
+          "image": "luke2013Metaheuristics2-details.png",
+          "pdf_page": 2,
+          "printed_page": "0",
+          "sha256": "07703cd45ad2005c1731fd2aa6936a5cc418ff5dbb2ce08b0904e6dd7a6286a5",
+          "original_capture_date": "2026-11-01",
+          "reused_from_commit": "0642c4fcfbe6656cf53b6901a29af35e9db37252"
+        },
+        {
+          "image": "luke2013Metaheuristics2-p017.png",
+          "pdf_page": 19,
+          "printed_page": "17",
+          "sha256": "237aca4e255b2b6dec01a8dcedae8c1c560a09e5259399c24bc2c0d0a2b4beaf",
+          "original_capture_date": "2026-11-01",
+          "reused_from_commit": "0642c4fcfbe6656cf53b6901a29af35e9db37252"
+        },
+        {
+          "image": "luke2013Metaheuristics2-p025.png",
+          "pdf_page": 27,
+          "printed_page": "25",
+          "sha256": "0e92c1ea1b716e6a8d305ccf093310067a45d5a080c8eaf39d6138361e2aec12",
+          "original_capture_date": "2026-11-01",
+          "reused_from_commit": "0642c4fcfbe6656cf53b6901a29af35e9db37252"
+        },
+        {
+          "image": "luke2013Metaheuristics2-p037.png",
+          "pdf_page": 39,
+          "printed_page": "37",
+          "sha256": "01be01dfae1c784801dd45f08533f8a25b2cf3345f6bbfc0074b06047f98b8b3",
+          "original_capture_date": "2026-11-01",
+          "reused_from_commit": "0642c4fcfbe6656cf53b6901a29af35e9db37252"
+        },
+        {
+          "image": "luke2013Metaheuristics2-p045.png",
+          "pdf_page": 47,
+          "printed_page": "45",
+          "sha256": "47172bbbfd82add52c5520a47849068c2ba335109d9470e9e6394031f0ba9a89",
+          "original_capture_date": "2026-11-01",
+          "reused_from_commit": "0642c4fcfbe6656cf53b6901a29af35e9db37252"
+        },
+        {
+          "image": "luke2013Metaheuristics2-p046.png",
+          "pdf_page": 48,
+          "printed_page": "46",
+          "sha256": "90b1173e3fc091e69c76628baace400bfe88df4840de82775681fb254086164a",
+          "original_capture_date": "2026-11-01",
+          "reused_from_commit": "0642c4fcfbe6656cf53b6901a29af35e9db37252"
+        }
+      ]
+    },
+    {
+      "citation_key": "goncalvesResende2009RandomKeys",
+      "download_url": "https://optimization-online.org/wp-content/uploads/2009/10/2423.pdf",
+      "sha256": "676e6591c81e743dd879a9afcf98b839ab7548fc13b753ed35e12c6b29f42a39",
+      "bytes": 1058425,
+      "captures": [
+        {
+          "image": "goncalvesResende2009RandomKeys-p001.png",
+          "pdf_page": 1,
+          "printed_page": "1",
+          "sha256": "9b8fe65d7afeb534cb0f06863c09857fde4de35a2a7b12b002f9e6896a38323e",
+          "original_capture_date": "2026-11-01",
+          "reused_from_commit": "0642c4fcfbe6656cf53b6901a29af35e9db37252"
+        },
+        {
+          "image": "goncalvesResende2009RandomKeys-p002.png",
+          "pdf_page": 2,
+          "printed_page": "2",
+          "sha256": "84579236ae85b8e932ae249ac9c78e21cd66e517254f00c8c2496dce18c3131a",
+          "original_capture_date": "2026-11-01",
+          "reused_from_commit": "0642c4fcfbe6656cf53b6901a29af35e9db37252"
+        }
+      ]
+    },
+    {
+      "citation_key": "cicirello2023PermutationOperators",
+      "download_url": "https://arxiv.org/pdf/2311.14595v1",
+      "sha256": "eec8a757a434e87d43293de13c42f1dabb9c0c9884895162a89b9028ca52e2d4",
+      "bytes": 290271,
+      "captures": [
+        {
+          "image": "cicirello2023PermutationOperators.png",
+          "sha256": "f04905ef6469a258a0c1d4683174c9fa16cc50aac7435c8f33e6517a426b8f7d",
+          "reused_from_commit": "dd18ea56ef7737875c6e42b1b31239cc3ecdf0ca",
+          "scope": "Identificación de la publicación; consultar el anexo del issue original para la procedencia de captura."
+        }
+      ]
+    },
+    {
+      "citation_key": "diestel2025GraphTheory6",
+      "download_url": "https://www.math.uni-hamburg.de/home/diestel/books/graph.theory/preview/Ch10.pdf",
+      "sha256": "ad543873af092f1d4f2eacfd53835f28853e7f7b04e32f0760fd89d88f69092c",
+      "bytes": 1396984,
+      "captures": [
+        {
+          "image": "diestel2025GraphTheory6.png",
+          "sha256": "9dabe339f9af8b1a26324dae3dd9622c13cde2e4fdb104ea088c720a27374c88",
+          "reused_from_commit": "dd18ea56ef7737875c6e42b1b31239cc3ecdf0ca",
+          "scope": "Identificación de la publicación; consultar el anexo del issue original para la procedencia de captura."
+        },
+        {
+          "image": "diestel2025GraphTheory6-details.png",
+          "sha256": "a170607c7b08ceb8598525e0a0559ca7f8acd2d087a6c7d3af126d351e19523a",
+          "reused_from_commit": "dd18ea56ef7737875c6e42b1b31239cc3ecdf0ca",
+          "scope": "Identificación de la publicación; consultar el anexo del issue original para la procedencia de captura."
+        }
+      ]
+    }
+  ]
+}

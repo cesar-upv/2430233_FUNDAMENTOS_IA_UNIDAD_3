@@ -1,0 +1,428 @@
+{
+  "schema_version": "fhcp-benchmark-config/1",
+  "protocol_id": "fhcp-m6-v3",
+  "dataset_manifest": {
+    "path": "docs/decisions/fhcp-instances.json",
+    "sha256": "a1660efc404c310670ea86cab0fa8376866bfdde18e9b632118ed0bf9c1e4547"
+  },
+  "instances": [
+    {
+      "id": "graph1",
+      "partition": "smoke",
+      "sha256": "124c185cebd9782e037bf16c88cb26002352e10e3ab634bf51ff481296c2e0b2",
+      "dimension": 66,
+      "edge_count": 99
+    },
+    {
+      "id": "graph2",
+      "partition": "smoke",
+      "sha256": "6c92d89c11eea9c48dd1ec895b793cb634dd9ae56e524ab8b84ad33ff9a15c4c",
+      "dimension": 70,
+      "edge_count": 106
+    },
+    {
+      "id": "graph58",
+      "partition": "tuning",
+      "sha256": "11a0222c708348588d1f788e53df1dca8be92ea4c1eb982b03083d8bd9d9396f",
+      "dimension": 396,
+      "edge_count": 595
+    },
+    {
+      "id": "graph268",
+      "partition": "tuning",
+      "sha256": "442354cf9e07948cff65444c88e50775d29e99a645b1b57a3cf20b156e20217f",
+      "dimension": 1644,
+      "edge_count": 2767
+    },
+    {
+      "id": "graph48",
+      "partition": "evaluation",
+      "sha256": "1c1ee36710ce688085b8bd0228e628c8424620a1592953600ab4631ee4741740",
+      "dimension": 338,
+      "edge_count": 776
+    },
+    {
+      "id": "graph175",
+      "partition": "evaluation",
+      "sha256": "ced48c98efaf98fd7f4a5f59c5b0b50bd963e3ef2d83b63e3801a072214f30a3",
+      "dimension": 1014,
+      "edge_count": 2328
+    },
+    {
+      "id": "graph74",
+      "partition": "evaluation",
+      "sha256": "1f3e4fae316650a6a79d29800433f53f469094a9787b38b767599a64cb63fb8f",
+      "dimension": 462,
+      "edge_count": 756
+    },
+    {
+      "id": "graph479",
+      "partition": "evaluation",
+      "sha256": "30b7a34796799bc8938eeed25b72e01533f6e3675ef4c250abf78a670fea5c76",
+      "dimension": 2772,
+      "edge_count": 4536
+    },
+    {
+      "id": "graph1001",
+      "partition": "evaluation_scale",
+      "sha256": "33f42e05e4009e1d2ba4b142604138bce1e641dc53dd9b2520af2900eb0f1d69",
+      "dimension": 9528,
+      "edge_count": 13968
+    }
+  ],
+  "algorithms": [
+    "ga",
+    "sa",
+    "as",
+    "abc",
+    "de",
+    "pso"
+  ],
+  "configurations": [
+    {
+      "config_id": "ga-c1",
+      "algorithm": "ga",
+      "family": "GA",
+      "variant": "generational_ox_swap_v1",
+      "iteration_unit": "generation",
+      "parameters": {
+        "population_size": 20,
+        "tournament_size": 3,
+        "crossover_rate": 0.8,
+        "mutation_rate": 0.01,
+        "elite_count": 1
+      }
+    },
+    {
+      "config_id": "ga-c2",
+      "algorithm": "ga",
+      "family": "GA",
+      "variant": "generational_ox_swap_v1",
+      "iteration_unit": "generation",
+      "parameters": {
+        "population_size": 20,
+        "tournament_size": 3,
+        "crossover_rate": 0.8,
+        "mutation_rate": 0.1,
+        "elite_count": 1
+      }
+    },
+    {
+      "config_id": "sa-c1",
+      "algorithm": "sa",
+      "family": "SA",
+      "variant": "geometric_swap_v1",
+      "iteration_unit": "move",
+      "parameters": {
+        "initial_temperature": 2.0,
+        "cooling_factor": 0.95,
+        "minimum_temperature": 1e-06,
+        "moves_per_temperature": 50
+      }
+    },
+    {
+      "config_id": "sa-c2",
+      "algorithm": "sa",
+      "family": "SA",
+      "variant": "geometric_swap_v1",
+      "iteration_unit": "move",
+      "parameters": {
+        "initial_temperature": 2.0,
+        "cooling_factor": 0.99,
+        "minimum_temperature": 1e-06,
+        "moves_per_temperature": 50
+      }
+    },
+    {
+      "config_id": "as-c1",
+      "algorithm": "as",
+      "family": "ACO",
+      "variant": "ant_system_missing_pairs_v1",
+      "iteration_unit": "round",
+      "parameters": {
+        "ant_count": 20,
+        "alpha": 1.0,
+        "beta": 2.0,
+        "rho": 0.2,
+        "q": 1.0,
+        "epsilon": 0.05,
+        "initial_pheromone": 1.0,
+        "pheromone_min": 0.1,
+        "pheromone_max": 10.0
+      }
+    },
+    {
+      "config_id": "as-c2",
+      "algorithm": "as",
+      "family": "ACO",
+      "variant": "ant_system_missing_pairs_v1",
+      "iteration_unit": "round",
+      "parameters": {
+        "ant_count": 20,
+        "alpha": 1.0,
+        "beta": 4.0,
+        "rho": 0.2,
+        "q": 1.0,
+        "epsilon": 0.05,
+        "initial_pheromone": 1.0,
+        "pheromone_min": 0.1,
+        "pheromone_max": 10.0
+      }
+    },
+    {
+      "config_id": "abc-c1",
+      "algorithm": "abc",
+      "family": "ABC",
+      "variant": "sequential_partner_swap_v1",
+      "iteration_unit": "abc_cycle",
+      "parameters": {
+        "source_count": 20,
+        "limit": 50
+      }
+    },
+    {
+      "config_id": "abc-c2",
+      "algorithm": "abc",
+      "family": "ABC",
+      "variant": "sequential_partner_swap_v1",
+      "iteration_unit": "abc_cycle",
+      "parameters": {
+        "source_count": 20,
+        "limit": 200
+      }
+    },
+    {
+      "config_id": "de-c1",
+      "algorithm": "de",
+      "family": "DE",
+      "variant": "rand_1_bin_real_keys_v1",
+      "iteration_unit": "generation",
+      "parameters": {
+        "population_size": 20,
+        "differential_weight": 0.5,
+        "crossover_rate": 0.8
+      }
+    },
+    {
+      "config_id": "de-c2",
+      "algorithm": "de",
+      "family": "DE",
+      "variant": "rand_1_bin_real_keys_v1",
+      "iteration_unit": "generation",
+      "parameters": {
+        "population_size": 20,
+        "differential_weight": 0.8,
+        "crossover_rate": 0.8
+      }
+    },
+    {
+      "config_id": "pso-c1",
+      "algorithm": "pso",
+      "family": "PSO",
+      "variant": "global_real_keys_v1",
+      "iteration_unit": "round",
+      "parameters": {
+        "swarm_size": 20,
+        "inertia": 0.5,
+        "cognitive_coefficient": 1.0,
+        "social_coefficient": 1.0,
+        "velocity_limit": 0.5
+      }
+    },
+    {
+      "config_id": "pso-c2",
+      "algorithm": "pso",
+      "family": "PSO",
+      "variant": "global_real_keys_v1",
+      "iteration_unit": "round",
+      "parameters": {
+        "swarm_size": 20,
+        "inertia": 0.8,
+        "cognitive_coefficient": 1.0,
+        "social_coefficient": 1.0,
+        "velocity_limit": 0.5
+      }
+    }
+  ],
+  "phases": {
+    "smoke": {
+      "instances": [
+        "graph1",
+        "graph2"
+      ],
+      "seeds_decimal": [
+        "17"
+      ],
+      "configuration_source": "candidate_1_per_algorithm",
+      "budget": {
+        "max_evaluations": 20,
+        "max_elapsed_ns": 5000000000,
+        "max_iterations": null
+      },
+      "external_timeout_ns": 120000000000,
+      "expected_trials": 12
+    },
+    "tuning": {
+      "instances": [
+        "graph58",
+        "graph268"
+      ],
+      "seeds_decimal": [
+        "101",
+        "211",
+        "307",
+        "401",
+        "503"
+      ],
+      "configuration_source": "all_candidates",
+      "budget": {
+        "max_evaluations": 2000,
+        "max_elapsed_ns": 10000000000,
+        "max_iterations": null
+      },
+      "external_timeout_ns": 120000000000,
+      "expected_trials": 120
+    },
+    "evaluation": {
+      "instances": [
+        "graph48",
+        "graph175",
+        "graph74",
+        "graph479"
+      ],
+      "seeds_decimal": [
+        "1001",
+        "1002",
+        "1003",
+        "1004",
+        "1005",
+        "1006",
+        "1007",
+        "1008",
+        "1009",
+        "1010",
+        "1011",
+        "1012",
+        "1013",
+        "1014",
+        "1015",
+        "1016",
+        "1017",
+        "1018",
+        "1019",
+        "1020",
+        "1021",
+        "1022",
+        "1023",
+        "1024",
+        "1025",
+        "1026",
+        "1027",
+        "1028",
+        "1029",
+        "1030"
+      ],
+      "configuration_source": "frozen_selection",
+      "budget": {
+        "max_evaluations": 10000,
+        "max_elapsed_ns": 30000000000,
+        "max_iterations": null
+      },
+      "external_timeout_ns": 120000000000,
+      "expected_trials": 720
+    },
+    "scale": {
+      "instances": [
+        "graph1001"
+      ],
+      "seeds_decimal": [
+        "1001",
+        "1002",
+        "1003",
+        "1004",
+        "1005",
+        "1006",
+        "1007",
+        "1008",
+        "1009",
+        "1010",
+        "1011",
+        "1012",
+        "1013",
+        "1014",
+        "1015",
+        "1016",
+        "1017",
+        "1018",
+        "1019",
+        "1020",
+        "1021",
+        "1022",
+        "1023",
+        "1024",
+        "1025",
+        "1026",
+        "1027",
+        "1028",
+        "1029",
+        "1030"
+      ],
+      "configuration_source": "frozen_selection",
+      "budget": {
+        "max_evaluations": 10000,
+        "max_elapsed_ns": 30000000000,
+        "max_iterations": null
+      },
+      "external_timeout_ns": 120000000000,
+      "expected_trials": 180
+    },
+    "verification": {
+      "instances": [
+        "graph1"
+      ],
+      "seeds_decimal": [
+        "17"
+      ],
+      "configuration_source": "frozen_selection",
+      "budget": {
+        "max_evaluations": 100,
+        "max_elapsed_ns": null,
+        "max_iterations": null
+      },
+      "external_timeout_ns": 120000000000,
+      "expected_trials": 6
+    }
+  },
+  "selection": {
+    "rule": "success_errors_normalized_cost_ordinal_v1",
+    "freeze_schema_version": "fhcp-benchmark-freeze/1"
+  },
+  "order": {
+    "rule": "sha256_phase_trial_v1"
+  },
+  "attempts": {
+    "primary": "first_started",
+    "retries_in_primary": false,
+    "automatic_retries": 0
+  },
+  "execution": {
+    "workers": 1,
+    "native_threads": 1,
+    "environment_variables": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    },
+    "minimum_available_ram_bytes": 4294967296,
+    "campaign_profile": {
+      "cpu_model": "12th Gen Intel(R) Core(TM) i5-12450H",
+      "logical_cpu": 2,
+      "ram_bytes": 33293524992,
+      "kernel": "7.2.9-2-cachyos",
+      "energy_policy": "powersave",
+      "ac_online": true
+    },
+    "minimum_free_disk_bytes": 10737418240
+  }
+}

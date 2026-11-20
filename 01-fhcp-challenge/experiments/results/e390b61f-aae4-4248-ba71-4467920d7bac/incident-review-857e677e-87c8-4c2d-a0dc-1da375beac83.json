@@ -1,0 +1,61 @@
+{
+  "schema_version": "fhcp-incident-review/1",
+  "reviewed_at_utc": "2026-11-13T04:52:47.979591+00:00",
+  "campaign_id": "e390b61f-aae4-4248-ba71-4467920d7bac",
+  "incident": {
+    "at_utc": "2026-11-13T04:50:37.908699+00:00",
+    "attempt_id": "093642df-3537-4db7-89c9-0547f3cb584d",
+    "code": "resource_incident",
+    "issues": [
+      "swap_activity"
+    ]
+  },
+  "resource_before": {
+    "ac_online": true,
+    "at_utc": "2026-11-13T04:50:35.253837+00:00",
+    "available_ram_bytes": 24969957376,
+    "governor": "powersave",
+    "load_1m": 1.90234375,
+    "suspend_offset_ns": 28323065329224,
+    "swap_pages": {
+      "pswpin": 106,
+      "pswpout": 491
+    }
+  },
+  "resource_after": {
+    "ac_online": true,
+    "at_utc": "2026-11-13T04:50:37.908681+00:00",
+    "available_ram_bytes": 24928702464,
+    "governor": "powersave",
+    "load_1m": 1.830078125,
+    "suspend_offset_ns": 28323065329399,
+    "swap_pages": {
+      "pswpin": 107,
+      "pswpout": 491
+    }
+  },
+  "findings": {
+    "verified_finished_attempts": 65,
+    "completed_smoke": 12,
+    "completed_tuning": 53,
+    "pending_tuning": 67,
+    "last_exit_code": 0,
+    "last_outcome": "exhausted",
+    "code_unchanged": true
+  },
+  "current_sample": {
+    "available_ram_bytes": 24986804224,
+    "swap_pages": {
+      "pswpin": 107,
+      "pswpout": 491
+    },
+    "ac_online": true,
+    "governor": "powersave",
+    "suspend_offset_ns": 28323065329322,
+    "load_1m": 0.61767578125,
+    "at_utc": "2026-11-13T04:52:47.989143+00:00"
+  },
+  "proc_swaps": "Filename\t\t\t\tType\t\tSize\t\tUsed\t\tPriority\n/dev/zram0                              partition\t32513020\t1544\t\t100\n",
+  "memory_pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=2259\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=2096\n",
+  "recovery_proposal": "While paused, drain only /dev/zram0 using swapoff, then immediately restore swap with swapon --priority 100 /dev/zram0. The observed used swap is about 1.5 MiB and available RAM about 23 GiB. This is a proposed one-time cleanup, not yet executed. Retain existing primaries, original code and incident checks. Do not disable swap permanently or alter swappiness. Recheck resources before resuming the same campaign. The cleanup cannot guarantee absence of future swap activity."
+}

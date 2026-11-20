@@ -1,0 +1,40 @@
+{
+  "packaging": {
+    "verified_utc": "2026-11-16T06:08:10.475043+00:00",
+    "zip": "FHCP-evaluation-cesar-upv-45f464ae-50be-441b-b7ff-a261fba5028e-partial-20261116T060613Z.zip",
+    "zip_bytes": 11086810,
+    "sha256": "cb25bbcddbd480b758f82dabd59eb27d97178d0a18beab2de47d2f3136800fca",
+    "file_count": 11163,
+    "zip_crc_ok": true,
+    "every_archived_file_matches_original_sha256": true,
+    "extracted_archive_audited": true,
+    "all_1853_attempts_reaudited": true,
+    "all_90_successes_recertified": true,
+    "summaries_regenerated_identically_from_extracted_archive": true,
+    "originals_unchanged": true
+  },
+  "official_combine": {
+    "checked_utc": "2026-11-16T07:01:30.632287+00:00",
+    "method": "official combine from a freshly extracted local ZIP",
+    "zip_sha256": "cb25bbcddbd480b758f82dabd59eb27d97178d0a18beab2de47d2f3136800fca",
+    "attempted": 1853,
+    "successes": 90,
+    "errors": 2,
+    "solved_graph_ids": [
+      "graph18",
+      "graph72",
+      "graph150"
+    ],
+    "members_present": [
+      "cesar-upv"
+    ],
+    "members_missing": [
+      "Arturo2430",
+      "ELIASDEJESUSZUNIGADELEON",
+      "KirbyStone69",
+      "ZapataFrame"
+    ],
+    "aggregate_planned": 60060,
+    "remote_download_verified": false
+  }
+}

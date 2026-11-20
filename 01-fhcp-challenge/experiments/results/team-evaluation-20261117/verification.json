@@ -1,0 +1,17 @@
+{
+  "zip_crc": true,
+  "tables_regenerated_byte_identical": true,
+  "flat_rows_reconcile_with_graphs": true,
+  "duplicate_attempt_rejected": true,
+  "altered_cell_rejected": true,
+  "official_combine": {
+    "attempted": 7383,
+    "successes": 300,
+    "distinct_solved_graphs": 14,
+    "errors": 12,
+    "members_present": 5,
+    "members_missing": 0
+  },
+  "all_member_cells_match_original": true,
+  "cli_combine_matches_api_byte_identical": true
+}

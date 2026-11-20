@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "method": "Capturas originales del navegador de las fuentes oficiales; imágenes sin edición.",
+  "sources": [
+    {
+      "source_id": "S1",
+      "title": "Python 3.14.10",
+      "url": "https://www.python.org/downloads/release/python-31410/",
+      "passage": "Versión, archivos y SHA-256 de Python-3.14.10.tar.xz.",
+      "capture": "python-release.jpg",
+      "captured_at_utc": "2026-11-09T06:42:45+00:00",
+      "sha256": "dc53ffa65349a3b9708b9c232efdc8894e7c8069fe4cf7035d6d5f563601e90c"
+    },
+    {
+      "source_id": "S2",
+      "title": "venv: aislamiento",
+      "url": "https://docs.python.org/3.14/library/venv.html",
+      "passage": "Aislamiento predeterminado y recreación de entornos.",
+      "capture": "venv.jpg",
+      "captured_at_utc": "2026-11-09T06:43:58+00:00",
+      "sha256": "f65e0c4ca325f43869463e6e8b4052d02613160c93102e157a4f76321d550dba"
+    },
+    {
+      "source_id": "S2",
+      "title": "venv: uso sin activación",
+      "url": "https://docs.python.org/3.14/library/venv.html#how-venvs-work",
+      "passage": "Invocación por ruta completa; entornos no portables y recreación.",
+      "capture": "venv-usage.jpg",
+      "captured_at_utc": "2026-11-09T06:48:31+00:00",
+      "sha256": "6cd258559ef478017ee3575b8b1fb39b302f610184279f9ceb3d636ba67576be"
+    },
+    {
+      "source_id": "S3",
+      "title": "NumPy 2.5.4",
+      "url": "https://pypi.org/project/numpy/2.5.4/",
+      "passage": "Versión publicada y paquete de arreglos numéricos.",
+      "capture": "numpy.jpg",
+      "captured_at_utc": "2026-11-09T06:43:14+00:00",
+      "sha256": "1afe6151b9421332cb7ae1bae0e539f50e74a05be5dda60a9303e89aeb7e163a"
+    },
+    {
+      "source_id": "S4",
+      "title": "pytest 9.2.0",
+      "url": "https://pypi.org/project/pytest/9.2.0/",
+      "passage": "Versión publicada.",
+      "capture": "pytest.jpg",
+      "captured_at_utc": "2026-11-09T06:43:14+00:00",
+      "sha256": "43b7ebf260e57d5ecb811e64d95aea14c4cc4ded5651a3105f84ab9b8ce71928"
+    },
+    {
+      "source_id": "S4",
+      "title": "pytest 9.2.0: dependencias",
+      "url": "https://github.com/pytest-dev/pytest/blob/9.2.0/pyproject.toml#L49-L57",
+      "passage": "Declaración dependencies de la etiqueta 9.2.0, con marcadores Windows y Python.",
+      "capture": "pytest-dependencies.jpg",
+      "captured_at_utc": "2026-11-09T06:49:25+00:00",
+      "sha256": "1966cbf3e6b0f69434dbe0ccea34e3eade089d15858dfea443c68eaef03fc241"
+    },
+    {
+      "source_id": "S5",
+      "title": "pip 26.3",
+      "url": "https://pypi.org/project/pip/26.3/",
+      "passage": "Versión publicada del instalador.",
+      "capture": "pip.jpg",
+      "captured_at_utc": "2026-11-09T06:43:38+00:00",
+      "sha256": "ec3e8380d718f5bcf621b55424c5a12a72eadebd42a40685e07fb2893f52bd74"
+    },
+    {
+      "source_id": "S6",
+      "title": "pip: Requirements Files",
+      "url": "https://pip.pypa.io/en/stable/user_guide/#requirements-files",
+      "passage": "Instalación con -r y versiones fijadas para repetir instalaciones.",
+      "capture": "pip-requirements.jpg",
+      "captured_at_utc": "2026-11-09T06:44:15+00:00",
+      "sha256": "fe0c4d83e1c160833b936754dc8af475f2702230dacb53164d3adf0d576bcb29"
+    },
+    {
+      "source_id": "S7",
+      "title": "NumPy: ndarray.setflags",
+      "url": "https://numpy.org/doc/stable/reference/generated/numpy.ndarray.setflags.html",
+      "passage": "Semántica y restricciones de WRITEABLE.",
+      "capture": "numpy-flags.jpg",
+      "captured_at_utc": "2026-11-09T06:44:08+00:00",
+      "sha256": "0eee1434e9c579fec9258b1877756df37695f3941ed180e36bb930d0842a7ff2"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "zip": "FHCP-evaluation-Arturo2430-45f464ae-50be-441b-b7ff-a261fba5028e-partial-2417.zip",
+  "zip_sha256": "def1148bfd3b676f29f42634668dbb25147fbbc89397f8c89be3432b87958cbc",
+  "zip_bytes": 14872923,
+  "files": 14547,
+  "crc_valid": true,
+  "all_files_match_original_sha256": true,
+  "attempts_audited": 2417,
+  "certified_successes": 72,
+  "distinct_solved_graphs": 4,
+  "errors": 3,
+  "recovered_member_cells_match_original": true,
+  "combine_planned_team": 60060,
+  "members_present": [
+    "Arturo2430"
+  ],
+  "members_missing": [
+    "ZapataFrame",
+    "cesar-upv",
+    "KirbyStone69",
+    "ELIASDEJESUSZUNIGADELEON"
+  ]
+}

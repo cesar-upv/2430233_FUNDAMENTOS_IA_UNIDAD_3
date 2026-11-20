@@ -1,0 +1,146 @@
+{
+  "attempted": 2417,
+  "planned": 13200,
+  "pending": 10783,
+  "duration": "39 h 17 min 17 s",
+  "distinct_solved_graphs": 4,
+  "solved_graph_ids": [
+    "graph6",
+    "graph27",
+    "graph31",
+    "graph96"
+  ],
+  "successes": 72,
+  "completed_graphs": [
+    "graph1",
+    "graph6",
+    "graph11",
+    "graph16",
+    "graph22",
+    "graph27",
+    "graph31",
+    "graph36",
+    "graph38",
+    "graph42",
+    "graph47",
+    "graph48",
+    "graph53",
+    "graph58",
+    "graph65",
+    "graph77",
+    "graph82",
+    "graph85",
+    "graph86",
+    "graph93",
+    "graph96",
+    "graph98",
+    "graph103",
+    "graph108",
+    "graph113",
+    "graph115",
+    "graph120",
+    "graph126",
+    "graph130",
+    "graph132",
+    "graph138",
+    "graph146",
+    "graph151",
+    "graph154",
+    "graph160",
+    "graph168",
+    "graph176",
+    "graph177",
+    "graph178",
+    "graph180"
+  ],
+  "partial_graphs": [
+    "graph185"
+  ],
+  "next_key": [
+    "graph185",
+    "pso",
+    1003
+  ],
+  "errors": [
+    {
+      "instance": "graph82",
+      "algorithm": "de",
+      "seed": 1007,
+      "status": "error",
+      "stop_reason": "interrupted",
+      "certified_success": false,
+      "best_cost": null,
+      "process_seconds": 28.547246791997168,
+      "solver_ns": null,
+      "returncode": 130,
+      "artifact_sha256": {
+        "intent.json": "69800046f6d4202ed8c049df9facd9548ab32b883e78d0879c99fea8038259ba",
+        "stdout.json": "a4bb02e7bdad7a53ee532412fe95a63b99b4bae19e8eac37985d20992e3f61c8",
+        "stderr.log": "392c579366dd955acdd2dce1873dd3d811e3dd77cca53a986a770db34b777ac6",
+        "exit.json": "c223684783ff5eb3d8ab4ced193dd23f55312931ad7a555ac6ca458dbc566722",
+        "worker.json": "cb5a3902a958a760d9d3e24f925b4b4adc75ce994e2345ade997c4f83b10f39d"
+      }
+    },
+    {
+      "instance": "graph126",
+      "algorithm": "de",
+      "seed": 1009,
+      "status": "error",
+      "stop_reason": "interrupted",
+      "certified_success": false,
+      "best_cost": null,
+      "process_seconds": 48.836610137994285,
+      "solver_ns": null,
+      "returncode": 130,
+      "artifact_sha256": {
+        "intent.json": "4c3f8a29e9a5ee20003b5b410a3134e73cc175d1b777892487d493e66425b6b5",
+        "stdout.json": "18b39dbddcb6c75292afdab67b12dc8ca50b1973bb7c5669bf3227a1ceadf90e",
+        "stderr.log": "392c579366dd955acdd2dce1873dd3d811e3dd77cca53a986a770db34b777ac6",
+        "exit.json": "548a0a9f985cf68f4f9839289b282f87111da4a623f70450f347ae005b543a96",
+        "worker.json": "729d61b18737ef409fb1bed00cca8452cbfa43d5bc00cb107b218828dc5a1ee8"
+      }
+    },
+    {
+      "instance": "graph185",
+      "algorithm": "de",
+      "seed": 1003,
+      "status": "error",
+      "stop_reason": "interrupted",
+      "certified_success": false,
+      "best_cost": null,
+      "process_seconds": 37.89379501901567,
+      "solver_ns": null,
+      "returncode": 130,
+      "artifact_sha256": {
+        "intent.json": "7d4a843a95d9e7def6f06afe41a57d91ad3d813b1de68503d47eb759ef95feeb",
+        "stdout.json": "eb3141d3ccb15f2857cde5dc63cc064624a9ffc8a2f3d0a59f9eb23797f0c279",
+        "stderr.log": "392c579366dd955acdd2dce1873dd3d811e3dd77cca53a986a770db34b777ac6",
+        "exit.json": "d15c6558c4f280cde31d2de1c8daa55530eadff98560c0eca1cb6c73cfa31cae",
+        "worker.json": "e28ff416281c609e5dc8feaab84e9c5c22c715afa68dcd7b27356cbbb7ec3515"
+      }
+    }
+  ],
+  "sessions": [
+    {
+      "at_utc": "2026-11-15T15:48:26.738209+00:00",
+      "stop_reason": "interrupted",
+      "new_attempts": 1001,
+      "total_attempted": 1001,
+      "session_seconds": 58861.027201129
+    },
+    {
+      "at_utc": "2026-11-16T03:38:36.450119+00:00",
+      "stop_reason": "interrupted",
+      "new_attempts": 672,
+      "total_attempted": 1673,
+      "session_seconds": 37812.529523273
+    },
+    {
+      "at_utc": "2026-11-16T18:22:37.311927+00:00",
+      "stop_reason": "interrupted",
+      "new_attempts": 744,
+      "total_attempted": 2417,
+      "session_seconds": 44763.593036092
+    }
+  ]
+}

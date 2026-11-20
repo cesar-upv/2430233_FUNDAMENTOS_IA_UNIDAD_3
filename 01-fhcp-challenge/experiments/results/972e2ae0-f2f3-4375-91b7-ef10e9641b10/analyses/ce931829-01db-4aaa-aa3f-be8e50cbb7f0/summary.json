@@ -1,0 +1,2672 @@
+[
+  {
+    "algorithm": "abc",
+    "binary_sample_stdev": null,
+    "budget": {
+      "max_elapsed_ns": 5000000000,
+      "max_evaluations": 20,
+      "max_iterations": null
+    },
+    "code_commit": "5155b0aecc8aadcf3985083318de4f7a89e2636c",
+    "config_id": "abc-c1",
+    "counters": {
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "evaluations_completed": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "evaluations_started": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "full_evaluations": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "iterations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    },
+    "environment_id": "003c5c4b27ab27628f599a49b1d1af0bf90bc78ff7ad6c3d839d7de3ef7cf57e",
+    "evaluation_censoring": 1,
+    "expected": 1,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph1",
+    "iteration_unit": "abc_cycle",
+    "max_peak_rss_bytes": 39612416,
+    "outcomes": {
+      "exhausted": 1
+    },
+    "pending": 0,
+    "phase": "smoke",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 1,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.002355037,
+        "median": 0.002355037,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.002355037,
+        "q3": 0.002355037,
+        "sample_stdev": null
+      },
+      "finalization_ns": {
+        "mean": 6.029e-05,
+        "median": 6.029e-05,
+        "missing": 0,
+        "observed": 1,
+        "q1": 6.029e-05,
+        "q3": 6.029e-05,
+        "sample_stdev": null
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 1,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "preparation_ns": {
+        "mean": 0.021787463,
+        "median": 0.021787463,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.021787463,
+        "q3": 0.021787463,
+        "sample_stdev": null
+      },
+      "process_elapsed_ns": {
+        "mean": 0.16576676,
+        "median": 0.16576676,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.16576676,
+        "q3": 0.16576676,
+        "sample_stdev": null
+      },
+      "reconciliation_ns": {
+        "mean": 0.000600315,
+        "median": 0.000600315,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.000600315,
+        "q3": 0.000600315,
+        "sample_stdev": null
+      },
+      "solver_ns": {
+        "mean": 0.006530759,
+        "median": 0.006530759,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.006530759,
+        "q3": 0.006530759,
+        "sample_stdev": null
+      },
+      "total_ns": {
+        "mean": 0.028469048,
+        "median": 0.028469048,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.028469048,
+        "q3": 0.028469048,
+        "sample_stdev": null
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    }
+  },
+  {
+    "algorithm": "as",
+    "binary_sample_stdev": null,
+    "budget": {
+      "max_elapsed_ns": 5000000000,
+      "max_evaluations": 20,
+      "max_iterations": null
+    },
+    "code_commit": "5155b0aecc8aadcf3985083318de4f7a89e2636c",
+    "config_id": "as-c1",
+    "counters": {
+      "algorithm_counters.construction_steps": {
+        "mean": 1300.0,
+        "median": 1300,
+        "missing": 0,
+        "observed": 1,
+        "q1": 1300.0,
+        "q3": 1300.0,
+        "sample_stdev": null
+      },
+      "algorithm_counters.constructions_started": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "evaluations_completed": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "evaluations_started": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "full_evaluations": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "iterations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    },
+    "environment_id": "003c5c4b27ab27628f599a49b1d1af0bf90bc78ff7ad6c3d839d7de3ef7cf57e",
+    "evaluation_censoring": 1,
+    "expected": 1,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph1",
+    "iteration_unit": "round",
+    "max_peak_rss_bytes": 44871680,
+    "outcomes": {
+      "exhausted": 1
+    },
+    "pending": 0,
+    "phase": "smoke",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 1,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.002949558,
+        "median": 0.002949558,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.002949558,
+        "q3": 0.002949558,
+        "sample_stdev": null
+      },
+      "finalization_ns": {
+        "mean": 3.1042e-05,
+        "median": 3.1042e-05,
+        "missing": 0,
+        "observed": 1,
+        "q1": 3.1042e-05,
+        "q3": 3.1042e-05,
+        "sample_stdev": null
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 1,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "preparation_ns": {
+        "mean": 0.019849255,
+        "median": 0.019849255,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.019849255,
+        "q3": 0.019849255,
+        "sample_stdev": null
+      },
+      "process_elapsed_ns": {
+        "mean": 0.267131133,
+        "median": 0.267131133,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.267131133,
+        "q3": 0.267131133,
+        "sample_stdev": null
+      },
+      "reconciliation_ns": {
+        "mean": 0.000727528,
+        "median": 0.000727528,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.000727528,
+        "q3": 0.000727528,
+        "sample_stdev": null
+      },
+      "solver_ns": {
+        "mean": 0.108429089,
+        "median": 0.108429089,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.108429089,
+        "q3": 0.108429089,
+        "sample_stdev": null
+      },
+      "total_ns": {
+        "mean": 0.128377094,
+        "median": 0.128377094,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.128377094,
+        "q3": 0.128377094,
+        "sample_stdev": null
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    }
+  },
+  {
+    "algorithm": "de",
+    "binary_sample_stdev": null,
+    "budget": {
+      "max_elapsed_ns": 5000000000,
+      "max_evaluations": 20,
+      "max_iterations": null
+    },
+    "code_commit": "5155b0aecc8aadcf3985083318de4f7a89e2636c",
+    "config_id": "de-c1",
+    "counters": {
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "evaluations_completed": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "evaluations_started": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "full_evaluations": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "iterations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    },
+    "environment_id": "003c5c4b27ab27628f599a49b1d1af0bf90bc78ff7ad6c3d839d7de3ef7cf57e",
+    "evaluation_censoring": 1,
+    "expected": 1,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph1",
+    "iteration_unit": "generation",
+    "max_peak_rss_bytes": 39976960,
+    "outcomes": {
+      "exhausted": 1
+    },
+    "pending": 0,
+    "phase": "smoke",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 1,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.002382817,
+        "median": 0.002382817,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.002382817,
+        "q3": 0.002382817,
+        "sample_stdev": null
+      },
+      "finalization_ns": {
+        "mean": 3.1322e-05,
+        "median": 3.1322e-05,
+        "missing": 0,
+        "observed": 1,
+        "q1": 3.1322e-05,
+        "q3": 3.1322e-05,
+        "sample_stdev": null
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 1,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "preparation_ns": {
+        "mean": 0.020704219,
+        "median": 0.020704219,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.020704219,
+        "q3": 0.020704219,
+        "sample_stdev": null
+      },
+      "process_elapsed_ns": {
+        "mean": 0.164690662,
+        "median": 0.164690662,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.164690662,
+        "q3": 0.164690662,
+        "sample_stdev": null
+      },
+      "reconciliation_ns": {
+        "mean": 0.00085444,
+        "median": 0.00085444,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.00085444,
+        "q3": 0.00085444,
+        "sample_stdev": null
+      },
+      "solver_ns": {
+        "mean": 0.012486162,
+        "median": 0.012486162,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.012486162,
+        "q3": 0.012486162,
+        "sample_stdev": null
+      },
+      "total_ns": {
+        "mean": 0.033276701,
+        "median": 0.033276701,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.033276701,
+        "q3": 0.033276701,
+        "sample_stdev": null
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    }
+  },
+  {
+    "algorithm": "ga",
+    "binary_sample_stdev": null,
+    "budget": {
+      "max_elapsed_ns": 5000000000,
+      "max_evaluations": 20,
+      "max_iterations": null
+    },
+    "code_commit": "5155b0aecc8aadcf3985083318de4f7a89e2636c",
+    "config_id": "ga-c1",
+    "counters": {
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "evaluations_completed": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "evaluations_started": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "full_evaluations": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "iterations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    },
+    "environment_id": "003c5c4b27ab27628f599a49b1d1af0bf90bc78ff7ad6c3d839d7de3ef7cf57e",
+    "evaluation_censoring": 1,
+    "expected": 1,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph1",
+    "iteration_unit": "generation",
+    "max_peak_rss_bytes": 39505920,
+    "outcomes": {
+      "exhausted": 1
+    },
+    "pending": 0,
+    "phase": "smoke",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 1,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.003201945,
+        "median": 0.003201945,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.003201945,
+        "q3": 0.003201945,
+        "sample_stdev": null
+      },
+      "finalization_ns": {
+        "mean": 4.7564e-05,
+        "median": 4.7564e-05,
+        "missing": 0,
+        "observed": 1,
+        "q1": 4.7564e-05,
+        "q3": 4.7564e-05,
+        "sample_stdev": null
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 1,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "preparation_ns": {
+        "mean": 0.022265732,
+        "median": 0.022265732,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.022265732,
+        "q3": 0.022265732,
+        "sample_stdev": null
+      },
+      "process_elapsed_ns": {
+        "mean": 0.203034206,
+        "median": 0.203034206,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.203034206,
+        "q3": 0.203034206,
+        "sample_stdev": null
+      },
+      "reconciliation_ns": {
+        "mean": 0.001150905,
+        "median": 0.001150905,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.001150905,
+        "q3": 0.001150905,
+        "sample_stdev": null
+      },
+      "solver_ns": {
+        "mean": 0.007343087,
+        "median": 0.007343087,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.007343087,
+        "q3": 0.007343087,
+        "sample_stdev": null
+      },
+      "total_ns": {
+        "mean": 0.029773415,
+        "median": 0.029773415,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.029773415,
+        "q3": 0.029773415,
+        "sample_stdev": null
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    }
+  },
+  {
+    "algorithm": "pso",
+    "binary_sample_stdev": null,
+    "budget": {
+      "max_elapsed_ns": 5000000000,
+      "max_evaluations": 20,
+      "max_iterations": null
+    },
+    "code_commit": "5155b0aecc8aadcf3985083318de4f7a89e2636c",
+    "config_id": "pso-c1",
+    "counters": {
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "evaluations_completed": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "evaluations_started": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "full_evaluations": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "iterations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    },
+    "environment_id": "003c5c4b27ab27628f599a49b1d1af0bf90bc78ff7ad6c3d839d7de3ef7cf57e",
+    "evaluation_censoring": 1,
+    "expected": 1,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph1",
+    "iteration_unit": "round",
+    "max_peak_rss_bytes": 39919616,
+    "outcomes": {
+      "exhausted": 1
+    },
+    "pending": 0,
+    "phase": "smoke",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 1,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.002477033,
+        "median": 0.002477033,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.002477033,
+        "q3": 0.002477033,
+        "sample_stdev": null
+      },
+      "finalization_ns": {
+        "mean": 2.2493e-05,
+        "median": 2.2493e-05,
+        "missing": 0,
+        "observed": 1,
+        "q1": 2.2493e-05,
+        "q3": 2.2493e-05,
+        "sample_stdev": null
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 1,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "preparation_ns": {
+        "mean": 0.020197601,
+        "median": 0.020197601,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.020197601,
+        "q3": 0.020197601,
+        "sample_stdev": null
+      },
+      "process_elapsed_ns": {
+        "mean": 0.165892491,
+        "median": 0.165892491,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.165892491,
+        "q3": 0.165892491,
+        "sample_stdev": null
+      },
+      "reconciliation_ns": {
+        "mean": 0.00133182,
+        "median": 0.00133182,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.00133182,
+        "q3": 0.00133182,
+        "sample_stdev": null
+      },
+      "solver_ns": {
+        "mean": 0.011498767,
+        "median": 0.011498767,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.011498767,
+        "q3": 0.011498767,
+        "sample_stdev": null
+      },
+      "total_ns": {
+        "mean": 0.031771959,
+        "median": 0.031771959,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.031771959,
+        "q3": 0.031771959,
+        "sample_stdev": null
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    }
+  },
+  {
+    "algorithm": "sa",
+    "binary_sample_stdev": null,
+    "budget": {
+      "max_elapsed_ns": 5000000000,
+      "max_evaluations": 20,
+      "max_iterations": null
+    },
+    "code_commit": "5155b0aecc8aadcf3985083318de4f7a89e2636c",
+    "config_id": "sa-c1",
+    "counters": {
+      "algorithm_counters.accepted_moves": {
+        "mean": 19.0,
+        "median": 19,
+        "missing": 0,
+        "observed": 1,
+        "q1": 19.0,
+        "q3": 19.0,
+        "sample_stdev": null
+      },
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "evaluations_completed": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "evaluations_started": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "full_evaluations": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "iterations_completed": {
+        "mean": 19.0,
+        "median": 19,
+        "missing": 0,
+        "observed": 1,
+        "q1": 19.0,
+        "q3": 19.0,
+        "sample_stdev": null
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    },
+    "environment_id": "003c5c4b27ab27628f599a49b1d1af0bf90bc78ff7ad6c3d839d7de3ef7cf57e",
+    "evaluation_censoring": 1,
+    "expected": 1,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph1",
+    "iteration_unit": "move",
+    "max_peak_rss_bytes": 39952384,
+    "outcomes": {
+      "exhausted": 1
+    },
+    "pending": 0,
+    "phase": "smoke",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 1,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.002820617,
+        "median": 0.002820617,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.002820617,
+        "q3": 0.002820617,
+        "sample_stdev": null
+      },
+      "finalization_ns": {
+        "mean": 2.6374e-05,
+        "median": 2.6374e-05,
+        "missing": 0,
+        "observed": 1,
+        "q1": 2.6374e-05,
+        "q3": 2.6374e-05,
+        "sample_stdev": null
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 1,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "preparation_ns": {
+        "mean": 0.018436777,
+        "median": 0.018436777,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.018436777,
+        "q3": 0.018436777,
+        "sample_stdev": null
+      },
+      "process_elapsed_ns": {
+        "mean": 0.165049626,
+        "median": 0.165049626,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.165049626,
+        "q3": 0.165049626,
+        "sample_stdev": null
+      },
+      "reconciliation_ns": {
+        "mean": 0.001011351,
+        "median": 0.001011351,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.001011351,
+        "q3": 0.001011351,
+        "sample_stdev": null
+      },
+      "solver_ns": {
+        "mean": 0.009158544,
+        "median": 0.009158544,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.009158544,
+        "q3": 0.009158544,
+        "sample_stdev": null
+      },
+      "total_ns": {
+        "mean": 0.027668121,
+        "median": 0.027668121,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.027668121,
+        "q3": 0.027668121,
+        "sample_stdev": null
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    }
+  },
+  {
+    "algorithm": "abc",
+    "binary_sample_stdev": null,
+    "budget": {
+      "max_elapsed_ns": 5000000000,
+      "max_evaluations": 20,
+      "max_iterations": null
+    },
+    "code_commit": "5155b0aecc8aadcf3985083318de4f7a89e2636c",
+    "config_id": "abc-c1",
+    "counters": {
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "evaluations_completed": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "evaluations_started": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "full_evaluations": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "iterations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    },
+    "environment_id": "003c5c4b27ab27628f599a49b1d1af0bf90bc78ff7ad6c3d839d7de3ef7cf57e",
+    "evaluation_censoring": 1,
+    "expected": 1,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph2",
+    "iteration_unit": "abc_cycle",
+    "max_peak_rss_bytes": 39899136,
+    "outcomes": {
+      "exhausted": 1
+    },
+    "pending": 0,
+    "phase": "smoke",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 1,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.002389568,
+        "median": 0.002389568,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.002389568,
+        "q3": 0.002389568,
+        "sample_stdev": null
+      },
+      "finalization_ns": {
+        "mean": 2.5505e-05,
+        "median": 2.5505e-05,
+        "missing": 0,
+        "observed": 1,
+        "q1": 2.5505e-05,
+        "q3": 2.5505e-05,
+        "sample_stdev": null
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 1,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "preparation_ns": {
+        "mean": 0.031415089,
+        "median": 0.031415089,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.031415089,
+        "q3": 0.031415089,
+        "sample_stdev": null
+      },
+      "process_elapsed_ns": {
+        "mean": 0.165310035,
+        "median": 0.165310035,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.165310035,
+        "q3": 0.165310035,
+        "sample_stdev": null
+      },
+      "reconciliation_ns": {
+        "mean": 0.000626093,
+        "median": 0.000626093,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.000626093,
+        "q3": 0.000626093,
+        "sample_stdev": null
+      },
+      "solver_ns": {
+        "mean": 0.007965892,
+        "median": 0.007965892,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.007965892,
+        "q3": 0.007965892,
+        "sample_stdev": null
+      },
+      "total_ns": {
+        "mean": 0.039451718,
+        "median": 0.039451718,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.039451718,
+        "q3": 0.039451718,
+        "sample_stdev": null
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    }
+  },
+  {
+    "algorithm": "as",
+    "binary_sample_stdev": null,
+    "budget": {
+      "max_elapsed_ns": 5000000000,
+      "max_evaluations": 20,
+      "max_iterations": null
+    },
+    "code_commit": "5155b0aecc8aadcf3985083318de4f7a89e2636c",
+    "config_id": "as-c1",
+    "counters": {
+      "algorithm_counters.construction_steps": {
+        "mean": 1380.0,
+        "median": 1380,
+        "missing": 0,
+        "observed": 1,
+        "q1": 1380.0,
+        "q3": 1380.0,
+        "sample_stdev": null
+      },
+      "algorithm_counters.constructions_started": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "evaluations_completed": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "evaluations_started": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "full_evaluations": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "iterations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    },
+    "environment_id": "003c5c4b27ab27628f599a49b1d1af0bf90bc78ff7ad6c3d839d7de3ef7cf57e",
+    "evaluation_censoring": 1,
+    "expected": 1,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph2",
+    "iteration_unit": "round",
+    "max_peak_rss_bytes": 44830720,
+    "outcomes": {
+      "exhausted": 1
+    },
+    "pending": 0,
+    "phase": "smoke",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 1,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.003799408,
+        "median": 0.003799408,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.003799408,
+        "q3": 0.003799408,
+        "sample_stdev": null
+      },
+      "finalization_ns": {
+        "mean": 2.7199e-05,
+        "median": 2.7199e-05,
+        "missing": 0,
+        "observed": 1,
+        "q1": 2.7199e-05,
+        "q3": 2.7199e-05,
+        "sample_stdev": null
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 1,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "preparation_ns": {
+        "mean": 0.020681067,
+        "median": 0.020681067,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.020681067,
+        "q3": 0.020681067,
+        "sample_stdev": null
+      },
+      "process_elapsed_ns": {
+        "mean": 0.302953454,
+        "median": 0.302953454,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.302953454,
+        "q3": 0.302953454,
+        "sample_stdev": null
+      },
+      "reconciliation_ns": {
+        "mean": 0.003202192,
+        "median": 0.003202192,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.003202192,
+        "q3": 0.003202192,
+        "sample_stdev": null
+      },
+      "solver_ns": {
+        "mean": 0.119276747,
+        "median": 0.119276747,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.119276747,
+        "q3": 0.119276747,
+        "sample_stdev": null
+      },
+      "total_ns": {
+        "mean": 0.140044285,
+        "median": 0.140044285,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.140044285,
+        "q3": 0.140044285,
+        "sample_stdev": null
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    }
+  },
+  {
+    "algorithm": "de",
+    "binary_sample_stdev": null,
+    "budget": {
+      "max_elapsed_ns": 5000000000,
+      "max_evaluations": 20,
+      "max_iterations": null
+    },
+    "code_commit": "5155b0aecc8aadcf3985083318de4f7a89e2636c",
+    "config_id": "de-c1",
+    "counters": {
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "evaluations_completed": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "evaluations_started": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "full_evaluations": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "iterations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    },
+    "environment_id": "003c5c4b27ab27628f599a49b1d1af0bf90bc78ff7ad6c3d839d7de3ef7cf57e",
+    "evaluation_censoring": 1,
+    "expected": 1,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph2",
+    "iteration_unit": "generation",
+    "max_peak_rss_bytes": 39976960,
+    "outcomes": {
+      "exhausted": 1
+    },
+    "pending": 0,
+    "phase": "smoke",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 1,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.002726503,
+        "median": 0.002726503,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.002726503,
+        "q3": 0.002726503,
+        "sample_stdev": null
+      },
+      "finalization_ns": {
+        "mean": 2.3293e-05,
+        "median": 2.3293e-05,
+        "missing": 0,
+        "observed": 1,
+        "q1": 2.3293e-05,
+        "q3": 2.3293e-05,
+        "sample_stdev": null
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 1,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "preparation_ns": {
+        "mean": 0.020350729,
+        "median": 0.020350729,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.020350729,
+        "q3": 0.020350729,
+        "sample_stdev": null
+      },
+      "process_elapsed_ns": {
+        "mean": 0.165343352,
+        "median": 0.165343352,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.165343352,
+        "q3": 0.165343352,
+        "sample_stdev": null
+      },
+      "reconciliation_ns": {
+        "mean": 0.001503754,
+        "median": 0.001503754,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.001503754,
+        "q3": 0.001503754,
+        "sample_stdev": null
+      },
+      "solver_ns": {
+        "mean": 0.011367519,
+        "median": 0.011367519,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.011367519,
+        "q3": 0.011367519,
+        "sample_stdev": null
+      },
+      "total_ns": {
+        "mean": 0.031794082,
+        "median": 0.031794082,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.031794082,
+        "q3": 0.031794082,
+        "sample_stdev": null
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    }
+  },
+  {
+    "algorithm": "ga",
+    "binary_sample_stdev": null,
+    "budget": {
+      "max_elapsed_ns": 5000000000,
+      "max_evaluations": 20,
+      "max_iterations": null
+    },
+    "code_commit": "5155b0aecc8aadcf3985083318de4f7a89e2636c",
+    "config_id": "ga-c1",
+    "counters": {
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "evaluations_completed": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "evaluations_started": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "full_evaluations": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "iterations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    },
+    "environment_id": "003c5c4b27ab27628f599a49b1d1af0bf90bc78ff7ad6c3d839d7de3ef7cf57e",
+    "evaluation_censoring": 1,
+    "expected": 1,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph2",
+    "iteration_unit": "generation",
+    "max_peak_rss_bytes": 39632896,
+    "outcomes": {
+      "exhausted": 1
+    },
+    "pending": 0,
+    "phase": "smoke",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 1,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.003666943,
+        "median": 0.003666943,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.003666943,
+        "q3": 0.003666943,
+        "sample_stdev": null
+      },
+      "finalization_ns": {
+        "mean": 8.144e-05,
+        "median": 8.144e-05,
+        "missing": 0,
+        "observed": 1,
+        "q1": 8.144e-05,
+        "q3": 8.144e-05,
+        "sample_stdev": null
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 1,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "preparation_ns": {
+        "mean": 0.024829086,
+        "median": 0.024829086,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.024829086,
+        "q3": 0.024829086,
+        "sample_stdev": null
+      },
+      "process_elapsed_ns": {
+        "mean": 0.201484341,
+        "median": 0.201484341,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.201484341,
+        "q3": 0.201484341,
+        "sample_stdev": null
+      },
+      "reconciliation_ns": {
+        "mean": 0.001931214,
+        "median": 0.001931214,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.001931214,
+        "q3": 0.001931214,
+        "sample_stdev": null
+      },
+      "solver_ns": {
+        "mean": 0.013434144,
+        "median": 0.013434144,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.013434144,
+        "q3": 0.013434144,
+        "sample_stdev": null
+      },
+      "total_ns": {
+        "mean": 0.038574309,
+        "median": 0.038574309,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.038574309,
+        "q3": 0.038574309,
+        "sample_stdev": null
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    }
+  },
+  {
+    "algorithm": "pso",
+    "binary_sample_stdev": null,
+    "budget": {
+      "max_elapsed_ns": 5000000000,
+      "max_evaluations": 20,
+      "max_iterations": null
+    },
+    "code_commit": "5155b0aecc8aadcf3985083318de4f7a89e2636c",
+    "config_id": "pso-c1",
+    "counters": {
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "evaluations_completed": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "evaluations_started": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "full_evaluations": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "iterations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    },
+    "environment_id": "003c5c4b27ab27628f599a49b1d1af0bf90bc78ff7ad6c3d839d7de3ef7cf57e",
+    "evaluation_censoring": 1,
+    "expected": 1,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph2",
+    "iteration_unit": "round",
+    "max_peak_rss_bytes": 39710720,
+    "outcomes": {
+      "exhausted": 1
+    },
+    "pending": 0,
+    "phase": "smoke",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 1,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.002831937,
+        "median": 0.002831937,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.002831937,
+        "q3": 0.002831937,
+        "sample_stdev": null
+      },
+      "finalization_ns": {
+        "mean": 2.6291e-05,
+        "median": 2.6291e-05,
+        "missing": 0,
+        "observed": 1,
+        "q1": 2.6291e-05,
+        "q3": 2.6291e-05,
+        "sample_stdev": null
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 1,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "preparation_ns": {
+        "mean": 0.020423377,
+        "median": 0.020423377,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.020423377,
+        "q3": 0.020423377,
+        "sample_stdev": null
+      },
+      "process_elapsed_ns": {
+        "mean": 0.16655406,
+        "median": 0.16655406,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.16655406,
+        "q3": 0.16655406,
+        "sample_stdev": null
+      },
+      "reconciliation_ns": {
+        "mean": 0.000639199,
+        "median": 0.000639199,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.000639199,
+        "q3": 0.000639199,
+        "sample_stdev": null
+      },
+      "solver_ns": {
+        "mean": 0.013783423,
+        "median": 0.013783423,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.013783423,
+        "q3": 0.013783423,
+        "sample_stdev": null
+      },
+      "total_ns": {
+        "mean": 0.0343131,
+        "median": 0.0343131,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0343131,
+        "q3": 0.0343131,
+        "sample_stdev": null
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    }
+  },
+  {
+    "algorithm": "sa",
+    "binary_sample_stdev": null,
+    "budget": {
+      "max_elapsed_ns": 5000000000,
+      "max_evaluations": 20,
+      "max_iterations": null
+    },
+    "code_commit": "5155b0aecc8aadcf3985083318de4f7a89e2636c",
+    "config_id": "sa-c1",
+    "counters": {
+      "algorithm_counters.accepted_moves": {
+        "mean": 19.0,
+        "median": 19,
+        "missing": 0,
+        "observed": 1,
+        "q1": 19.0,
+        "q3": 19.0,
+        "sample_stdev": null
+      },
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "evaluations_completed": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "evaluations_started": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "full_evaluations": {
+        "mean": 20.0,
+        "median": 20,
+        "missing": 0,
+        "observed": 1,
+        "q1": 20.0,
+        "q3": 20.0,
+        "sample_stdev": null
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "iterations_completed": {
+        "mean": 19.0,
+        "median": 19,
+        "missing": 0,
+        "observed": 1,
+        "q1": 19.0,
+        "q3": 19.0,
+        "sample_stdev": null
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    },
+    "environment_id": "003c5c4b27ab27628f599a49b1d1af0bf90bc78ff7ad6c3d839d7de3ef7cf57e",
+    "evaluation_censoring": 1,
+    "expected": 1,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph2",
+    "iteration_unit": "move",
+    "max_peak_rss_bytes": 38969344,
+    "outcomes": {
+      "exhausted": 1
+    },
+    "pending": 0,
+    "phase": "smoke",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 1,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.003388132,
+        "median": 0.003388132,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.003388132,
+        "q3": 0.003388132,
+        "sample_stdev": null
+      },
+      "finalization_ns": {
+        "mean": 3.201e-05,
+        "median": 3.201e-05,
+        "missing": 0,
+        "observed": 1,
+        "q1": 3.201e-05,
+        "q3": 3.201e-05,
+        "sample_stdev": null
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 1,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      },
+      "preparation_ns": {
+        "mean": 0.01962192,
+        "median": 0.01962192,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.01962192,
+        "q3": 0.01962192,
+        "sample_stdev": null
+      },
+      "process_elapsed_ns": {
+        "mean": 0.202058317,
+        "median": 0.202058317,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.202058317,
+        "q3": 0.202058317,
+        "sample_stdev": null
+      },
+      "reconciliation_ns": {
+        "mean": 0.003548889,
+        "median": 0.003548889,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.003548889,
+        "q3": 0.003548889,
+        "sample_stdev": null
+      },
+      "solver_ns": {
+        "mean": 0.008493858,
+        "median": 0.008493858,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.008493858,
+        "q3": 0.008493858,
+        "sample_stdev": null
+      },
+      "total_ns": {
+        "mean": 0.02820241,
+        "median": 0.02820241,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.02820241,
+        "q3": 0.02820241,
+        "sample_stdev": null
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 1,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": null
+      }
+    }
+  }
+]

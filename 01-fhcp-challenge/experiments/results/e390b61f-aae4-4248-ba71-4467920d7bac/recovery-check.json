@@ -1,0 +1,20 @@
+{
+  "schema_version": "fhcp-campaign-recovery-check/1",
+  "verified_at_utc": "2026-11-13T13:15:06.150823+00:00",
+  "campaign_id": "e390b61f-aae4-4248-ba71-4467920d7bac",
+  "archive_index": {
+    "path": "experiments/results/e390b61f-aae4-4248-ba71-4467920d7bac/archive-index-732914c2-7124-4bf1-bd13-b7ec6ce60a9e.json",
+    "sha256": "eb45aa61c77844345adcc96f5bdd3bad9159a191290b5f485b058b29eddb3e4d"
+  },
+  "restored_batches": [
+    "67191556-cc8d-4612-9517-e9b4cd0a2340",
+    "22560abf-18ec-4dab-87a9-8e1141f7ed05",
+    "3db63fd9-6545-4199-a1ea-cf74bdd50444",
+    "ef9646e3-1985-47b6-8f58-6744b2f70810",
+    "311e6dd4-2d47-4775-833d-c2969771094c"
+  ],
+  "archive_bytes": 315259579,
+  "temporary_recovery_removed": true,
+  "restored_artifacts_verified": 4176,
+  "restored_attempts_verified": 1044
+}

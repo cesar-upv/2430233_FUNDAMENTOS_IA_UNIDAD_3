@@ -1,0 +1,211 @@
+{
+  "manifest_version": 1,
+  "archives": {
+    "graphs": {
+      "filename": "FHCPCS.7z",
+      "url": "https://sites.flinders.edu.au/flinders-hamiltonian-cycle-project/wp-content/uploads/sites/18/2020/01/FHCPCS.7z",
+      "download_completed_at_utc": "2026-11-04T15:16:17Z",
+      "size_bytes": 14957114,
+      "sha256": "2f86aaf525977d1e45f1270c06d8153f3d84d32bd391b4058764c3c85db04f79"
+    },
+    "certificates": {
+      "filename": "FHCPCS_sols.7z",
+      "url": "https://sites.flinders.edu.au/flinders-hamiltonian-cycle-project/wp-content/uploads/sites/18/2020/01/FHCPCS_sols.7z",
+      "download_completed_at_utc": "2026-11-04T15:16:19Z",
+      "size_bytes": 5547219,
+      "sha256": "bf8d7259d43bec6b4ed8a4d42a8ec06e86e1fafd87bfcdee24d793d5572eda08"
+    }
+  },
+  "structure_source": "https://interstices.info/le-defi-des-1001-graphes/",
+  "instances": [
+    {
+      "id": "graph1",
+      "partition": "smoke",
+      "documented_structure": null,
+      "archive_member": "graph1.hcp",
+      "sha256": "124c185cebd9782e037bf16c88cb26002352e10e3ab634bf51ff481296c2e0b2",
+      "size_bytes": 828,
+      "dimension": 66,
+      "edge_count": 99,
+      "degree_range": [
+        3,
+        3
+      ],
+      "type": "HCP",
+      "edge_data_format": "EDGE_LIST",
+      "certificate": {
+        "archive_member": "graph1.hcp.tou",
+        "sha256": "86b0a692fedfef6ed97af11e47b97c79bb89ac94d956082e0f456ca329d3bed6",
+        "size_bytes": 342
+      }
+    },
+    {
+      "id": "graph2",
+      "partition": "smoke",
+      "documented_structure": null,
+      "archive_member": "graph2.hcp",
+      "sha256": "6c92d89c11eea9c48dd1ec895b793cb634dd9ae56e524ab8b84ad33ff9a15c4c",
+      "size_bytes": 877,
+      "dimension": 70,
+      "edge_count": 106,
+      "degree_range": [
+        3,
+        4
+      ],
+      "type": "HCP",
+      "edge_data_format": "EDGE_LIST",
+      "certificate": {
+        "archive_member": "graph2.hcp.tou",
+        "sha256": "6d8ef7c1610d6afdcc99ed3c9e97317dec84ed727ca63e0ad60fb4fd917719fc",
+        "size_bytes": 358
+      }
+    },
+    {
+      "id": "graph58",
+      "partition": "tuning",
+      "documented_structure": "near_cycle",
+      "archive_member": "graph58.hcp",
+      "sha256": "11a0222c708348588d1f788e53df1dca8be92ea4c1eb982b03083d8bd9d9396f",
+      "size_bytes": 5195,
+      "dimension": 396,
+      "edge_count": 595,
+      "degree_range": [
+        3,
+        4
+      ],
+      "type": "HCP",
+      "edge_data_format": "EDGE_LIST",
+      "certificate": {
+        "archive_member": "graph58.hcp.tou",
+        "sha256": "d69903505dc9f51911fd1312a87e8d2b355b9a96a2749cd9710c8b5f1529d0f0",
+        "size_bytes": 1961
+      }
+    },
+    {
+      "id": "graph268",
+      "partition": "tuning",
+      "documented_structure": "big_degree",
+      "archive_member": "graph268.hcp",
+      "sha256": "442354cf9e07948cff65444c88e50775d29e99a645b1b57a3cf20b156e20217f",
+      "size_bytes": 27077,
+      "dimension": 1644,
+      "edge_count": 2767,
+      "degree_range": [
+        2,
+        192
+      ],
+      "type": "HCP",
+      "edge_data_format": "EDGE_LIST",
+      "certificate": {
+        "archive_member": "graph268.hcp.tou",
+        "sha256": "2cd67cac92e8ef59aa5bc5453ba38476298d3a510fff0131882943a6085fbb11",
+        "size_bytes": 8848
+      }
+    },
+    {
+      "id": "graph48",
+      "partition": "evaluation",
+      "documented_structure": "motif_16",
+      "archive_member": "graph48.hcp",
+      "sha256": "1c1ee36710ce688085b8bd0228e628c8424620a1592953600ab4631ee4741740",
+      "size_bytes": 6666,
+      "dimension": 338,
+      "edge_count": 776,
+      "degree_range": [
+        4,
+        14
+      ],
+      "type": "HCP",
+      "edge_data_format": "EDGE_LIST",
+      "certificate": {
+        "archive_member": "graph48.hcp.tou",
+        "sha256": "752b381be691d5a40c092fd97d74efb6783838cb1590e9c796bc9f2a99c9a4bc",
+        "size_bytes": 1671
+      }
+    },
+    {
+      "id": "graph175",
+      "partition": "evaluation",
+      "documented_structure": "motif_16",
+      "archive_member": "graph175.hcp",
+      "sha256": "ced48c98efaf98fd7f4a5f59c5b0b50bd963e3ef2d83b63e3801a072214f30a3",
+      "size_bytes": 20676,
+      "dimension": 1014,
+      "edge_count": 2328,
+      "degree_range": [
+        4,
+        14
+      ],
+      "type": "HCP",
+      "edge_data_format": "EDGE_LIST",
+      "certificate": {
+        "archive_member": "graph175.hcp.tou",
+        "sha256": "45e5c02af99033dec22966a18420fca6024b1201150419f3a0af260a2c557f2f",
+        "size_bytes": 5068
+      }
+    },
+    {
+      "id": "graph74",
+      "partition": "evaluation",
+      "documented_structure": "bells",
+      "archive_member": "graph74.hcp",
+      "sha256": "1f3e4fae316650a6a79d29800433f53f469094a9787b38b767599a64cb63fb8f",
+      "size_bytes": 6605,
+      "dimension": 462,
+      "edge_count": 756,
+      "degree_range": [
+        2,
+        5
+      ],
+      "type": "HCP",
+      "edge_data_format": "EDGE_LIST",
+      "certificate": {
+        "archive_member": "graph74.hcp.tou",
+        "sha256": "35defb2238b8f4d01f7020f615e900e84c4aeee77571410cf4a92cfd4dbad039",
+        "size_bytes": 2291
+      }
+    },
+    {
+      "id": "graph479",
+      "partition": "evaluation",
+      "documented_structure": "bells",
+      "archive_member": "graph479.hcp",
+      "sha256": "30b7a34796799bc8938eeed25b72e01533f6e3675ef4c250abf78a670fea5c76",
+      "size_bytes": 46391,
+      "dimension": 2772,
+      "edge_count": 4536,
+      "degree_range": [
+        2,
+        5
+      ],
+      "type": "HCP",
+      "edge_data_format": "EDGE_LIST",
+      "certificate": {
+        "archive_member": "graph479.hcp.tou",
+        "sha256": "3272a0e06a182f8a1c9e47be1c7214dc1ad87e1e8cb91c0ff558dcc215cffa14",
+        "size_bytes": 15616
+      }
+    },
+    {
+      "id": "graph1001",
+      "partition": "evaluation_scale",
+      "documented_structure": "blocks_1001",
+      "archive_member": "graph1001.hcp",
+      "sha256": "33f42e05e4009e1d2ba4b142604138bce1e641dc53dd9b2520af2900eb0f1d69",
+      "size_bytes": 150571,
+      "dimension": 9528,
+      "edge_count": 13968,
+      "degree_range": [
+        2,
+        3
+      ],
+      "type": "HCP",
+      "edge_data_format": "EDGE_LIST",
+      "certificate": {
+        "archive_member": "graph1001.hcp.tou",
+        "sha256": "6b62ccc522a9ede255182e1b3b8bc04fb7fc38d409e1471782ca06cc3536d086",
+        "size_bytes": 56153
+      }
+    }
+  ]
+}

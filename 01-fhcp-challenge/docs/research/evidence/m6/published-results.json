@@ -1,0 +1,87 @@
+{
+  "consulted_on": "2026-11-13",
+  "sources": [
+    {
+      "id": "flindersFhcpChallenge",
+      "authors": "Flinders Hamiltonian Cycle Project",
+      "url": "https://sites.flinders.edu.au/flinders-hamiltonian-cycle-project/fhcp-challenge-set/",
+      "version": "Portal consultado; sin versión numerada",
+      "locator": "Challenge Results; Competition rules",
+      "dataset": "1001 instancias FHCP",
+      "algorithm": "Presentación acumulada de Cohen y Coudert",
+      "hardware": null,
+      "parameters": null,
+      "budget": "Ventana del concurso 2015-09-30 a 2016-09-30; no tiempo CPU",
+      "repetitions": null,
+      "success_definition": "Ciclo hamiltoniano entregado en formato TOUR",
+      "solved": 985,
+      "instances": 1001,
+      "instance_seconds": null
+    },
+    {
+      "id": "cohenCoudert2017Challenge",
+      "authors": "David Coudert; Nathann Cohen",
+      "url": "https://interstices.info/le-defi-des-1001-graphes/",
+      "version": "Artículo de participantes, 2017-12-22",
+      "locator": "L’oracle, tabla filas 1–2; Formulation",
+      "dataset": "Instancias individuales del FHCP",
+      "algorithm": "Oráculo de programación lineal entera; SageMath y CPLEX",
+      "hardware": null,
+      "parameters": null,
+      "software_version": null,
+      "budget": null,
+      "repetitions": null,
+      "success_definition": "Obtención de ciclo hamiltoniano",
+      "instance_seconds": {
+        "graph1": 0.76,
+        "graph2": 0.01
+      }
+    },
+    {
+      "id": "seeja2018HybridHam",
+      "authors": "K. R. Seeja",
+      "doi": "10.1155/2018/9328103",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1155/2018/9328103",
+      "version": "Version of Record, 2018-10-16",
+      "locator": "Sección 4, primer párrafo; sección 4.3; tabla 4, filas Graph 1 y Graph 2",
+      "dataset": "250 instancias FHCP",
+      "algorithm": "HybridHAM",
+      "hardware": "Intel Core i5, 4 GB RAM; modelo y frecuencia no precisados",
+      "software_version": "MATLAB 13RA, según el artículo",
+      "parameters": "Reglas de grados, DFS y rotaciones de secciones 2–3; sin configuración estocástica publicada",
+      "budget": null,
+      "repetitions": null,
+      "success_definition": "HC significa ciclo; HP significa camino y no cuenta como ciclo",
+      "solved": 6,
+      "instances": 250,
+      "hamiltonian_paths_reported": 75,
+      "instance_seconds": {
+        "graph1": 0.0625,
+        "graph2": 0.0469
+      },
+      "instance_output": {
+        "graph1": "HP",
+        "graph2": "HC"
+      },
+      "solved_basis": "Claim in section 4.3; not a reconciled count of Table 4",
+      "consistency_note": "Section 4.3 says 6 HC, but Table 4 labels more than six instances HC (including graph2, graph6, graph72, graph79, graph84, graph90 and graph96). This internal discrepancy is retained; no corrected aggregate or success rate is inferred."
+    },
+    {
+      "id": "haythorpe2018Fhcp",
+      "authors": "Michael Haythorpe",
+      "url": "https://bica.the-ica.org/Volumes/83/Reprints/BICA2017-32-Main-Reprint.pdf",
+      "version": "Bulletin of the ICA 83 (2018), 98–107; arXiv v1 2019-02-27",
+      "locator": "Sección 2, p. 100; sección 3, pp. 102–103",
+      "dataset": "1001 FHCP",
+      "algorithm": "Concorde, LKH y SLH como filtro de dificultad",
+      "hardware": null,
+      "parameters": null,
+      "budget": null,
+      "repetitions": null,
+      "success_definition": "Ciclo hamiltoniano",
+      "note": "Sin matriz temporal por instancia para esos tres solvers; no se inventa un baseline numérico."
+    }
+  ],
+  "missing_field_policy": "null = no publicado en el pasaje consultado; no equivale a cero",
+  "rechecked_on": "2026-11-17"
+}

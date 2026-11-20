@@ -1,0 +1,39 @@
+{
+  "schema_version": "fhcp-post-campaign-audit/1",
+  "audited_at_utc": "2026-11-13T13:13:24.401270+00:00",
+  "campaign_id": "e390b61f-aae4-4248-ba71-4467920d7bac",
+  "commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+  "attempts": 1044,
+  "artifact_and_history_hashes_verified": 10575,
+  "candidates_audited": 1014,
+  "attempts_without_candidate": 30,
+  "certified_successes": 0,
+  "verification_pairs_equal": 6,
+  "outcomes_by_phase": {
+    "evaluation": {
+      "exhausted": 270,
+      "cooperative_timeout": 450
+    },
+    "scale": {
+      "cooperative_timeout": 180
+    },
+    "smoke": {
+      "exhausted": 12
+    },
+    "tuning": {
+      "exhausted": 67,
+      "cooperative_timeout": 53
+    },
+    "verification": {
+      "exhausted": 12
+    }
+  },
+  "elapsed_wall_seconds_including_pauses": 25295.630322,
+  "sum_process_seconds": 24573.062590881,
+  "limitations": [
+    "Two swap incidents during tuning and two AC power incidents during evaluation were retained in the original primaries; temporal comparisons require those caveats.",
+    "No result proves non-Hamiltonicity.",
+    "Nine selected FHCP instances; findings do not represent the full 1001-instance set."
+  ],
+  "completed_at_utc": "2026-11-13T11:43:19.951230+00:00"
+}

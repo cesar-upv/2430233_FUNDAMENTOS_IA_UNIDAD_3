@@ -1,0 +1,5747 @@
+[
+  {
+    "algorithm": "abc",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "abc-c2",
+    "counters": {
+      "algorithm_counters.employed_improvements": {
+        "mean": 84.66666666666667,
+        "median": 83.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 78.0,
+        "q3": 92.0,
+        "sample_stdev": 10.406673367350042
+      },
+      "algorithm_counters.employed_proposals": {
+        "mean": 4996.0,
+        "median": 4997.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 4994.25,
+        "q3": 4997.0,
+        "sample_stdev": 2.1009029257555607
+      },
+      "algorithm_counters.onlooker_improvements": {
+        "mean": 83.26666666666667,
+        "median": 84.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 78.25,
+        "q3": 88.0,
+        "sample_stdev": 7.969482020693749
+      },
+      "algorithm_counters.onlooker_proposals": {
+        "mean": 4980.0,
+        "median": 4980.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 4980.0,
+        "q3": 4980.0,
+        "sample_stdev": 0.0
+      },
+      "algorithm_counters.scout_abandonments": {
+        "mean": 4.137931034482759,
+        "median": 3,
+        "missing": 1,
+        "observed": 29,
+        "q1": 3.0,
+        "q3": 6.0,
+        "sample_stdev": 1.9950678100010695
+      },
+      "algorithm_counters.scout_renewals": {
+        "mean": 4.137931034482759,
+        "median": 3,
+        "missing": 1,
+        "observed": 29,
+        "q1": 3.0,
+        "q3": 6.0,
+        "sample_stdev": 1.9950678100010695
+      },
+      "algorithm_counters.scout_skips": {
+        "mean": 245.0,
+        "median": 246.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 243.25,
+        "q3": 246.0,
+        "sample_stdev": 2.1009029257555607
+      },
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_started": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "full_evaluations": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 249.0,
+        "median": 249.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 249.0,
+        "q3": 249.0,
+        "sample_stdev": 0.0
+      },
+      "restarts": {
+        "mean": 4.0,
+        "median": 3.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 3.0,
+        "q3": 5.75,
+        "sample_stdev": 2.1009029257555607
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 30,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph175",
+    "iteration_unit": "abc_cycle",
+    "max_peak_rss_bytes": 52756480,
+    "outcomes": {
+      "exhausted": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.01647607586666667,
+        "median": 0.0061147895,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.005735535,
+        "q3": 0.03060842925,
+        "sample_stdev": 0.012584187585742236
+      },
+      "finalization_ns": {
+        "mean": 9.588493333333334e-05,
+        "median": 9.579900000000001e-05,
+        "missing": 0,
+        "observed": 30,
+        "q1": 9.412825e-05,
+        "q3": 9.7593e-05,
+        "sample_stdev": 2.680520754003534e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "preparation_ns": {
+        "mean": 0.0342939026,
+        "median": 0.034141828,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.03393553275,
+        "q3": 0.034382624,
+        "sample_stdev": 0.0006061458858011223
+      },
+      "process_elapsed_ns": {
+        "mean": 26.5954973067,
+        "median": 26.589016398,
+        "missing": 0,
+        "observed": 30,
+        "q1": 26.488897535,
+        "q3": 26.597502043,
+        "sample_stdev": 0.15958227058127877
+      },
+      "reconciliation_ns": {
+        "mean": 0.0028718240333333333,
+        "median": 0.0026664895,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0026445965,
+        "q3": 0.0027725694999999996,
+        "sample_stdev": 0.0006030718123891293
+      },
+      "solver_ns": {
+        "mean": 26.449378399466664,
+        "median": 26.43628469,
+        "missing": 0,
+        "observed": 30,
+        "q1": 26.355832429,
+        "q3": 26.46348826125,
+        "sample_stdev": 0.15908939849774456
+      },
+      "total_ns": {
+        "mean": 26.483945551633333,
+        "median": 26.470648408499997,
+        "missing": 0,
+        "observed": 30,
+        "q1": 26.390245341,
+        "q3": 26.4989886095,
+        "sample_stdev": 0.15926138489738123
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "as",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "as-c2",
+    "counters": {
+      "algorithm_counters.construction_steps": {
+        "mean": 27846.1,
+        "median": 27871.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 27830.5,
+        "q3": 27999.0,
+        "sample_stdev": 221.8087635469052
+      },
+      "algorithm_counters.constructions_started": {
+        "mean": 27.966666666666665,
+        "median": 28.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 28.0,
+        "q3": 28.0,
+        "sample_stdev": 0.18257418583505536
+      },
+      "algorithm_counters.pheromone_deposits": {
+        "mean": 20280.0,
+        "median": 20280.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 20280.0,
+        "q3": 20280.0,
+        "sample_stdev": 0.0
+      },
+      "algorithm_counters.pheromone_updates_completed": {
+        "mean": 1.0,
+        "median": 1.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 1.0,
+        "q3": 1.0,
+        "sample_stdev": 0.0
+      },
+      "algorithm_counters.pheromone_updates_started": {
+        "mean": 1.0,
+        "median": 1.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 1.0,
+        "q3": 1.0,
+        "sample_stdev": 0.0
+      },
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 26.966666666666665,
+        "median": 27.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 27.0,
+        "q3": 27.0,
+        "sample_stdev": 0.18257418583505536
+      },
+      "evaluations_started": {
+        "mean": 26.966666666666665,
+        "median": 27.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 27.0,
+        "q3": 27.0,
+        "sample_stdev": 0.18257418583505536
+      },
+      "full_evaluations": {
+        "mean": 26.966666666666665,
+        "median": 27.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 27.0,
+        "q3": 27.0,
+        "sample_stdev": 0.18257418583505536
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 1.0,
+        "median": 1.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 1.0,
+        "q3": 1.0,
+        "sample_stdev": 0.0
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 0,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph175",
+    "iteration_unit": "round",
+    "max_peak_rss_bytes": 57282560,
+    "outcomes": {
+      "cooperative_timeout": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 30,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.0335703178,
+        "median": 0.006107655,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.005833011,
+        "q3": 0.030576188,
+        "sample_stdev": 0.06914725462053474
+      },
+      "finalization_ns": {
+        "mean": 0.00010344223333333333,
+        "median": 0.000103447,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00010164625,
+        "q3": 0.000104563,
+        "sample_stdev": 2.520483638364743e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.00024485436666666667,
+        "median": 0.00025474199999999997,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00015629025,
+        "q3": 0.00032050025,
+        "sample_stdev": 0.00013423073337932178
+      },
+      "preparation_ns": {
+        "mean": 0.034311560899999996,
+        "median": 0.034118195500000004,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.03395112425,
+        "q3": 0.0343561015,
+        "sample_stdev": 0.0013851479168458147
+      },
+      "process_elapsed_ns": {
+        "mean": 30.153282810033332,
+        "median": 30.1589516455,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.13864569725,
+        "q3": 30.1627804265,
+        "sample_stdev": 0.014118463318704814
+      },
+      "reconciliation_ns": {
+        "mean": 0.0028853059666666668,
+        "median": 0.0027001079999999997,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00266105125,
+        "q3": 0.0028115245,
+        "sample_stdev": 0.0006163036520247691
+      },
+      "solver_ns": {
+        "mean": 30.000244854366667,
+        "median": 30.000254742000003,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.00015629025,
+        "q3": 30.000320500249998,
+        "sample_stdev": 0.000134230733379306
+      },
+      "total_ns": {
+        "mean": 30.034893585166667,
+        "median": 30.03474646,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.03455312125,
+        "q3": 30.034920123,
+        "sample_stdev": 0.001404899781718429
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "de",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "de-c2",
+    "counters": {
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 3405.133333333333,
+        "median": 3412.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 3404.5,
+        "q3": 3416.0,
+        "sample_stdev": 24.062753208102
+      },
+      "evaluations_started": {
+        "mean": 3405.133333333333,
+        "median": 3412.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 3404.5,
+        "q3": 3416.0,
+        "sample_stdev": 24.062753208102
+      },
+      "full_evaluations": {
+        "mean": 3405.133333333333,
+        "median": 3412.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 3404.5,
+        "q3": 3416.0,
+        "sample_stdev": 24.062753208102
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 168.73333333333332,
+        "median": 169.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 169.0,
+        "q3": 169.0,
+        "sample_stdev": 1.2298957997167563
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 0,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph175",
+    "iteration_unit": "generation",
+    "max_peak_rss_bytes": 53116928,
+    "outcomes": {
+      "cooperative_timeout": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 30,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.017495701,
+        "median": 0.013200113,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00571964125,
+        "q3": 0.03035662675,
+        "sample_stdev": 0.012575408415569119
+      },
+      "finalization_ns": {
+        "mean": 9.44434e-05,
+        "median": 9.344949999999999e-05,
+        "missing": 0,
+        "observed": 30,
+        "q1": 9.238575e-05,
+        "q3": 9.646925e-05,
+        "sample_stdev": 2.977616468667978e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0026211596333333333,
+        "median": 0.002239906,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0011873382499999999,
+        "q3": 0.0038578765000000003,
+        "sample_stdev": 0.001809050971143662
+      },
+      "preparation_ns": {
+        "mean": 0.034269982633333335,
+        "median": 0.0342995225,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0340614505,
+        "q3": 0.034474626,
+        "sample_stdev": 0.00041193825363086505
+      },
+      "process_elapsed_ns": {
+        "mean": 30.155425978866667,
+        "median": 30.162884404499998,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.14288018525,
+        "q3": 30.165077715,
+        "sample_stdev": 0.012726400545037835
+      },
+      "reconciliation_ns": {
+        "mean": 0.003348084266666667,
+        "median": 0.0028223575,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00269026275,
+        "q3": 0.00350495625,
+        "sample_stdev": 0.00110695410642827
+      },
+      "solver_ns": {
+        "mean": 30.002621159633335,
+        "median": 30.002239906,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.00118733825,
+        "q3": 30.0038578765,
+        "sample_stdev": 0.0018090509711437073
+      },
+      "total_ns": {
+        "mean": 30.037238233733333,
+        "median": 30.0371354865,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.03562138275,
+        "q3": 30.038416171250002,
+        "sample_stdev": 0.0018831821622307342
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "ga",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "ga-c2",
+    "counters": {
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 8630.066666666668,
+        "median": 8639.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 8622.0,
+        "q3": 8652.75,
+        "sample_stdev": 34.77011532250403
+      },
+      "evaluations_started": {
+        "mean": 8630.066666666668,
+        "median": 8639.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 8622.0,
+        "q3": 8652.75,
+        "sample_stdev": 34.77011532250403
+      },
+      "full_evaluations": {
+        "mean": 8630.066666666668,
+        "median": 8639.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 8622.0,
+        "q3": 8652.75,
+        "sample_stdev": 34.77011532250403
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 452.73333333333335,
+        "median": 453.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 452.0,
+        "q3": 454.0,
+        "sample_stdev": 1.874204812223285
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 0,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph175",
+    "iteration_unit": "generation",
+    "max_peak_rss_bytes": 52523008,
+    "outcomes": {
+      "cooperative_timeout": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 30,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.016302777733333332,
+        "median": 0.0061698955,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00575180675,
+        "q3": 0.030246617,
+        "sample_stdev": 0.012684597336682842
+      },
+      "finalization_ns": {
+        "mean": 8.82249e-05,
+        "median": 8.7586e-05,
+        "missing": 0,
+        "observed": 30,
+        "q1": 8.612775e-05,
+        "q3": 8.981325e-05,
+        "sample_stdev": 2.9008833179116205e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0009012887333333333,
+        "median": 0.0007485619999999999,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.000489675,
+        "q3": 0.0011670492500000002,
+        "sample_stdev": 0.0005877576581492569
+      },
+      "preparation_ns": {
+        "mean": 0.0341257456,
+        "median": 0.034239598999999996,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.03389776875,
+        "q3": 0.03441200925,
+        "sample_stdev": 0.0004853644937642297
+      },
+      "process_elapsed_ns": {
+        "mean": 30.148763770466665,
+        "median": 30.152009083499998,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.134897044749998,
+        "q3": 30.1593207785,
+        "sample_stdev": 0.014660586861128656
+      },
+      "reconciliation_ns": {
+        "mean": 0.0031014010666666667,
+        "median": 0.0027103815,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.002666027,
+        "q3": 0.0028501455,
+        "sample_stdev": 0.0009482565545382504
+      },
+      "solver_ns": {
+        "mean": 30.000901288733335,
+        "median": 30.000748562,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.000489675,
+        "q3": 30.00116704925,
+        "sample_stdev": 0.0005877576581493888
+      },
+      "total_ns": {
+        "mean": 30.035196963399997,
+        "median": 30.035134663500003,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.034660712250002,
+        "q3": 30.03572466275,
+        "sample_stdev": 0.0007474535348801427
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "pso",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "pso-c1",
+    "counters": {
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 3426.766666666667,
+        "median": 3429.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 3421.25,
+        "q3": 3436.75,
+        "sample_stdev": 14.221604093368152
+      },
+      "evaluations_started": {
+        "mean": 3426.766666666667,
+        "median": 3429.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 3421.25,
+        "q3": 3436.75,
+        "sample_stdev": 14.221604093368152
+      },
+      "full_evaluations": {
+        "mean": 3426.766666666667,
+        "median": 3429.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 3421.25,
+        "q3": 3436.75,
+        "sample_stdev": 14.221604093368152
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 169.83333333333334,
+        "median": 170.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 170.0,
+        "q3": 170.0,
+        "sample_stdev": 0.7466399831028446
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 0,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph175",
+    "iteration_unit": "round",
+    "max_peak_rss_bytes": 52776960,
+    "outcomes": {
+      "cooperative_timeout": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 30,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.013859310133333334,
+        "median": 0.0059303455,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0055841225,
+        "q3": 0.03046993525,
+        "sample_stdev": 0.012158689107360784
+      },
+      "finalization_ns": {
+        "mean": 9.492696666666665e-05,
+        "median": 9.48945e-05,
+        "missing": 0,
+        "observed": 30,
+        "q1": 9.344225e-05,
+        "q3": 9.630475e-05,
+        "sample_stdev": 2.7354239220518162e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.002688000533333333,
+        "median": 0.0024839225,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0007463177500000001,
+        "q3": 0.0046617605,
+        "sample_stdev": 0.002094385471913004
+      },
+      "preparation_ns": {
+        "mean": 0.034252033333333334,
+        "median": 0.034105811,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.03389182625,
+        "q3": 0.034480718,
+        "sample_stdev": 0.0006072000690041484
+      },
+      "process_elapsed_ns": {
+        "mean": 30.152092758933335,
+        "median": 30.1596348005,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.1367474285,
+        "q3": 30.162503923000003,
+        "sample_stdev": 0.01328205960489968
+      },
+      "reconciliation_ns": {
+        "mean": 0.0031023406999999997,
+        "median": 0.002714633,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0026591465,
+        "q3": 0.00282258375,
+        "sample_stdev": 0.001000963599898933
+      },
+      "solver_ns": {
+        "mean": 30.002688000533333,
+        "median": 30.0024839225,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.00074631775,
+        "q3": 30.0046617605,
+        "sample_stdev": 0.0020943854719128866
+      },
+      "total_ns": {
+        "mean": 30.037109564166666,
+        "median": 30.0369347695,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.03517427875,
+        "q3": 30.038938012499997,
+        "sample_stdev": 0.002150276875132972
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "sa",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "sa-c1",
+    "counters": {
+      "algorithm_counters.accepted_moves": {
+        "mean": 7718.933333333333,
+        "median": 7711.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 7597.0,
+        "q3": 7788.0,
+        "sample_stdev": 155.62065578112413
+      },
+      "algorithm_counters.cooling_steps": {
+        "mean": 195.8,
+        "median": 196.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 195.25,
+        "q3": 196.0,
+        "sample_stdev": 1.0305673027596216
+      },
+      "algorithm_counters.rejected_moves": {
+        "mean": 2092.5333333333333,
+        "median": 2103.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 2037.5,
+        "q3": 2176.0,
+        "sample_stdev": 137.6323772386709
+      },
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 9813.233333333334,
+        "median": 9823.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 9798.75,
+        "q3": 9846.0,
+        "sample_stdev": 47.98468385909687
+      },
+      "evaluations_started": {
+        "mean": 9813.233333333334,
+        "median": 9823.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 9798.75,
+        "q3": 9846.0,
+        "sample_stdev": 47.98468385909687
+      },
+      "full_evaluations": {
+        "mean": 9813.233333333334,
+        "median": 9823.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 9798.75,
+        "q3": 9846.0,
+        "sample_stdev": 47.98468385909687
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 9811.466666666667,
+        "median": 9821.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 9796.75,
+        "q3": 9844.0,
+        "sample_stdev": 47.95524733672465
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 0,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph175",
+    "iteration_unit": "move",
+    "max_peak_rss_bytes": 52162560,
+    "outcomes": {
+      "cooperative_timeout": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 30,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.016045902666666667,
+        "median": 0.006013437,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.005503865,
+        "q3": 0.030343314500000003,
+        "sample_stdev": 0.012833277738354592
+      },
+      "finalization_ns": {
+        "mean": 9.13813e-05,
+        "median": 9.0627e-05,
+        "missing": 0,
+        "observed": 30,
+        "q1": 8.9044e-05,
+        "q3": 9.2963e-05,
+        "sample_stdev": 4.199776144691197e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0008545682,
+        "median": 0.0008785830000000001,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00029913175,
+        "q3": 0.00129684925,
+        "sample_stdev": 0.0006216335397806608
+      },
+      "preparation_ns": {
+        "mean": 0.03409863826666667,
+        "median": 0.03421483,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.03402896575,
+        "q3": 0.034353514,
+        "sample_stdev": 0.0004188883339236188
+      },
+      "process_elapsed_ns": {
+        "mean": 30.151922301766668,
+        "median": 30.1561355225,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.1367849915,
+        "q3": 30.161614115749998,
+        "sample_stdev": 0.012333768370274185
+      },
+      "reconciliation_ns": {
+        "mean": 0.0030238000666666666,
+        "median": 0.0027685970000000002,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.002657811,
+        "q3": 0.002908838,
+        "sample_stdev": 0.0008119366381909509
+      },
+      "solver_ns": {
+        "mean": 30.0008545682,
+        "median": 30.000878583000002,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.000299131749998,
+        "q3": 30.00129684925,
+        "sample_stdev": 0.0006216335397808909
+      },
+      "total_ns": {
+        "mean": 30.035099404566665,
+        "median": 30.035107781500002,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.03458101225,
+        "q3": 30.03552293425,
+        "sample_stdev": 0.0006708247231698361
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "abc",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "abc-c2",
+    "counters": {
+      "algorithm_counters.employed_improvements": {
+        "mean": 9.8,
+        "median": 9.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 7.0,
+        "q3": 12.0,
+        "sample_stdev": 3.689687399150269
+      },
+      "algorithm_counters.employed_proposals": {
+        "mean": 2145.266666666667,
+        "median": 2148.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 2140.5,
+        "q3": 2156.75,
+        "sample_stdev": 19.15802403844069
+      },
+      "algorithm_counters.onlooker_improvements": {
+        "mean": 9.366666666666667,
+        "median": 9.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 7.25,
+        "q3": 11.0,
+        "sample_stdev": 2.3994731222432595
+      },
+      "algorithm_counters.onlooker_proposals": {
+        "mean": 2134.7,
+        "median": 2140.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 2140.0,
+        "q3": 2140.0,
+        "sample_stdev": 19.589141960755214
+      },
+      "algorithm_counters.scout_abandonments": {
+        "mean": 7.466666666666667,
+        "median": 7.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 6.0,
+        "q3": 8.0,
+        "sample_stdev": 1.736689941821219
+      },
+      "algorithm_counters.scout_renewals": {
+        "mean": 7.466666666666667,
+        "median": 7.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 6.0,
+        "q3": 8.0,
+        "sample_stdev": 1.736689941821219
+      },
+      "algorithm_counters.scout_skips": {
+        "mean": 99.13333333333334,
+        "median": 99.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 99.0,
+        "q3": 100.0,
+        "sample_stdev": 1.591644851508443
+      },
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 4307.433333333333,
+        "median": 4316.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 4308.25,
+        "q3": 4323.5,
+        "sample_stdev": 39.20827088443364
+      },
+      "evaluations_started": {
+        "mean": 4307.433333333333,
+        "median": 4316.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 4308.25,
+        "q3": 4323.5,
+        "sample_stdev": 39.20827088443364
+      },
+      "full_evaluations": {
+        "mean": 4307.433333333333,
+        "median": 4316.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 4308.25,
+        "q3": 4323.5,
+        "sample_stdev": 39.20827088443364
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 106.56666666666666,
+        "median": 107.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 106.25,
+        "q3": 107.0,
+        "sample_stdev": 1.0063019815944514
+      },
+      "restarts": {
+        "mean": 7.466666666666667,
+        "median": 7.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 6.0,
+        "q3": 8.0,
+        "sample_stdev": 1.736689941821219
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 0,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph479",
+    "iteration_unit": "abc_cycle",
+    "max_peak_rss_bytes": 54525952,
+    "outcomes": {
+      "cooperative_timeout": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 30,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.018941108833333335,
+        "median": 0.030020301,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00570164325,
+        "q3": 0.03069676125,
+        "sample_stdev": 0.012720894828191385
+      },
+      "finalization_ns": {
+        "mean": 0.00019680226666666668,
+        "median": 0.0001954985,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0001926995,
+        "q3": 0.00019910325,
+        "sample_stdev": 7.564066968162734e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0031256329666666666,
+        "median": 0.0033670095,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00183360375,
+        "q3": 0.0047377734999999995,
+        "sample_stdev": 0.001811496679122095
+      },
+      "preparation_ns": {
+        "mean": 0.04091911263333334,
+        "median": 0.040877663999999994,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0406933425,
+        "q3": 0.041107977,
+        "sample_stdev": 0.0007078130410934058
+      },
+      "process_elapsed_ns": {
+        "mean": 30.163521034433334,
+        "median": 30.163802571,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.160915339749998,
+        "q3": 30.1665757735,
+        "sample_stdev": 0.00630883532155997
+      },
+      "reconciliation_ns": {
+        "mean": 0.006814518433333333,
+        "median": 0.006291852,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0062651535000000005,
+        "q3": 0.006520971,
+        "sample_stdev": 0.001616972724645352
+      },
+      "solver_ns": {
+        "mean": 30.003125632966665,
+        "median": 30.0033670095,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.00183360375,
+        "q3": 30.004737773499997,
+        "sample_stdev": 0.0018114966791221328
+      },
+      "total_ns": {
+        "mean": 30.044614341,
+        "median": 30.044336666,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.043601953750002,
+        "q3": 30.04641290275,
+        "sample_stdev": 0.0020704583977028683
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "as",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "as-c2",
+    "counters": {
+      "algorithm_counters.construction_steps": {
+        "mean": 9754.033333333333,
+        "median": 9764.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 9728.0,
+        "q3": 9795.25,
+        "sample_stdev": 72.6101937050512
+      },
+      "algorithm_counters.constructions_started": {
+        "mean": 4.0,
+        "median": 4.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 4.0,
+        "q3": 4.0,
+        "sample_stdev": 0.0
+      },
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 3.0,
+        "median": 3.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 3.0,
+        "q3": 3.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_started": {
+        "mean": 3.0,
+        "median": 3.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 3.0,
+        "q3": 3.0,
+        "sample_stdev": 0.0
+      },
+      "full_evaluations": {
+        "mean": 3.0,
+        "median": 3.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 3.0,
+        "q3": 3.0,
+        "sample_stdev": 0.0
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 0,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph479",
+    "iteration_unit": "round",
+    "max_peak_rss_bytes": 83918848,
+    "outcomes": {
+      "cooperative_timeout": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 30,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.0165777287,
+        "median": 0.0061651905,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00578344775,
+        "q3": 0.03078938975,
+        "sample_stdev": 0.012647892293240958
+      },
+      "finalization_ns": {
+        "mean": 0.00020605636666666665,
+        "median": 0.000204493,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0002011465,
+        "q3": 0.00020980425,
+        "sample_stdev": 6.525520412505273e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0002173252,
+        "median": 0.000218176,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00010176374999999999,
+        "q3": 0.00029432899999999997,
+        "sample_stdev": 0.0001305742913386066
+      },
+      "preparation_ns": {
+        "mean": 0.041000839133333335,
+        "median": 0.0409869955,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.04077680225,
+        "q3": 0.04120225525,
+        "sample_stdev": 0.0005450105162082989
+      },
+      "process_elapsed_ns": {
+        "mean": 30.161484266533332,
+        "median": 30.1621974005,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.158727404,
+        "q3": 30.1643800605,
+        "sample_stdev": 0.005432730964196372
+      },
+      "reconciliation_ns": {
+        "mean": 0.006598219200000001,
+        "median": 0.0063377045,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00628560275,
+        "q3": 0.006495035,
+        "sample_stdev": 0.0009015394459902692
+      },
+      "solver_ns": {
+        "mean": 30.0002173252,
+        "median": 30.000218176,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.00010176375,
+        "q3": 30.000294329,
+        "sample_stdev": 0.0001305742913390005
+      },
+      "total_ns": {
+        "mean": 30.041738999333333,
+        "median": 30.041660277,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.04144261775,
+        "q3": 30.04198855525,
+        "sample_stdev": 0.000561261722944057
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "de",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "de-c2",
+    "counters": {
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 1151.5333333333333,
+        "median": 1153.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 1151.0,
+        "q3": 1154.75,
+        "sample_stdev": 5.70379990298865
+      },
+      "evaluations_started": {
+        "mean": 1151.5333333333333,
+        "median": 1153.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 1151.0,
+        "q3": 1154.75,
+        "sample_stdev": 5.70379990298865
+      },
+      "full_evaluations": {
+        "mean": 1151.5333333333333,
+        "median": 1153.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 1151.0,
+        "q3": 1154.75,
+        "sample_stdev": 5.70379990298865
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 55.93333333333333,
+        "median": 56.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 56.0,
+        "q3": 56.0,
+        "sample_stdev": 0.2537081317024624
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 0,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph479",
+    "iteration_unit": "generation",
+    "max_peak_rss_bytes": 55947264,
+    "outcomes": {
+      "cooperative_timeout": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 30,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.0274523646,
+        "median": 0.030127561999999997,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.005880664,
+        "q3": 0.03045136575,
+        "sample_stdev": 0.050218129697924024
+      },
+      "finalization_ns": {
+        "mean": 0.00020267696666666666,
+        "median": 0.0002017785,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.000198202,
+        "q3": 0.00020415375,
+        "sample_stdev": 6.160430988524083e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0083784243,
+        "median": 0.0099577535,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00097350375,
+        "q3": 0.014422322250000001,
+        "sample_stdev": 0.0065783235913392
+      },
+      "preparation_ns": {
+        "mean": 0.040871214266666664,
+        "median": 0.040824307500000004,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0406387385,
+        "q3": 0.0409661355,
+        "sample_stdev": 0.0003849273584885339
+      },
+      "process_elapsed_ns": {
+        "mean": 30.165382502766665,
+        "median": 30.165730932000002,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.1635905885,
+        "q3": 30.16793156975,
+        "sample_stdev": 0.0060542028236345085
+      },
+      "reconciliation_ns": {
+        "mean": 0.006818504866666667,
+        "median": 0.006335824,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00627151775,
+        "q3": 0.0063904015,
+        "sample_stdev": 0.001714109234358541
+      },
+      "solver_ns": {
+        "mean": 30.008378424300002,
+        "median": 30.0099577535,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.00097350375,
+        "q3": 30.01442232225,
+        "sample_stdev": 0.006578323591339228
+      },
+      "total_ns": {
+        "mean": 30.050191798933334,
+        "median": 30.0516135885,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.0432100345,
+        "q3": 30.05610429325,
+        "sample_stdev": 0.006612285484713024
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "ga",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "ga-c2",
+    "counters": {
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 3252.4666666666667,
+        "median": 3253.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 3247.0,
+        "q3": 3259.0,
+        "sample_stdev": 12.853909463884795
+      },
+      "evaluations_started": {
+        "mean": 3252.4666666666667,
+        "median": 3253.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 3247.0,
+        "q3": 3259.0,
+        "sample_stdev": 12.853909463884795
+      },
+      "full_evaluations": {
+        "mean": 3252.4666666666667,
+        "median": 3253.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 3247.0,
+        "q3": 3259.0,
+        "sample_stdev": 12.853909463884795
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 169.56666666666666,
+        "median": 170.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 169.0,
+        "q3": 170.0,
+        "sample_stdev": 0.7738543627276671
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 0,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph479",
+    "iteration_unit": "generation",
+    "max_peak_rss_bytes": 54710272,
+    "outcomes": {
+      "cooperative_timeout": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 30,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.0287925268,
+        "median": 0.0299953735,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00586707125,
+        "q3": 0.030673049,
+        "sample_stdev": 0.058735018854802055
+      },
+      "finalization_ns": {
+        "mean": 0.00018886330000000002,
+        "median": 0.0001863435,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00018393525,
+        "q3": 0.00019214175000000001,
+        "sample_stdev": 7.4172736563445885e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0014552074333333334,
+        "median": 0.0009126259999999999,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.000257701,
+        "q3": 0.00236781125,
+        "sample_stdev": 0.0014974861728928547
+      },
+      "preparation_ns": {
+        "mean": 0.04104293923333333,
+        "median": 0.0409527295,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.04062723975,
+        "q3": 0.041221438250000006,
+        "sample_stdev": 0.0008487765377306602
+      },
+      "process_elapsed_ns": {
+        "mean": 30.162789629066665,
+        "median": 30.163864443,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.160632395,
+        "q3": 30.16629174525,
+        "sample_stdev": 0.006191423245644891
+      },
+      "reconciliation_ns": {
+        "mean": 0.006805951133333333,
+        "median": 0.006410559,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00629232425,
+        "q3": 0.0066743785000000005,
+        "sample_stdev": 0.0013911501693566676
+      },
+      "solver_ns": {
+        "mean": 30.00145520743333,
+        "median": 30.000912626,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.000257701,
+        "q3": 30.00236781125,
+        "sample_stdev": 0.0014974861728929588
+      },
+      "total_ns": {
+        "mean": 30.042836845266667,
+        "median": 30.042406276,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.04162981125,
+        "q3": 30.04371193125,
+        "sample_stdev": 0.0016813201662717592
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "pso",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "pso-c1",
+    "counters": {
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 1155.7333333333333,
+        "median": 1156.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 1154.25,
+        "q3": 1157.75,
+        "sample_stdev": 3.3418282559033496
+      },
+      "evaluations_started": {
+        "mean": 1155.7333333333333,
+        "median": 1156.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 1154.25,
+        "q3": 1157.75,
+        "sample_stdev": 3.3418282559033496
+      },
+      "full_evaluations": {
+        "mean": 1155.7333333333333,
+        "median": 1156.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 1154.25,
+        "q3": 1157.75,
+        "sample_stdev": 3.3418282559033496
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 56.1,
+        "median": 56.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 56.0,
+        "q3": 56.0,
+        "sample_stdev": 0.30512857662936466
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 0,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph479",
+    "iteration_unit": "round",
+    "max_peak_rss_bytes": 54865920,
+    "outcomes": {
+      "cooperative_timeout": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 30,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.013600082866666667,
+        "median": 0.0059023800000000005,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0054013922499999995,
+        "q3": 0.03045728725,
+        "sample_stdev": 0.012373423460938263
+      },
+      "finalization_ns": {
+        "mean": 0.0002076137,
+        "median": 0.000206682,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00020249975,
+        "q3": 0.0002125935,
+        "sample_stdev": 6.4605931037114625e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.006679464600000001,
+        "median": 0.0051133335,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00133706275,
+        "q3": 0.012285227,
+        "sample_stdev": 0.006069289912502976
+      },
+      "preparation_ns": {
+        "mean": 0.04096117316666667,
+        "median": 0.041043611499999993,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.040833584,
+        "q3": 0.041205285499999994,
+        "sample_stdev": 0.0004858504791558872
+      },
+      "process_elapsed_ns": {
+        "mean": 30.165031126633334,
+        "median": 30.1651090925,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.160954277749997,
+        "q3": 30.16914897275,
+        "sample_stdev": 0.009320180633175437
+      },
+      "reconciliation_ns": {
+        "mean": 0.006673404666666666,
+        "median": 0.006410093,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.006279363,
+        "q3": 0.00650346275,
+        "sample_stdev": 0.0012229798404833634
+      },
+      "solver_ns": {
+        "mean": 30.006679464599998,
+        "median": 30.0051133335,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.00133706275,
+        "q3": 30.012285227,
+        "sample_stdev": 0.006069289912502741
+      },
+      "total_ns": {
+        "mean": 30.0479830562,
+        "median": 30.046419201,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.042893959,
+        "q3": 30.053163828000002,
+        "sample_stdev": 0.005961666802580448
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "sa",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "sa-c1",
+    "counters": {
+      "algorithm_counters.accepted_moves": {
+        "mean": 3651.6,
+        "median": 3655.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 3640.5,
+        "q3": 3666.25,
+        "sample_stdev": 17.686152775547317
+      },
+      "algorithm_counters.cooling_steps": {
+        "mean": 73.26666666666667,
+        "median": 73.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 73.0,
+        "q3": 73.75,
+        "sample_stdev": 0.4497764451088036
+      },
+      "algorithm_counters.rejected_moves": {
+        "mean": 41.4,
+        "median": 40.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 33.25,
+        "q3": 49.0,
+        "sample_stdev": 13.301801796541804
+      },
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 3694.7,
+        "median": 3698.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 3690.25,
+        "q3": 3701.75,
+        "sample_stdev": 11.228504368117225
+      },
+      "evaluations_started": {
+        "mean": 3694.7,
+        "median": 3698.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 3690.25,
+        "q3": 3701.75,
+        "sample_stdev": 11.228504368117225
+      },
+      "full_evaluations": {
+        "mean": 3694.7,
+        "median": 3698.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 3690.25,
+        "q3": 3701.75,
+        "sample_stdev": 11.228504368117225
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 3693.0,
+        "median": 3696.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 3688.25,
+        "q3": 3700.5,
+        "sample_stdev": 11.31675596260878
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 0,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph479",
+    "iteration_unit": "move",
+    "max_peak_rss_bytes": 52764672,
+    "outcomes": {
+      "cooperative_timeout": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 30,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.025719949266666667,
+        "median": 0.0060688224999999995,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.005690547749999999,
+        "q3": 0.030595994249999998,
+        "sample_stdev": 0.05173333902464329
+      },
+      "finalization_ns": {
+        "mean": 0.0001879813,
+        "median": 0.000187296,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00018515325,
+        "q3": 0.00018909525,
+        "sample_stdev": 5.33571479327488e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0019926738333333333,
+        "median": 0.0015607525,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0008576982499999999,
+        "q3": 0.00280113925,
+        "sample_stdev": 0.0015237917331282986
+      },
+      "preparation_ns": {
+        "mean": 0.04089897233333333,
+        "median": 0.04088774,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.040601413749999996,
+        "q3": 0.04114058125,
+        "sample_stdev": 0.00045177166516209615
+      },
+      "process_elapsed_ns": {
+        "mean": 30.164507758699997,
+        "median": 30.165553379499997,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.158787271,
+        "q3": 30.16919853375,
+        "sample_stdev": 0.009181735075384098
+      },
+      "reconciliation_ns": {
+        "mean": 0.006865764,
+        "median": 0.006318656000000001,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00627905775,
+        "q3": 0.00642771075,
+        "sample_stdev": 0.001787110568047879
+      },
+      "solver_ns": {
+        "mean": 30.001992673833335,
+        "median": 30.001560752499998,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.00085769825,
+        "q3": 30.00280113925,
+        "sample_stdev": 0.001523791733128365
+      },
+      "total_ns": {
+        "mean": 30.0431399318,
+        "median": 30.0427442505,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.0420014185,
+        "q3": 30.0442427485,
+        "sample_stdev": 0.0014824246598902303
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "abc",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "abc-c2",
+    "counters": {
+      "algorithm_counters.employed_improvements": {
+        "mean": 212.96666666666667,
+        "median": 213.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 203.25,
+        "q3": 220.5,
+        "sample_stdev": 12.949459670083785
+      },
+      "algorithm_counters.employed_proposals": {
+        "mean": 4999.966666666666,
+        "median": 5000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 5000.0,
+        "q3": 5000.0,
+        "sample_stdev": 0.18257418583505536
+      },
+      "algorithm_counters.onlooker_improvements": {
+        "mean": 208.56666666666666,
+        "median": 207.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 202.0,
+        "q3": 215.75,
+        "sample_stdev": 10.31799009207849
+      },
+      "algorithm_counters.onlooker_proposals": {
+        "mean": 4980.0,
+        "median": 4980.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 4980.0,
+        "q3": 4980.0,
+        "sample_stdev": 0.0
+      },
+      "algorithm_counters.scout_abandonments": {
+        "mean": 1.0,
+        "median": 1,
+        "missing": 29,
+        "observed": 1,
+        "q1": 1.0,
+        "q3": 1.0,
+        "sample_stdev": null
+      },
+      "algorithm_counters.scout_renewals": {
+        "mean": 1.0,
+        "median": 1,
+        "missing": 29,
+        "observed": 1,
+        "q1": 1.0,
+        "q3": 1.0,
+        "sample_stdev": null
+      },
+      "algorithm_counters.scout_skips": {
+        "mean": 248.96666666666667,
+        "median": 249.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 249.0,
+        "q3": 249.0,
+        "sample_stdev": 0.18257418583505536
+      },
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_started": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "full_evaluations": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 249.0,
+        "median": 249.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 249.0,
+        "q3": 249.0,
+        "sample_stdev": 0.0
+      },
+      "restarts": {
+        "mean": 0.03333333333333333,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.18257418583505536
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 30,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph48",
+    "iteration_unit": "abc_cycle",
+    "max_peak_rss_bytes": 52207616,
+    "outcomes": {
+      "exhausted": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.018209499299999998,
+        "median": 0.0182016125,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00582272,
+        "q3": 0.030624202,
+        "sample_stdev": 0.01260423760573772
+      },
+      "finalization_ns": {
+        "mean": 5.11972e-05,
+        "median": 5.0551e-05,
+        "missing": 0,
+        "observed": 30,
+        "q1": 4.9877e-05,
+        "q3": 5.1784e-05,
+        "sample_stdev": 2.4831157485485165e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "preparation_ns": {
+        "mean": 0.028261235766666667,
+        "median": 0.028214794,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.028100396,
+        "q3": 0.02849879975,
+        "sample_stdev": 0.00032691617405665354
+      },
+      "process_elapsed_ns": {
+        "mean": 9.015055596066667,
+        "median": 8.9948610435,
+        "missing": 0,
+        "observed": 30,
+        "q1": 8.991306884250001,
+        "q3": 9.030257137,
+        "sample_stdev": 0.0567228559244071
+      },
+      "reconciliation_ns": {
+        "mean": 0.0014728200666666669,
+        "median": 0.0012649165,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00122287625,
+        "q3": 0.0014598372500000002,
+        "sample_stdev": 0.00047348624438570353
+      },
+      "solver_ns": {
+        "mean": 8.873070993533334,
+        "median": 8.857338775,
+        "missing": 0,
+        "observed": 30,
+        "q1": 8.848691088,
+        "q3": 8.8726616165,
+        "sample_stdev": 0.05765711952300409
+      },
+      "total_ns": {
+        "mean": 8.901464576866665,
+        "median": 8.885736037000001,
+        "missing": 0,
+        "observed": 30,
+        "q1": 8.8772965625,
+        "q3": 8.901327769249999,
+        "sample_stdev": 0.05773487741585371
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "as",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "as-c2",
+    "counters": {
+      "algorithm_counters.construction_steps": {
+        "mean": 81486.33333333333,
+        "median": 81656.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 81364.25,
+        "q3": 81910.75,
+        "sample_stdev": 666.7405706162983
+      },
+      "algorithm_counters.constructions_started": {
+        "mean": 242.43333333333334,
+        "median": 243.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 242.0,
+        "q3": 244.0,
+        "sample_stdev": 2.01174711054387
+      },
+      "algorithm_counters.pheromone_deposits": {
+        "mean": 80218.66666666667,
+        "median": 81120.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 81120.0,
+        "q3": 81120.0,
+        "sample_stdev": 2337.2423086183003
+      },
+      "algorithm_counters.pheromone_updates_completed": {
+        "mean": 11.866666666666667,
+        "median": 12.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 12.0,
+        "q3": 12.0,
+        "sample_stdev": 0.3457459036417604
+      },
+      "algorithm_counters.pheromone_updates_started": {
+        "mean": 11.866666666666667,
+        "median": 12.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 12.0,
+        "q3": 12.0,
+        "sample_stdev": 0.3457459036417604
+      },
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 241.43333333333334,
+        "median": 242.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 241.0,
+        "q3": 243.0,
+        "sample_stdev": 2.01174711054387
+      },
+      "evaluations_started": {
+        "mean": 241.43333333333334,
+        "median": 242.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 241.0,
+        "q3": 243.0,
+        "sample_stdev": 2.01174711054387
+      },
+      "full_evaluations": {
+        "mean": 241.43333333333334,
+        "median": 242.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 241.0,
+        "q3": 243.0,
+        "sample_stdev": 2.01174711054387
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 11.866666666666667,
+        "median": 12.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 12.0,
+        "q3": 12.0,
+        "sample_stdev": 0.3457459036417604
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 0,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph48",
+    "iteration_unit": "round",
+    "max_peak_rss_bytes": 47861760,
+    "outcomes": {
+      "cooperative_timeout": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 30,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.030534407033333332,
+        "median": 0.030339253,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.005842207,
+        "q3": 0.03061196125,
+        "sample_stdev": 0.05450530303888727
+      },
+      "finalization_ns": {
+        "mean": 5.345513333333333e-05,
+        "median": 5.3219e-05,
+        "missing": 0,
+        "observed": 30,
+        "q1": 5.1243e-05,
+        "q3": 5.52155e-05,
+        "sample_stdev": 2.668354506941056e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0002014844,
+        "median": 0.000171472,
+        "missing": 0,
+        "observed": 30,
+        "q1": 7.558775e-05,
+        "q3": 0.0002736915,
+        "sample_stdev": 0.00014473519551226098
+      },
+      "preparation_ns": {
+        "mean": 0.028130476466666665,
+        "median": 0.028189137,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.02798768625,
+        "q3": 0.028363996500000002,
+        "sample_stdev": 0.0006173414866253036
+      },
+      "process_elapsed_ns": {
+        "mean": 30.1367598175,
+        "median": 30.133364268500003,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.129842691249998,
+        "q3": 30.1374576895,
+        "sample_stdev": 0.010649163974723482
+      },
+      "reconciliation_ns": {
+        "mean": 0.0014823806666666667,
+        "median": 0.001270735,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.001240218,
+        "q3": 0.0013899685,
+        "sample_stdev": 0.000451787249070754
+      },
+      "solver_ns": {
+        "mean": 30.0002014844,
+        "median": 30.000171471999998,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.00007558775,
+        "q3": 30.0002736915,
+        "sample_stdev": 0.0001447351955120425
+      },
+      "total_ns": {
+        "mean": 30.028457329800002,
+        "median": 30.028497407,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.0282919745,
+        "q3": 30.02868533125,
+        "sample_stdev": 0.0005900024978490351
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "de",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "de-c2",
+    "counters": {
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_started": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "full_evaluations": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 499.0,
+        "median": 499.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 499.0,
+        "q3": 499.0,
+        "sample_stdev": 0.0
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 30,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph48",
+    "iteration_unit": "generation",
+    "max_peak_rss_bytes": 52281344,
+    "outcomes": {
+      "exhausted": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.012317011866666666,
+        "median": 0.0059720945000000004,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.005662916,
+        "q3": 0.024161775499999996,
+        "sample_stdev": 0.011336041111108981
+      },
+      "finalization_ns": {
+        "mean": 4.810073333333333e-05,
+        "median": 4.79495e-05,
+        "missing": 0,
+        "observed": 30,
+        "q1": 4.678075e-05,
+        "q3": 4.8837999999999996e-05,
+        "sample_stdev": 2.1776418586094026e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "preparation_ns": {
+        "mean": 0.028054821466666668,
+        "median": 0.028173909,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.02770338575,
+        "q3": 0.028369936249999998,
+        "sample_stdev": 0.0007412866598459054
+      },
+      "process_elapsed_ns": {
+        "mean": 26.982486765433336,
+        "median": 26.9575121955,
+        "missing": 0,
+        "observed": 30,
+        "q1": 26.901922845999998,
+        "q3": 27.004228243249997,
+        "sample_stdev": 0.11180517635845247
+      },
+      "reconciliation_ns": {
+        "mean": 0.0014043452999999999,
+        "median": 0.0012573164999999998,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00122850125,
+        "q3": 0.0013065127500000002,
+        "sample_stdev": 0.0003918867665942989
+      },
+      "solver_ns": {
+        "mean": 26.84383748353333,
+        "median": 26.819754637,
+        "missing": 0,
+        "observed": 30,
+        "q1": 26.7744917725,
+        "q3": 26.875423511,
+        "sample_stdev": 0.11034636080868504
+      },
+      "total_ns": {
+        "mean": 26.872029942399998,
+        "median": 26.8480108545,
+        "missing": 0,
+        "observed": 30,
+        "q1": 26.802923991249997,
+        "q3": 26.90532097175,
+        "sample_stdev": 0.11056709466279586
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "ga",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "ga-c2",
+    "counters": {
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_started": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "full_evaluations": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 525.0,
+        "median": 525.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 525.0,
+        "q3": 525.0,
+        "sample_stdev": 0.0
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 30,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph48",
+    "iteration_unit": "generation",
+    "max_peak_rss_bytes": 52150272,
+    "outcomes": {
+      "exhausted": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.012599165533333335,
+        "median": 0.0057433835,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.005331757249999999,
+        "q3": 0.0301685935,
+        "sample_stdev": 0.012007624050260452
+      },
+      "finalization_ns": {
+        "mean": 4.6671433333333335e-05,
+        "median": 4.6152499999999996e-05,
+        "missing": 0,
+        "observed": 30,
+        "q1": 4.5171e-05,
+        "q3": 4.738675e-05,
+        "sample_stdev": 2.209883265497623e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "preparation_ns": {
+        "mean": 0.028249163466666668,
+        "median": 0.028264371500000003,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.028112645250000002,
+        "q3": 0.028425046250000002,
+        "sample_stdev": 0.00045635021578386675
+      },
+      "process_elapsed_ns": {
+        "mean": 11.996412061333332,
+        "median": 11.987434633,
+        "missing": 0,
+        "observed": 30,
+        "q1": 11.9570661665,
+        "q3": 12.0374088405,
+        "sample_stdev": 0.04974829616105438
+      },
+      "reconciliation_ns": {
+        "mean": 0.0014506995333333332,
+        "median": 0.0012474545,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00123381025,
+        "q3": 0.001326572,
+        "sample_stdev": 0.00044048635364847945
+      },
+      "solver_ns": {
+        "mean": 11.855082184466665,
+        "median": 11.845143897500002,
+        "missing": 0,
+        "observed": 30,
+        "q1": 11.8248079275,
+        "q3": 11.8814933835,
+        "sample_stdev": 0.04992158809859257
+      },
+      "total_ns": {
+        "mean": 11.883439226399998,
+        "median": 11.8738351115,
+        "missing": 0,
+        "observed": 30,
+        "q1": 11.8532176435,
+        "q3": 11.910324741,
+        "sample_stdev": 0.050060804874268235
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "pso",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "pso-c1",
+    "counters": {
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_started": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "full_evaluations": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 499.0,
+        "median": 499.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 499.0,
+        "q3": 499.0,
+        "sample_stdev": 0.0
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 30,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph48",
+    "iteration_unit": "round",
+    "max_peak_rss_bytes": 51863552,
+    "outcomes": {
+      "exhausted": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.025404924266666667,
+        "median": 0.0059048685,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0056609320000000005,
+        "q3": 0.030524756,
+        "sample_stdev": 0.05677027643355052
+      },
+      "finalization_ns": {
+        "mean": 4.820826666666667e-05,
+        "median": 4.74715e-05,
+        "missing": 0,
+        "observed": 30,
+        "q1": 4.69405e-05,
+        "q3": 4.871975e-05,
+        "sample_stdev": 2.24804699811795e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "preparation_ns": {
+        "mean": 0.028313786366666666,
+        "median": 0.028272316,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.02804643425,
+        "q3": 0.02851283675,
+        "sample_stdev": 0.0007650439420576235
+      },
+      "process_elapsed_ns": {
+        "mean": 26.844769880599998,
+        "median": 26.823419710499998,
+        "missing": 0,
+        "observed": 30,
+        "q1": 26.7875988485,
+        "q3": 26.88352352525,
+        "sample_stdev": 0.11623913460956242
+      },
+      "reconciliation_ns": {
+        "mean": 0.0013397913999999998,
+        "median": 0.001258141,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0012187575,
+        "q3": 0.0013010205000000001,
+        "sample_stdev": 0.0003171663702413
+      },
+      "solver_ns": {
+        "mean": 26.707128710766664,
+        "median": 26.6843345865,
+        "missing": 0,
+        "observed": 30,
+        "q1": 26.643513127,
+        "q3": 26.73982092375,
+        "sample_stdev": 0.11671784863326162
+      },
+      "total_ns": {
+        "mean": 26.735555829866666,
+        "median": 26.7129928725,
+        "missing": 0,
+        "observed": 30,
+        "q1": 26.6718801705,
+        "q3": 26.767925616,
+        "sample_stdev": 0.11710119509233446
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "sa",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "sa-c1",
+    "counters": {
+      "algorithm_counters.accepted_moves": {
+        "mean": 3948.2,
+        "median": 3933.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 3831.25,
+        "q3": 4078.5,
+        "sample_stdev": 204.43064754378784
+      },
+      "algorithm_counters.cooling_steps": {
+        "mean": 199.0,
+        "median": 199.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 199.0,
+        "q3": 199.0,
+        "sample_stdev": 0.0
+      },
+      "algorithm_counters.rejected_moves": {
+        "mean": 6050.8,
+        "median": 6065.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 5920.5,
+        "q3": 6167.75,
+        "sample_stdev": 204.43064754378784
+      },
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_started": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "full_evaluations": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 9999.0,
+        "median": 9999.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 9999.0,
+        "q3": 9999.0,
+        "sample_stdev": 0.0
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 30,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph48",
+    "iteration_unit": "move",
+    "max_peak_rss_bytes": 51843072,
+    "outcomes": {
+      "exhausted": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.016326826733333334,
+        "median": 0.00610516,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.005722574,
+        "q3": 0.03039923,
+        "sample_stdev": 0.0126729688360175
+      },
+      "finalization_ns": {
+        "mean": 4.903906666666666e-05,
+        "median": 4.7526000000000005e-05,
+        "missing": 0,
+        "observed": 30,
+        "q1": 4.63865e-05,
+        "q3": 4.93875e-05,
+        "sample_stdev": 7.509255406098729e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "preparation_ns": {
+        "mean": 0.028429471266666666,
+        "median": 0.0282662815,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0279468565,
+        "q3": 0.02841986225,
+        "sample_stdev": 0.0017346018246738918
+      },
+      "process_elapsed_ns": {
+        "mean": 10.541708211766666,
+        "median": 10.532532955499999,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10.500221018249999,
+        "q3": 10.54016778275,
+        "sample_stdev": 0.11979682139163061
+      },
+      "reconciliation_ns": {
+        "mean": 0.0014883748666666666,
+        "median": 0.001293841,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00124220175,
+        "q3": 0.00158482875,
+        "sample_stdev": 0.00038707715171140764
+      },
+      "solver_ns": {
+        "mean": 10.402860548900001,
+        "median": 10.374943836,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10.36414255575,
+        "q3": 10.41130992225,
+        "sample_stdev": 0.12033552802145298
+      },
+      "total_ns": {
+        "mean": 10.4313973624,
+        "median": 10.4020671275,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10.39260500125,
+        "q3": 10.439396448,
+        "sample_stdev": 0.12045354697043144
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "abc",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "abc-c2",
+    "counters": {
+      "algorithm_counters.employed_improvements": {
+        "mean": 121.0,
+        "median": 121.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 113.25,
+        "q3": 128.5,
+        "sample_stdev": 9.54119923063242
+      },
+      "algorithm_counters.employed_proposals": {
+        "mean": 4998.766666666666,
+        "median": 4999.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 4998.0,
+        "q3": 5000.0,
+        "sample_stdev": 1.1651056880677462
+      },
+      "algorithm_counters.onlooker_improvements": {
+        "mean": 120.16666666666667,
+        "median": 121.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 110.25,
+        "q3": 126.75,
+        "sample_stdev": 11.447280458041442
+      },
+      "algorithm_counters.onlooker_proposals": {
+        "mean": 4980.0,
+        "median": 4980.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 4980.0,
+        "q3": 4980.0,
+        "sample_stdev": 0.0
+      },
+      "algorithm_counters.scout_abandonments": {
+        "mean": 1.7619047619047619,
+        "median": 2,
+        "missing": 9,
+        "observed": 21,
+        "q1": 1.0,
+        "q3": 2.0,
+        "sample_stdev": 0.9952267030562386
+      },
+      "algorithm_counters.scout_renewals": {
+        "mean": 1.7619047619047619,
+        "median": 2,
+        "missing": 9,
+        "observed": 21,
+        "q1": 1.0,
+        "q3": 2.0,
+        "sample_stdev": 0.9952267030562386
+      },
+      "algorithm_counters.scout_skips": {
+        "mean": 247.76666666666668,
+        "median": 248.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 247.0,
+        "q3": 249.0,
+        "sample_stdev": 1.1651056880677462
+      },
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_started": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "full_evaluations": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 249.0,
+        "median": 249.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 249.0,
+        "q3": 249.0,
+        "sample_stdev": 0.0
+      },
+      "restarts": {
+        "mean": 1.2333333333333334,
+        "median": 1.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 2.0,
+        "sample_stdev": 1.1651056880677462
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 30,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph74",
+    "iteration_unit": "abc_cycle",
+    "max_peak_rss_bytes": 47546368,
+    "outcomes": {
+      "exhausted": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.009853850366666667,
+        "median": 0.005807378,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.005642007,
+        "q3": 0.0061285395,
+        "sample_stdev": 0.0095555642296888
+      },
+      "finalization_ns": {
+        "mean": 6.480226666666666e-05,
+        "median": 6.5659e-05,
+        "missing": 0,
+        "observed": 30,
+        "q1": 6.0956249999999994e-05,
+        "q3": 6.7129e-05,
+        "sample_stdev": 3.92237108034847e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "preparation_ns": {
+        "mean": 0.028194744333333334,
+        "median": 0.028177083,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.02807604325,
+        "q3": 0.0283977775,
+        "sample_stdev": 0.00031126592798423185
+      },
+      "process_elapsed_ns": {
+        "mean": 12.414789257299999,
+        "median": 12.409205645499998,
+        "missing": 0,
+        "observed": 30,
+        "q1": 12.40263801025,
+        "q3": 12.439125704999999,
+        "sample_stdev": 0.03711466060497038
+      },
+      "reconciliation_ns": {
+        "mean": 0.0015902610333333332,
+        "median": 0.0015202290000000001,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0014959235,
+        "q3": 0.0015677619999999999,
+        "sample_stdev": 0.00028516654070711195
+      },
+      "solver_ns": {
+        "mean": 12.2701421504,
+        "median": 12.2634566395,
+        "missing": 0,
+        "observed": 30,
+        "q1": 12.25110808775,
+        "q3": 12.29276923725,
+        "sample_stdev": 0.034261511707879055
+      },
+      "total_ns": {
+        "mean": 12.298515929266667,
+        "median": 12.292010321500001,
+        "missing": 0,
+        "observed": 30,
+        "q1": 12.27871324625,
+        "q3": 12.320800533500002,
+        "sample_stdev": 0.034270305481210704
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "as",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "as-c2",
+    "counters": {
+      "algorithm_counters.construction_steps": {
+        "mean": 61107.333333333336,
+        "median": 61209.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 61006.5,
+        "q3": 61397.0,
+        "sample_stdev": 662.4191991498275
+      },
+      "algorithm_counters.constructions_started": {
+        "mean": 133.16666666666666,
+        "median": 133.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 133.0,
+        "q3": 134.0,
+        "sample_stdev": 1.487495774165735
+      },
+      "algorithm_counters.pheromone_deposits": {
+        "mean": 55440.0,
+        "median": 55440.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 55440.0,
+        "q3": 55440.0,
+        "sample_stdev": 0.0
+      },
+      "algorithm_counters.pheromone_updates_completed": {
+        "mean": 6.0,
+        "median": 6.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 6.0,
+        "q3": 6.0,
+        "sample_stdev": 0.0
+      },
+      "algorithm_counters.pheromone_updates_started": {
+        "mean": 6.0,
+        "median": 6.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 6.0,
+        "q3": 6.0,
+        "sample_stdev": 0.0
+      },
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 132.16666666666666,
+        "median": 132.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 132.0,
+        "q3": 133.0,
+        "sample_stdev": 1.487495774165735
+      },
+      "evaluations_started": {
+        "mean": 132.16666666666666,
+        "median": 132.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 132.0,
+        "q3": 133.0,
+        "sample_stdev": 1.487495774165735
+      },
+      "full_evaluations": {
+        "mean": 132.16666666666666,
+        "median": 132.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 132.0,
+        "q3": 133.0,
+        "sample_stdev": 1.487495774165735
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 6.0,
+        "median": 6.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 6.0,
+        "q3": 6.0,
+        "sample_stdev": 0.0
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 0,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph74",
+    "iteration_unit": "round",
+    "max_peak_rss_bytes": 53239808,
+    "outcomes": {
+      "cooperative_timeout": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 30,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.016009914833333333,
+        "median": 0.0061761225,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.005586698500000001,
+        "q3": 0.030454175,
+        "sample_stdev": 0.013000807931148422
+      },
+      "finalization_ns": {
+        "mean": 6.71872e-05,
+        "median": 6.6568e-05,
+        "missing": 0,
+        "observed": 30,
+        "q1": 6.476425000000001e-05,
+        "q3": 6.85575e-05,
+        "sample_stdev": 3.2119487950571326e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0001462705,
+        "median": 0.00010748950000000001,
+        "missing": 0,
+        "observed": 30,
+        "q1": 2.159875e-05,
+        "q3": 0.000273309,
+        "sample_stdev": 0.00013555531346884906
+      },
+      "preparation_ns": {
+        "mean": 0.028232313666666668,
+        "median": 0.028352633500000002,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.02806958825,
+        "q3": 0.02845809325,
+        "sample_stdev": 0.0005142679325931273
+      },
+      "process_elapsed_ns": {
+        "mean": 30.14082710896667,
+        "median": 30.1354625485,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.130383228249997,
+        "q3": 30.1567635105,
+        "sample_stdev": 0.013327689524906592
+      },
+      "reconciliation_ns": {
+        "mean": 0.0018579095333333333,
+        "median": 0.0015574785,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0015073847499999999,
+        "q3": 0.00189148575,
+        "sample_stdev": 0.0005950973306567088
+      },
+      "solver_ns": {
+        "mean": 30.0001462705,
+        "median": 30.000107489500003,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.00002159875,
+        "q3": 30.000273309,
+        "sample_stdev": 0.00013555531346912545
+      },
+      "total_ns": {
+        "mean": 30.0286163443,
+        "median": 30.028688693,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.02854534675,
+        "q3": 30.028865962250002,
+        "sample_stdev": 0.00048619778984135417
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "de",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "de-c2",
+    "counters": {
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 7898.033333333334,
+        "median": 7917.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 7902.0,
+        "q3": 7935.5,
+        "sample_stdev": 91.7626185378313
+      },
+      "evaluations_started": {
+        "mean": 7898.033333333334,
+        "median": 7917.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 7902.0,
+        "q3": 7935.5,
+        "sample_stdev": 91.7626185378313
+      },
+      "full_evaluations": {
+        "mean": 7898.033333333334,
+        "median": 7917.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 7902.0,
+        "q3": 7935.5,
+        "sample_stdev": 91.7626185378313
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 393.3666666666667,
+        "median": 394.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 394.0,
+        "q3": 395.0,
+        "sample_stdev": 4.5218498910049645
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 0,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph74",
+    "iteration_unit": "generation",
+    "max_peak_rss_bytes": 52469760,
+    "outcomes": {
+      "cooperative_timeout": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 30,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.01711719,
+        "median": 0.0089579055,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00567495575,
+        "q3": 0.03054647075,
+        "sample_stdev": 0.012930211870919042
+      },
+      "finalization_ns": {
+        "mean": 5.92731e-05,
+        "median": 5.8846e-05,
+        "missing": 0,
+        "observed": 30,
+        "q1": 5.829975e-05,
+        "q3": 6.092025e-05,
+        "sample_stdev": 1.7011924691937065e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0009602536666666667,
+        "median": 0.0007228355,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00039439625,
+        "q3": 0.00158213125,
+        "sample_stdev": 0.0007409078998279086
+      },
+      "preparation_ns": {
+        "mean": 0.0284669288,
+        "median": 0.0283575875,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0280915085,
+        "q3": 0.02856233675,
+        "sample_stdev": 0.0010960716776082006
+      },
+      "process_elapsed_ns": {
+        "mean": 30.140921188266667,
+        "median": 30.135841282,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.13191300125,
+        "q3": 30.15564687475,
+        "sample_stdev": 0.012895588792500813
+      },
+      "reconciliation_ns": {
+        "mean": 0.0017566224000000001,
+        "median": 0.0015247214999999999,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.001476153,
+        "q3": 0.00159904,
+        "sample_stdev": 0.0005553457101914459
+      },
+      "solver_ns": {
+        "mean": 30.00096025366667,
+        "median": 30.0007228355,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.000394396249998,
+        "q3": 30.00158213125,
+        "sample_stdev": 0.000740907899827758
+      },
+      "total_ns": {
+        "mean": 30.029612508366665,
+        "median": 30.0294140845,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.02881783775,
+        "q3": 30.029797117500003,
+        "sample_stdev": 0.0015112773973641263
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "ga",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "ga-c2",
+    "counters": {
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_started": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "full_evaluations": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 525.0,
+        "median": 525.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 525.0,
+        "q3": 525.0,
+        "sample_stdev": 0.0
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 30,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph74",
+    "iteration_unit": "generation",
+    "max_peak_rss_bytes": 52285440,
+    "outcomes": {
+      "exhausted": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.02105303936666667,
+        "median": 0.030287454,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.005980628,
+        "q3": 0.03056526925,
+        "sample_stdev": 0.01271220433685536
+      },
+      "finalization_ns": {
+        "mean": 5.502303333333333e-05,
+        "median": 5.4653e-05,
+        "missing": 0,
+        "observed": 30,
+        "q1": 5.3796749999999996e-05,
+        "q3": 5.6322e-05,
+        "sample_stdev": 1.7993287346680982e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "preparation_ns": {
+        "mean": 0.028327336133333332,
+        "median": 0.028348454500000002,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.028157263749999998,
+        "q3": 0.02851563925,
+        "sample_stdev": 0.00042791566357803444
+      },
+      "process_elapsed_ns": {
+        "mean": 16.437411744633334,
+        "median": 16.4182594405,
+        "missing": 0,
+        "observed": 30,
+        "q1": 16.41253430375,
+        "q3": 16.45781499175,
+        "sample_stdev": 0.05921599135811042
+      },
+      "reconciliation_ns": {
+        "mean": 0.0016892085666666667,
+        "median": 0.001532982,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.001504777,
+        "q3": 0.0015954682500000001,
+        "sample_stdev": 0.00041534473171660284
+      },
+      "solver_ns": {
+        "mean": 16.297308138966667,
+        "median": 16.2879062505,
+        "missing": 0,
+        "observed": 30,
+        "q1": 16.25920937125,
+        "q3": 16.326685596,
+        "sample_stdev": 0.053237604774379166
+      },
+      "total_ns": {
+        "mean": 16.3257556914,
+        "median": 16.316283785,
+        "missing": 0,
+        "observed": 30,
+        "q1": 16.28776727625,
+        "q3": 16.3553623165,
+        "sample_stdev": 0.053214258212727614
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "pso",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "pso-c1",
+    "counters": {
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 7965.533333333334,
+        "median": 7967.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 7946.0,
+        "q3": 7978.5,
+        "sample_stdev": 22.83936911583145
+      },
+      "evaluations_started": {
+        "mean": 7965.533333333334,
+        "median": 7967.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 7946.0,
+        "q3": 7978.5,
+        "sample_stdev": 22.83936911583145
+      },
+      "full_evaluations": {
+        "mean": 7965.533333333334,
+        "median": 7967.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 7946.0,
+        "q3": 7978.5,
+        "sample_stdev": 22.83936911583145
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 396.8,
+        "median": 397.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 396.0,
+        "q3": 397.0,
+        "sample_stdev": 1.2148506364839742
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 0,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph74",
+    "iteration_unit": "round",
+    "max_peak_rss_bytes": 52088832,
+    "outcomes": {
+      "cooperative_timeout": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 30,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.031157537933333333,
+        "median": 0.030452905500000002,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0059536505,
+        "q3": 0.030816120500000002,
+        "sample_stdev": 0.05202978537770776
+      },
+      "finalization_ns": {
+        "mean": 5.9470666666666666e-05,
+        "median": 5.97395e-05,
+        "missing": 0,
+        "observed": 30,
+        "q1": 5.81875e-05,
+        "q3": 6.039675e-05,
+        "sample_stdev": 2.1207949116949663e-06
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0007049933333333334,
+        "median": 0.0004893715,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.000147159,
+        "q3": 0.00087911025,
+        "sample_stdev": 0.0006654018103079721
+      },
+      "preparation_ns": {
+        "mean": 0.028171674233333333,
+        "median": 0.028203444,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.027987454000000002,
+        "q3": 0.028402172750000003,
+        "sample_stdev": 0.0003514829687338752
+      },
+      "process_elapsed_ns": {
+        "mean": 30.137309269533333,
+        "median": 30.134418457499997,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.131846579749997,
+        "q3": 30.136213667,
+        "sample_stdev": 0.010025993510067823
+      },
+      "reconciliation_ns": {
+        "mean": 0.0019104047333333332,
+        "median": 0.00157545,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0014979292500000001,
+        "q3": 0.0019911994999999997,
+        "sample_stdev": 0.0006258443339448101
+      },
+      "solver_ns": {
+        "mean": 30.000704993333333,
+        "median": 30.000489371500002,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.000147159,
+        "q3": 30.00087911025,
+        "sample_stdev": 0.0006654018103079128
+      },
+      "total_ns": {
+        "mean": 30.0290045839,
+        "median": 30.0290290045,
+        "missing": 0,
+        "observed": 30,
+        "q1": 30.02861989425,
+        "q3": 30.029346303,
+        "sample_stdev": 0.0006304123835359071
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  },
+  {
+    "algorithm": "sa",
+    "binary_sample_stdev": 0.0,
+    "budget": {
+      "max_elapsed_ns": 30000000000,
+      "max_evaluations": 10000,
+      "max_iterations": null
+    },
+    "code_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "config_id": "sa-c1",
+    "counters": {
+      "algorithm_counters.accepted_moves": {
+        "mean": 5570.766666666666,
+        "median": 5560.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 5457.5,
+        "q3": 5683.75,
+        "sample_stdev": 214.5646246726602
+      },
+      "algorithm_counters.cooling_steps": {
+        "mean": 199.0,
+        "median": 199.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 199.0,
+        "q3": 199.0,
+        "sample_stdev": 0.0
+      },
+      "algorithm_counters.rejected_moves": {
+        "mean": 4428.233333333334,
+        "median": 4438.5,
+        "missing": 0,
+        "observed": 30,
+        "q1": 4315.25,
+        "q3": 4541.5,
+        "sample_stdev": 214.5646246726602
+      },
+      "cache_hits": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_completed": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "evaluations_started": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "full_evaluations": {
+        "mean": 10000.0,
+        "median": 10000.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 10000.0,
+        "q3": 10000.0,
+        "sample_stdev": 0.0
+      },
+      "incremental_evaluations": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "iterations_completed": {
+        "mean": 9999.0,
+        "median": 9999.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 9999.0,
+        "q3": 9999.0,
+        "sample_stdev": 0.0
+      },
+      "restarts": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_completed": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "validations_started": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    },
+    "environment_id": "772a1163775274b62dec8cf7aa8d26db8c671e0ec1b4bd630a72a0a5b77547da",
+    "evaluation_censoring": 30,
+    "expected": 30,
+    "f1": null,
+    "final": true,
+    "instance_id": "graph74",
+    "iteration_unit": "move",
+    "max_peak_rss_bytes": 52064256,
+    "outcomes": {
+      "exhausted": 30
+    },
+    "pending": 0,
+    "phase": "evaluation",
+    "precision": null,
+    "provisional_lower_bound_percent": null,
+    "recall": null,
+    "resolved": 30,
+    "success_percent": 0.0,
+    "success_time_seconds": {
+      "mean": null,
+      "median": null,
+      "missing": 0,
+      "observed": 0,
+      "q1": null,
+      "q3": null,
+      "sample_stdev": null
+    },
+    "successes": 0,
+    "temporal_censoring": {
+      "cooperative": 0,
+      "external_process_scope": 0
+    },
+    "timings_seconds": {
+      "capture_write_ns": {
+        "mean": 0.018109362799999997,
+        "median": 0.0200721695,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.00575209625,
+        "q3": 0.03045330325,
+        "sample_stdev": 0.012693288654797907
+      },
+      "finalization_ns": {
+        "mean": 6.01325e-05,
+        "median": 5.73045e-05,
+        "missing": 0,
+        "observed": 30,
+        "q1": 5.588025e-05,
+        "q3": 5.894675e-05,
+        "sample_stdev": 1.4898199288898111e-05
+      },
+      "load_ns": {
+        "mean": null,
+        "median": null,
+        "missing": 30,
+        "observed": 0,
+        "q1": null,
+        "q3": null,
+        "sample_stdev": null
+      },
+      "overrun_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      },
+      "preparation_ns": {
+        "mean": 0.028156719733333335,
+        "median": 0.028245713999999998,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.02803186,
+        "q3": 0.0284153055,
+        "sample_stdev": 0.0006897102042473788
+      },
+      "process_elapsed_ns": {
+        "mean": 14.365021509266667,
+        "median": 14.3530732595,
+        "missing": 0,
+        "observed": 30,
+        "q1": 14.34657517325,
+        "q3": 14.380201960499999,
+        "sample_stdev": 0.03053390497308873
+      },
+      "reconciliation_ns": {
+        "mean": 0.0017512300333333332,
+        "median": 0.0015217985,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0014985822500000001,
+        "q3": 0.00174050075,
+        "sample_stdev": 0.0005034585506469044
+      },
+      "solver_ns": {
+        "mean": 14.223397309233333,
+        "median": 14.2221872915,
+        "missing": 0,
+        "observed": 30,
+        "q1": 14.2019184685,
+        "q3": 14.240334849749999,
+        "sample_stdev": 0.03303339362306733
+      },
+      "total_ns": {
+        "mean": 14.251672202966667,
+        "median": 14.250573603,
+        "missing": 0,
+        "observed": 30,
+        "q1": 14.23015716675,
+        "q3": 14.26796399925,
+        "sample_stdev": 0.033209190309186905
+      },
+      "validation_ns": {
+        "mean": 0.0,
+        "median": 0.0,
+        "missing": 0,
+        "observed": 30,
+        "q1": 0.0,
+        "q3": 0.0,
+        "sample_stdev": 0.0
+      }
+    }
+  }
+]

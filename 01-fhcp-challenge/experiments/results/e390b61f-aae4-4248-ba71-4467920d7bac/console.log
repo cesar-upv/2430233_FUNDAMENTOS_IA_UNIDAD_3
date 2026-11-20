@@ -1,0 +1,16 @@
+{"phase": "smoke", "status": "complete", "batch_id": "3db63fd9-6545-4199-a1ea-cf74bdd50444"}
+{"campaign": "e390b61f-aae4-4248-ba71-4467920d7bac", "status": "incomplete"}
+{"phase": "smoke", "status": "complete", "batch_id": "3db63fd9-6545-4199-a1ea-cf74bdd50444"}
+{"campaign": "e390b61f-aae4-4248-ba71-4467920d7bac", "status": "incomplete"}
+{"phase": "smoke", "status": "complete", "batch_id": "3db63fd9-6545-4199-a1ea-cf74bdd50444"}
+{"phase": "tuning", "status": "complete", "batch_id": "ef9646e3-1985-47b6-8f58-6744b2f70810"}
+{"campaign": "e390b61f-aae4-4248-ba71-4467920d7bac", "status": "incomplete"}
+{"phase": "smoke", "status": "complete", "batch_id": "3db63fd9-6545-4199-a1ea-cf74bdd50444"}
+{"phase": "tuning", "status": "complete", "batch_id": "ef9646e3-1985-47b6-8f58-6744b2f70810"}
+{"campaign": "e390b61f-aae4-4248-ba71-4467920d7bac", "status": "incomplete"}
+{"phase": "smoke", "status": "complete", "batch_id": "3db63fd9-6545-4199-a1ea-cf74bdd50444"}
+{"phase": "tuning", "status": "complete", "batch_id": "ef9646e3-1985-47b6-8f58-6744b2f70810"}
+{"phase": "evaluation", "status": "complete", "batch_id": "67191556-cc8d-4612-9517-e9b4cd0a2340"}
+{"phase": "scale", "status": "complete", "batch_id": "22560abf-18ec-4dab-87a9-8e1141f7ed05"}
+{"phase": "verification", "status": "complete", "batch_id": "311e6dd4-2d47-4775-833d-c2969771094c"}
+{"campaign": "e390b61f-aae4-4248-ba71-4467920d7bac", "status": "complete"}

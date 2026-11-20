@@ -1,0 +1,186 @@
+{
+  "schema_version": "fhcp-m6-delivery-check/1",
+  "checked_at_utc": "2026-11-17T17:53:12.058123+00:00",
+  "checkout_commit": "b83b19ef628712e9e10b9d9d9f5eaedacaa5bcee",
+  "checkout_clean": true,
+  "original_solver_commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+  "platform": "Linux-7.2.9-2-cachyos-x86_64-with-glibc2.44",
+  "python": "3.14.10 (main, Nov  9 2026, 00:42:56) [GCC 16.2.1 20260810]",
+  "archive_origin": "Original local backups supplied by the campaign owner",
+  "archive_index_sha256": "eb45aa61c77844345adcc96f5bdd3bad9159a191290b5f485b058b29eddb3e4d",
+  "archives_restored": 5,
+  "archive_members": 6379,
+  "verification": {
+    "attempts": 1044,
+    "candidates": 1014,
+    "without_candidate": 30,
+    "successes_recertified": 0,
+    "verification_pairs_equal": 6
+  },
+  "analysis_comparisons": [
+    {
+      "phase": "smoke",
+      "byte_identical_data_files": [
+        "summary.json",
+        "attempts.json",
+        "summary.csv",
+        "attempts.csv",
+        "durations.csv",
+        "counters.csv",
+        "outcomes.csv"
+      ],
+      "figures_generated": 4,
+      "attempts": 12
+    },
+    {
+      "phase": "tuning",
+      "byte_identical_data_files": [
+        "summary.json",
+        "attempts.json",
+        "summary.csv",
+        "attempts.csv",
+        "durations.csv",
+        "counters.csv",
+        "outcomes.csv"
+      ],
+      "figures_generated": 4,
+      "attempts": 120
+    },
+    {
+      "phase": "evaluation",
+      "byte_identical_data_files": [
+        "summary.json",
+        "attempts.json",
+        "summary.csv",
+        "attempts.csv",
+        "durations.csv",
+        "counters.csv",
+        "outcomes.csv"
+      ],
+      "figures_generated": 8,
+      "attempts": 720
+    },
+    {
+      "phase": "scale",
+      "byte_identical_data_files": [
+        "summary.json",
+        "attempts.json",
+        "summary.csv",
+        "attempts.csv",
+        "durations.csv",
+        "counters.csv",
+        "outcomes.csv"
+      ],
+      "figures_generated": 2,
+      "attempts": 180
+    },
+    {
+      "phase": "verification",
+      "byte_identical_data_files": [
+        "summary.json",
+        "attempts.json",
+        "summary.csv",
+        "attempts.csv",
+        "durations.csv",
+        "counters.csv",
+        "outcomes.csv"
+      ],
+      "figures_generated": 2,
+      "attempts": 12
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "$SOURCE_CHECKOUT/.venv/bin/python",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "exit_code": 0,
+      "stdout": "No broken requirements found.",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "$SOURCE_CHECKOUT/.venv/bin/python",
+        "-m",
+        "src.cli.benchmark_archive",
+        "restore",
+        "experiments/results/e390b61f-aae4-4248-ba71-4467920d7bac/archive-index-732914c2-7124-4bf1-bd13-b7ec6ce60a9e.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"restored\": [\"67191556-cc8d-4612-9517-e9b4cd0a2340\", \"22560abf-18ec-4dab-87a9-8e1141f7ed05\", \"3db63fd9-6545-4199-a1ea-cf74bdd50444\", \"ef9646e3-1985-47b6-8f58-6744b2f70810\", \"311e6dd4-2d47-4775-833d-c2969771094c\"]}",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "$SOURCE_CHECKOUT/.venv/bin/python",
+        "-m",
+        "src.cli.benchmark_analysis",
+        "experiments/results/3db63fd9-6545-4199-a1ea-cf74bdd50444/manifest.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"analysis\": \"$VERIFICATION_CHECKOUT/experiments/results/3db63fd9-6545-4199-a1ea-cf74bdd50444/analyses/19dc19fc-70cc-468c-af06-610365e7c44c\", \"final\": true}",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "$SOURCE_CHECKOUT/.venv/bin/python",
+        "-m",
+        "src.cli.benchmark_analysis",
+        "experiments/results/ef9646e3-1985-47b6-8f58-6744b2f70810/manifest.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"analysis\": \"$VERIFICATION_CHECKOUT/experiments/results/ef9646e3-1985-47b6-8f58-6744b2f70810/analyses/2cdf3e16-fda5-4962-8af4-b2339ad6825d\", \"final\": true}",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "$SOURCE_CHECKOUT/.venv/bin/python",
+        "-m",
+        "src.cli.benchmark_analysis",
+        "experiments/results/67191556-cc8d-4612-9517-e9b4cd0a2340/manifest.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"analysis\": \"$VERIFICATION_CHECKOUT/experiments/results/67191556-cc8d-4612-9517-e9b4cd0a2340/analyses/2e822b17-424c-4e9c-b432-76097dd468b9\", \"final\": true}",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "$SOURCE_CHECKOUT/.venv/bin/python",
+        "-m",
+        "src.cli.benchmark_analysis",
+        "experiments/results/22560abf-18ec-4dab-87a9-8e1141f7ed05/manifest.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"analysis\": \"$VERIFICATION_CHECKOUT/experiments/results/22560abf-18ec-4dab-87a9-8e1141f7ed05/analyses/8e053150-7606-420c-86ed-8e6972fbeda5\", \"final\": true}",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "$SOURCE_CHECKOUT/.venv/bin/python",
+        "-m",
+        "src.cli.benchmark_analysis",
+        "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/manifest.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"analysis\": \"$VERIFICATION_CHECKOUT/experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/analyses/b614f5eb-585f-4f89-8671-1c4ead7ced74\", \"final\": true}",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "$SOURCE_CHECKOUT/.venv/bin/python",
+        "-c",
+        "import json\nfrom pathlib import Path\nfrom src.graphs import load_fhcp_graph\nfrom src.evaluation import evaluate_cost,validate_cycle\nfrom src.cli.benchmark_campaign import verify_repeats\nstate=json.loads(Path('experiments/results/e390b61f-aae4-4248-ba71-4467920d7bac/manifest.json').read_text());graphs={};counts={'attempts':0,'candidates':0,'without_candidate':0,'successes_recertified':0}\nfor info in state['phases'].values():\n for attempt in json.loads((Path(info['analysis_path'])/'attempts.json').read_text()):\n  record=json.loads(Path(attempt['record_path']).read_text());result=record['result'];counts['attempts']+=1\n  route=result['best_route']\n  if route is None:counts['without_candidate']+=1;continue\n  identifier=record['instance']['id']\n  if identifier not in graphs:graphs[identifier]=load_fhcp_graph(identifier)\n  graph=graphs[identifier];cost=evaluate_cost(graph,route);validation=validate_cycle(graph,route)\n  assert cost==result['best_cost'];assert validation.valid==(cost==0);counts['candidates']+=1\n  if result['success_within_budget']:assert validation.valid;counts['successes_recertified']+=1\ncounts['verification_pairs_equal']=len(verify_repeats(Path.cwd(),Path(state['phases']['verification']['manifest_path'])))\nprint(json.dumps(counts))"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"attempts\": 1044, \"candidates\": 1014, \"without_candidate\": 30, \"successes_recertified\": 0, \"verification_pairs_equal\": 6}",
+      "stderr": ""
+    }
+  ],
+  "limitations": [
+    "No new stochastic solver runs; no requirement of identical execution times.",
+    "Zero campaign successes: recertification set is empty; all available candidates were revalidated."
+  ]
+}

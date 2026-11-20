@@ -1,0 +1,60 @@
+name: Algorithms and CLI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: algorithms-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  algorithms:
+    name: Algorithms (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, windows-2025]
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+      PYTHONUTF8: '1'
+    steps:
+      - name: Preserve repository payload bytes
+        run: git config --global core.autocrlf false
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7
+        with:
+          python-version-file: .python-version
+          architecture: x64
+          cache: pip
+          cache-dependency-path: requirements*.txt
+      - name: Install pinned dependencies
+        run: >-
+          python -m pip --isolated install --only-binary=:all: -r requirements-dev.txt
+      - name: Check dependencies
+        run: python -m pip check
+      - name: Test graphs, solvers and CLI
+        run: >-
+          python -m pytest -q -W error
+          tests/test_environment.py tests/test_graph.py tests/test_routes.py
+          tests/test_readers.py tests/test_fhcp_selection.py tests/test_fhcp_integration.py
+          tests/test_cost.py tests/test_cycle_validation.py tests/test_solver_execution.py
+          tests/test_permutation_operators.py tests/test_real_keys.py
+          tests/test_genetic.py tests/test_ga_reproducibility.py tests/test_annealing.py
+          tests/test_ant_system.py tests/test_abc.py tests/test_differential.py
+          tests/test_particle_swarm.py tests/test_graph_guidance.py
+          tests/test_search_enhancements.py tests/test_solver_time_only.py
+          tests/test_ga_cli.py tests/test_solver_cli.py tests/test_m5_integration.py
+          tests/test_distributed_campaign.py

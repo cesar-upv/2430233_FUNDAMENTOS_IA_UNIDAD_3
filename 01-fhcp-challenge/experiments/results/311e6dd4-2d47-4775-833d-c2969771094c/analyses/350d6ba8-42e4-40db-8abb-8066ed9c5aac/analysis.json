@@ -1,0 +1,335 @@
+{
+  "analysis_code": {
+    "commit": "22994034acb6eb4232fb72489758b6092cb0c626",
+    "dirty": false,
+    "patch_sha256": null
+  },
+  "analysis_environment": {
+    "architecture": "x86_64",
+    "concurrent_workload": null,
+    "cpu": null,
+    "dependencies": {
+      "Pygments": "2.21.0",
+      "contourpy": "1.4.0",
+      "cycler": "0.12.1",
+      "fonttools": "4.68.0",
+      "iniconfig": "2.3.1",
+      "kiwisolver": "1.5.1",
+      "matplotlib": "3.11.2",
+      "numpy": "2.5.4",
+      "packaging": "26.3",
+      "pillow": "13.0.0",
+      "pip": "26.3",
+      "pluggy": "1.7.0",
+      "pyparsing": "3.3.3",
+      "pytest": "9.2.0",
+      "python-dateutil": "4.0.0",
+      "tzdata": "2026.6"
+    },
+    "native_threads": null,
+    "os": "Linux-7.2.9-2-cachyos-x86_64-with-glibc2.44",
+    "python_implementation": "CPython",
+    "python_version": "3.14.10",
+    "ram_bytes": 33293524992,
+    "workers": 1
+  },
+  "analysis_modules": {
+    "src/cli/benchmark_analysis.py": "bc02ba9b26f07d95a601db8652ee88047a77359f13f638f718a6aaa54ec1dc56",
+    "src/evaluation/benchmark.py": "a5a214aee467279839f1b56b79fb6ff612cd698f4ace56e554ecc1748cf8b12d"
+  },
+  "batch_id": "311e6dd4-2d47-4775-833d-c2969771094c",
+  "command": [
+    "/home/arturo/projects/FHCP-Challenge/.venv/bin/python",
+    "-m",
+    "src.cli.benchmark_analysis",
+    "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/manifest.json"
+  ],
+  "configuration": {
+    "attempt_policy": "first_started_primary",
+    "duration_unit": "seconds",
+    "missing": "null",
+    "quartiles": "linear_n_minus_1",
+    "variability": "sample_n_minus_1"
+  },
+  "created_at_utc": "2026-11-13T11:43:19.934202+00:00",
+  "final": true,
+  "inputs": [
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/manifest.json",
+      "sha256": "afccb034369691bedfee6cc23f6a5ec9f7cee84e01e0c859615da4906a0c686e"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/inputs/protocol.md",
+      "role": "protocol",
+      "sha256": "a83dc3b6c3773c3df5a086ce187cdaac83057899c4047792d228c44d3067ae73"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/inputs/benchmark-v3.json",
+      "role": "config",
+      "sha256": "a2d24cd2f6207d1d3c8fe34ff9602f48c0dab18288ab026ebdcd095cb8c0b342"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/inputs/fhcp-instances.json",
+      "role": "dataset_manifest",
+      "sha256": "a1660efc404c310670ea86cab0fa8376866bfdde18e9b632118ed0bf9c1e4547"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/inputs/protocol-base.md",
+      "role": "protocol_base",
+      "sha256": "13ffd8fe8e8494c39c68c413e5f052b91a0423107d91a55ae466c675afb51e0a"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/inputs/freeze.json",
+      "role": "freeze",
+      "sha256": "df645a9a99c2ca5d9203764461d8c90ae3450df57ab45af484445144931057f7"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/554cafac-bd9f-40ec-aa0a-8bce91912f79/cli/5e08c4aa-5327-404f-85c6-16ee32e6e05a/run.json",
+      "sha256": "0207cef06321305e3f5880a8166c91fd704ed48ee9f7bbd173399576f8b758ff"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/554cafac-bd9f-40ec-aa0a-8bce91912f79/process.json",
+      "sha256": "e67eaa054ec7c9de9f83e1b46d25ea1675c3cb10e82395584f829389fc836e9b"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/554cafac-bd9f-40ec-aa0a-8bce91912f79/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/554cafac-bd9f-40ec-aa0a-8bce91912f79/stdout.txt",
+      "sha256": "0207cef06321305e3f5880a8166c91fd704ed48ee9f7bbd173399576f8b758ff"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/b89363d2-4316-4389-a48e-f5e9555133f0/cli/3c01dcd3-98fc-49ca-9a90-574a90039e91/run.json",
+      "sha256": "821627f99d3bdc3a2ece49fb02045bc9855d17dbdd6b4e6db1831f7546e79623"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/b89363d2-4316-4389-a48e-f5e9555133f0/process.json",
+      "sha256": "6029f7585c7ee65e82964b1e97ec379d05d0c6d603afde0ba99edc9b9bd71f69"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/b89363d2-4316-4389-a48e-f5e9555133f0/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/b89363d2-4316-4389-a48e-f5e9555133f0/stdout.txt",
+      "sha256": "821627f99d3bdc3a2ece49fb02045bc9855d17dbdd6b4e6db1831f7546e79623"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/8784ceb0-9ed4-4242-bae8-61ef28b2e3ca/cli/732fc141-88ac-42f7-94ce-eef6f4e8c78a/run.json",
+      "sha256": "707bae7be59c6ab4b46cacf3bbf94af780166fb5ed07c7699e0a1631e900fbd4"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/8784ceb0-9ed4-4242-bae8-61ef28b2e3ca/process.json",
+      "sha256": "252e09ba6548d305c33dbf397a3d05611a4cabf9d431e3a97ba7d4ea55013a0f"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/8784ceb0-9ed4-4242-bae8-61ef28b2e3ca/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/8784ceb0-9ed4-4242-bae8-61ef28b2e3ca/stdout.txt",
+      "sha256": "707bae7be59c6ab4b46cacf3bbf94af780166fb5ed07c7699e0a1631e900fbd4"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/812dc0f3-24db-44cf-9654-6b66341bfad9/cli/8797b981-fbf1-4d4c-94cf-239c949c2cc4/run.json",
+      "sha256": "f3ce86284ba7ad896b4511af392feb02e58adb4affa3577714657072cc4af78e"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/812dc0f3-24db-44cf-9654-6b66341bfad9/process.json",
+      "sha256": "39904a450c8b6a62197da34b7d9a5a7a5c8c9e1f6e17e5e335b47d76267030c8"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/812dc0f3-24db-44cf-9654-6b66341bfad9/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/812dc0f3-24db-44cf-9654-6b66341bfad9/stdout.txt",
+      "sha256": "f3ce86284ba7ad896b4511af392feb02e58adb4affa3577714657072cc4af78e"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/b7f32d00-f725-48da-8ae5-83b02d783cf2/cli/067a98e5-47ba-47e0-a628-368f704e7213/run.json",
+      "sha256": "a9dd167f16c5b5935bf43e719f7dbcf9e2cab5eafb27460551f6e5fb8d16257a"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/b7f32d00-f725-48da-8ae5-83b02d783cf2/process.json",
+      "sha256": "2ffb654e3b7a49d2302fe6fb8d8fa1342f31e91247d45de5373e9e5b9b0fb5ef"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/b7f32d00-f725-48da-8ae5-83b02d783cf2/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/b7f32d00-f725-48da-8ae5-83b02d783cf2/stdout.txt",
+      "sha256": "a9dd167f16c5b5935bf43e719f7dbcf9e2cab5eafb27460551f6e5fb8d16257a"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/e80cd888-d172-4669-b0ab-559d88718f56/cli/82761694-2776-4c34-ac8a-207aef7f0799/run.json",
+      "sha256": "28199caa71eeca17da7a15151b1d217214d84b09abbcbe0cf4bca39fc5f0ca19"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/e80cd888-d172-4669-b0ab-559d88718f56/process.json",
+      "sha256": "27932d244a9a01dd27a74f75e1c74547c16271e8c9439b062d176a6b40bf5429"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/e80cd888-d172-4669-b0ab-559d88718f56/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/e80cd888-d172-4669-b0ab-559d88718f56/stdout.txt",
+      "sha256": "28199caa71eeca17da7a15151b1d217214d84b09abbcbe0cf4bca39fc5f0ca19"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/1e4aceae-c433-4dc2-8f9c-68130b3010c7/cli/5c75cd23-f303-41ce-8e15-bdb27b5c3c29/run.json",
+      "sha256": "0fe94747be8be9beae61b8ae3a74364caf30d840e5abb77513a141e6f99c680c"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/1e4aceae-c433-4dc2-8f9c-68130b3010c7/process.json",
+      "sha256": "376c620c703e44c663cb86ea86750470f80d7ba8d520fd78576ba0b481715c51"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/1e4aceae-c433-4dc2-8f9c-68130b3010c7/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/1e4aceae-c433-4dc2-8f9c-68130b3010c7/stdout.txt",
+      "sha256": "0fe94747be8be9beae61b8ae3a74364caf30d840e5abb77513a141e6f99c680c"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/ee0633d4-5a5d-4cc7-9e3d-5052eb7d60b9/cli/41997a16-6ccb-48bd-b0e5-976510318b93/run.json",
+      "sha256": "ec29d0de5b3b8186e03aae7d781d9a8999d03afe16f71f43d35312a973c10459"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/ee0633d4-5a5d-4cc7-9e3d-5052eb7d60b9/process.json",
+      "sha256": "798dc969979b905967cf999652130ca290c5810431877dbaf89d659fd7e9b94d"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/ee0633d4-5a5d-4cc7-9e3d-5052eb7d60b9/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/ee0633d4-5a5d-4cc7-9e3d-5052eb7d60b9/stdout.txt",
+      "sha256": "ec29d0de5b3b8186e03aae7d781d9a8999d03afe16f71f43d35312a973c10459"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/12e03e9b-68bd-4da2-90de-0d6f532b68f1/cli/9428b109-9fee-46d4-af21-b61f89af00bd/run.json",
+      "sha256": "ccd11e6289560460f1f350c12e38ed962c30ea3f8eb95b6fd224ac3b914022bc"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/12e03e9b-68bd-4da2-90de-0d6f532b68f1/process.json",
+      "sha256": "a22b5bc54eb3a5c2a23b68f29d059a5ee2c3787957eb5059aa7332880c41c8c8"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/12e03e9b-68bd-4da2-90de-0d6f532b68f1/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/12e03e9b-68bd-4da2-90de-0d6f532b68f1/stdout.txt",
+      "sha256": "ccd11e6289560460f1f350c12e38ed962c30ea3f8eb95b6fd224ac3b914022bc"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/f1ec7fdb-6e84-4d00-ae65-9c28d1b0abeb/cli/e82e0285-71af-4e4f-90fb-8837cf3c36e3/run.json",
+      "sha256": "7524c18d9d03f049bf82005cccce320c8e16000cbed26951161d44085025ac28"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/f1ec7fdb-6e84-4d00-ae65-9c28d1b0abeb/process.json",
+      "sha256": "49de08ad06ba6dff897908579bce379f4ba5ea894782343f19a34a3fcff22886"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/f1ec7fdb-6e84-4d00-ae65-9c28d1b0abeb/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/f1ec7fdb-6e84-4d00-ae65-9c28d1b0abeb/stdout.txt",
+      "sha256": "7524c18d9d03f049bf82005cccce320c8e16000cbed26951161d44085025ac28"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/82a4acc8-eb57-4abc-978f-2485503f6849/cli/c9037801-c179-4975-b45f-b4107451c634/run.json",
+      "sha256": "e415d470f279fafacb9be933d0e196a307ebe2747bb6a8df6930564eb6fa018b"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/82a4acc8-eb57-4abc-978f-2485503f6849/process.json",
+      "sha256": "c152f1b610e23bf827e9e8f670e2eceefc765efcb71372bd1df11adb782c331a"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/82a4acc8-eb57-4abc-978f-2485503f6849/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/82a4acc8-eb57-4abc-978f-2485503f6849/stdout.txt",
+      "sha256": "e415d470f279fafacb9be933d0e196a307ebe2747bb6a8df6930564eb6fa018b"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/d96d21b2-cd6b-4e8a-9af2-fe6d3ea979bb/cli/3928ade7-72b7-415f-b015-66462d958e4a/run.json",
+      "sha256": "51c5081bec78e0a472324b5a73c610270b8c4da684c60c6a7e9718e55defed95"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/d96d21b2-cd6b-4e8a-9af2-fe6d3ea979bb/process.json",
+      "sha256": "d1977a92d82c942d22f084a2ea4a2ff7e2bf718ddb5cc708fafa9fbb6a6d4877"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/d96d21b2-cd6b-4e8a-9af2-fe6d3ea979bb/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/results/311e6dd4-2d47-4775-833d-c2969771094c/attempts/d96d21b2-cd6b-4e8a-9af2-fe6d3ea979bb/stdout.txt",
+      "sha256": "51c5081bec78e0a472324b5a73c610270b8c4da684c60c6a7e9718e55defed95"
+    }
+  ],
+  "missing_metadata": [
+    {
+      "field": "environment.cpu",
+      "reason": "Python did not report a processor identifier."
+    },
+    {
+      "field": "environment.native_threads",
+      "reason": "Native library threads were not measured."
+    },
+    {
+      "field": "environment.concurrent_workload",
+      "reason": "Other processes were not sampled."
+    }
+  ],
+  "outputs": [
+    {
+      "path": "attempts.csv",
+      "sha256": "f846a26b331a0e878939c566588190e9ce1d8c67a827bf7404d8a9a373bf5d22"
+    },
+    {
+      "path": "attempts.json",
+      "sha256": "92d5923c5fc7efede1aff55421eda69d4723787bf76c37e697487f3a9239e043"
+    },
+    {
+      "path": "counters.csv",
+      "sha256": "3fe4542587bca5b8a276f2a5d60e2719a6f5ae4b2f45c8623a9084cff20f7635"
+    },
+    {
+      "path": "durations.csv",
+      "sha256": "8877476aaad4f3bf5cfc87c9c38522926c24ad51c3b1abb00c7b3d68e64147f3"
+    },
+    {
+      "path": "graph1.png",
+      "sha256": "8ede59a44304148e01dd31dd3850e6935cad09c45d4e7b68e766f30bd1e4d7be"
+    },
+    {
+      "path": "graph1.svg",
+      "sha256": "dbc698e9b9ce54c1fccc30ff101432c5ffa21a6c214f28ba9e41db7465869b2a"
+    },
+    {
+      "path": "outcomes.csv",
+      "sha256": "765adb039399b58bdfcb0515e1357fef3056e566e59607616a8dc71628d07817"
+    },
+    {
+      "path": "summary.csv",
+      "sha256": "56a12732aeaa0d5e0d0f32d872e34b2b30000c2528f50a3ab17937133428d79c"
+    },
+    {
+      "path": "summary.json",
+      "sha256": "6305877b399dc0085b1863ff8982db0a952f83f976e77a05ee0aa2f8036c7859"
+    }
+  ],
+  "phase": "verification",
+  "precision_recall_f1": "N/A: search does not predict a negative FHCP class",
+  "protocol_id": "fhcp-m6-v3",
+  "schema_version": "fhcp-benchmark-analysis/1"
+}

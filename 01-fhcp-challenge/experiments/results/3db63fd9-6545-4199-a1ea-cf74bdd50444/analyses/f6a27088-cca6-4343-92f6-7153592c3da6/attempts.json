@@ -1,0 +1,782 @@
+[
+  {
+    "attempt_id": "d6fa57a5-28a5-45b6-b399-e5424d743a13",
+    "batch_id": "3db63fd9-6545-4199-a1ea-cf74bdd50444",
+    "censoring": {
+      "scope": "evaluations",
+      "threshold": 20
+    },
+    "config_id": "ga-c1",
+    "counters": {
+      "algorithm_counters": {},
+      "cache_hits": 0,
+      "evaluations_completed": 20,
+      "evaluations_started": 20,
+      "full_evaluations": 20,
+      "incremental_evaluations": 0,
+      "iteration_unit": "generation",
+      "iterations_completed": 0,
+      "partial_iteration": null,
+      "restarts": 0,
+      "validations_completed": 0,
+      "validations_started": 0
+    },
+    "identity": {
+      "algorithm": "ga",
+      "budget": {
+        "max_elapsed_ns": 5000000000,
+        "max_evaluations": 20,
+        "max_iterations": null
+      },
+      "configuration_sha256": "59a1cc3d3d223c4674c79892156614d172918350b9f4e1a3db2adbc7a71a867f",
+      "external_timeout_ns": 120000000000,
+      "instance_id": "graph1",
+      "instance_sha256": "124c185cebd9782e037bf16c88cb26002352e10e3ab634bf51ff481296c2e0b2",
+      "phase": "smoke",
+      "protocol_id": "fhcp-m6-v3",
+      "seed_decimal": "17",
+      "variant": "generational_ox_swap_v1"
+    },
+    "issues": [],
+    "iteration_unit": "generation",
+    "normalized_cost": 0.8787878787878788,
+    "outcome": "exhausted",
+    "peak_rss_bytes": 44703744,
+    "record_path": "experiments/results/3db63fd9-6545-4199-a1ea-cf74bdd50444/attempts/d6fa57a5-28a5-45b6-b399-e5424d743a13/cli/8339d04e-1f11-419e-b8bf-fd00f53d53e2/run.json",
+    "record_sha256": "84ba992488a08daba950288d442a159906fa7427068fbb36977efc6daae057fe",
+    "resolved": true,
+    "role": "primary",
+    "run_id": "8339d04e-1f11-419e-b8bf-fd00f53d53e2",
+    "timings": {
+      "capture_write_ns": 5201667,
+      "finalization_ns": 22848,
+      "first_success_ns": null,
+      "load_ns": null,
+      "overrun_ns": 0,
+      "preparation_ns": 27683049,
+      "process_elapsed_ns": 164880048,
+      "reconciliation_ns": 675375,
+      "solver_ns": 7335052,
+      "total_ns": 35088725,
+      "validation_ns": 0
+    },
+    "trial_id": "c1bb215e6c0bd588e3724b1aa8881a8955f3c6343ac61137d619c970c1ba8ec9"
+  },
+  {
+    "attempt_id": "fc340a4e-76ff-4d2f-8ff1-4230d8c64d53",
+    "batch_id": "3db63fd9-6545-4199-a1ea-cf74bdd50444",
+    "censoring": {
+      "scope": "evaluations",
+      "threshold": 20
+    },
+    "config_id": "abc-c1",
+    "counters": {
+      "algorithm_counters": {},
+      "cache_hits": 0,
+      "evaluations_completed": 20,
+      "evaluations_started": 20,
+      "full_evaluations": 20,
+      "incremental_evaluations": 0,
+      "iteration_unit": "abc_cycle",
+      "iterations_completed": 0,
+      "partial_iteration": null,
+      "restarts": 0,
+      "validations_completed": 0,
+      "validations_started": 0
+    },
+    "identity": {
+      "algorithm": "abc",
+      "budget": {
+        "max_elapsed_ns": 5000000000,
+        "max_evaluations": 20,
+        "max_iterations": null
+      },
+      "configuration_sha256": "afde5b5312b39b0c6d24dc9ec92772fa6149bf6e6427d28ce976ea49d811075d",
+      "external_timeout_ns": 120000000000,
+      "instance_id": "graph1",
+      "instance_sha256": "124c185cebd9782e037bf16c88cb26002352e10e3ab634bf51ff481296c2e0b2",
+      "phase": "smoke",
+      "protocol_id": "fhcp-m6-v3",
+      "seed_decimal": "17",
+      "variant": "sequential_partner_swap_v1"
+    },
+    "issues": [],
+    "iteration_unit": "abc_cycle",
+    "normalized_cost": 0.8787878787878788,
+    "outcome": "exhausted",
+    "peak_rss_bytes": 44580864,
+    "record_path": "experiments/results/3db63fd9-6545-4199-a1ea-cf74bdd50444/attempts/fc340a4e-76ff-4d2f-8ff1-4230d8c64d53/cli/0fa24ed0-1b86-4109-9035-ae31d980028d/run.json",
+    "record_sha256": "349015856f80d65153a52d2ec4ad494e8b67b5fba75f80a7d252e3d9b4c6e222",
+    "resolved": true,
+    "role": "primary",
+    "run_id": "0fa24ed0-1b86-4109-9035-ae31d980028d",
+    "timings": {
+      "capture_write_ns": 5224848,
+      "finalization_ns": 22081,
+      "first_success_ns": null,
+      "load_ns": null,
+      "overrun_ns": 0,
+      "preparation_ns": 25871885,
+      "process_elapsed_ns": 132560426,
+      "reconciliation_ns": 628748,
+      "solver_ns": 6999128,
+      "total_ns": 32933716,
+      "validation_ns": 0
+    },
+    "trial_id": "f27f9628740cafdeecb95249925a840f7453862c73560279b7848206df898556"
+  },
+  {
+    "attempt_id": "2edc90c9-24b1-44a1-af13-956f26c0758f",
+    "batch_id": "3db63fd9-6545-4199-a1ea-cf74bdd50444",
+    "censoring": {
+      "scope": "evaluations",
+      "threshold": 20
+    },
+    "config_id": "pso-c1",
+    "counters": {
+      "algorithm_counters": {},
+      "cache_hits": 0,
+      "evaluations_completed": 20,
+      "evaluations_started": 20,
+      "full_evaluations": 20,
+      "incremental_evaluations": 0,
+      "iteration_unit": "round",
+      "iterations_completed": 0,
+      "partial_iteration": null,
+      "restarts": 0,
+      "validations_completed": 0,
+      "validations_started": 0
+    },
+    "identity": {
+      "algorithm": "pso",
+      "budget": {
+        "max_elapsed_ns": 5000000000,
+        "max_evaluations": 20,
+        "max_iterations": null
+      },
+      "configuration_sha256": "f6d5b59180a5968d02363261adafa7240bf97803a789c6105afcf79a78b348cc",
+      "external_timeout_ns": 120000000000,
+      "instance_id": "graph2",
+      "instance_sha256": "6c92d89c11eea9c48dd1ec895b793cb634dd9ae56e524ab8b84ad33ff9a15c4c",
+      "phase": "smoke",
+      "protocol_id": "fhcp-m6-v3",
+      "seed_decimal": "17",
+      "variant": "global_real_keys_v1"
+    },
+    "issues": [],
+    "iteration_unit": "round",
+    "normalized_cost": 0.9142857142857143,
+    "outcome": "exhausted",
+    "peak_rss_bytes": 44650496,
+    "record_path": "experiments/results/3db63fd9-6545-4199-a1ea-cf74bdd50444/attempts/2edc90c9-24b1-44a1-af13-956f26c0758f/cli/a016f993-5fed-4b3d-a150-ada75b053bf9/run.json",
+    "record_sha256": "7c48c6c88b9bcde35e2eab52360ca44d1b5714aa997d89743e4fc5af5a1b849f",
+    "resolved": true,
+    "role": "primary",
+    "run_id": "a016f993-5fed-4b3d-a150-ada75b053bf9",
+    "timings": {
+      "capture_write_ns": 5064129,
+      "finalization_ns": 25583,
+      "first_success_ns": null,
+      "load_ns": null,
+      "overrun_ns": 0,
+      "preparation_ns": 25867969,
+      "process_elapsed_ns": 164289514,
+      "reconciliation_ns": 1207999,
+      "solver_ns": 13427746,
+      "total_ns": 39373339,
+      "validation_ns": 0
+    },
+    "trial_id": "af9e0c03e61a41ddb0024698c4c6d6f7ad5cde4fccdcce86d68cc65f7203437d"
+  },
+  {
+    "attempt_id": "55874f7a-bc79-4532-9d67-5935ef286068",
+    "batch_id": "3db63fd9-6545-4199-a1ea-cf74bdd50444",
+    "censoring": {
+      "scope": "evaluations",
+      "threshold": 20
+    },
+    "config_id": "de-c1",
+    "counters": {
+      "algorithm_counters": {},
+      "cache_hits": 0,
+      "evaluations_completed": 20,
+      "evaluations_started": 20,
+      "full_evaluations": 20,
+      "incremental_evaluations": 0,
+      "iteration_unit": "generation",
+      "iterations_completed": 0,
+      "partial_iteration": null,
+      "restarts": 0,
+      "validations_completed": 0,
+      "validations_started": 0
+    },
+    "identity": {
+      "algorithm": "de",
+      "budget": {
+        "max_elapsed_ns": 5000000000,
+        "max_evaluations": 20,
+        "max_iterations": null
+      },
+      "configuration_sha256": "b17b742913d85f89d061b16e18f16a8aeda1b23b5c68cd7fcb62e94670f19b96",
+      "external_timeout_ns": 120000000000,
+      "instance_id": "graph1",
+      "instance_sha256": "124c185cebd9782e037bf16c88cb26002352e10e3ab634bf51ff481296c2e0b2",
+      "phase": "smoke",
+      "protocol_id": "fhcp-m6-v3",
+      "seed_decimal": "17",
+      "variant": "rand_1_bin_real_keys_v1"
+    },
+    "issues": [],
+    "iteration_unit": "generation",
+    "normalized_cost": 0.8787878787878788,
+    "outcome": "exhausted",
+    "peak_rss_bytes": 44613632,
+    "record_path": "experiments/results/3db63fd9-6545-4199-a1ea-cf74bdd50444/attempts/55874f7a-bc79-4532-9d67-5935ef286068/cli/bee6d995-da80-4e41-a2a9-1ffa911c9004/run.json",
+    "record_sha256": "7614eef65d3332a6fc0ff28dd8b0dc39cff67c4f6dcf20de751ad9fcc9126edb",
+    "resolved": true,
+    "role": "primary",
+    "run_id": "bee6d995-da80-4e41-a2a9-1ffa911c9004",
+    "timings": {
+      "capture_write_ns": 5291191,
+      "finalization_ns": 22220,
+      "first_success_ns": null,
+      "load_ns": null,
+      "overrun_ns": 0,
+      "preparation_ns": 25854653,
+      "process_elapsed_ns": 165230069,
+      "reconciliation_ns": 623530,
+      "solver_ns": 12424329,
+      "total_ns": 38342744,
+      "validation_ns": 0
+    },
+    "trial_id": "1888202d4ce46a7bc66ca570f92f9b9ec17ab592d9f94b2fb648fb516257aef2"
+  },
+  {
+    "attempt_id": "7e6696e4-ea44-4552-be4a-8b8a4b7a3097",
+    "batch_id": "3db63fd9-6545-4199-a1ea-cf74bdd50444",
+    "censoring": {
+      "scope": "evaluations",
+      "threshold": 20
+    },
+    "config_id": "sa-c1",
+    "counters": {
+      "algorithm_counters": {
+        "accepted_moves": 19
+      },
+      "algorithm_counters.accepted_moves": 19,
+      "cache_hits": 0,
+      "evaluations_completed": 20,
+      "evaluations_started": 20,
+      "full_evaluations": 20,
+      "incremental_evaluations": 0,
+      "iteration_unit": "move",
+      "iterations_completed": 19,
+      "partial_iteration": null,
+      "restarts": 0,
+      "validations_completed": 0,
+      "validations_started": 0
+    },
+    "identity": {
+      "algorithm": "sa",
+      "budget": {
+        "max_elapsed_ns": 5000000000,
+        "max_evaluations": 20,
+        "max_iterations": null
+      },
+      "configuration_sha256": "d4b0b6e0759c0f9f791fe08798d1b698e352693088410979d05bcee049342d62",
+      "external_timeout_ns": 120000000000,
+      "instance_id": "graph2",
+      "instance_sha256": "6c92d89c11eea9c48dd1ec895b793cb634dd9ae56e524ab8b84ad33ff9a15c4c",
+      "phase": "smoke",
+      "protocol_id": "fhcp-m6-v3",
+      "seed_decimal": "17",
+      "variant": "geometric_swap_v1"
+    },
+    "issues": [],
+    "iteration_unit": "move",
+    "normalized_cost": 0.9428571428571428,
+    "outcome": "exhausted",
+    "peak_rss_bytes": 44769280,
+    "record_path": "experiments/results/3db63fd9-6545-4199-a1ea-cf74bdd50444/attempts/7e6696e4-ea44-4552-be4a-8b8a4b7a3097/cli/7f9814f7-23a6-4589-bdfa-cad37ac325ca/run.json",
+    "record_sha256": "c9921260b0176edfcb1202eaf34bac29040ecd0e4c9b7d3014cd8b068492ff30",
+    "resolved": true,
+    "role": "primary",
+    "run_id": "7f9814f7-23a6-4589-bdfa-cad37ac325ca",
+    "timings": {
+      "capture_write_ns": 5301162,
+      "finalization_ns": 25670,
+      "first_success_ns": null,
+      "load_ns": null,
+      "overrun_ns": 0,
+      "preparation_ns": 26203685,
+      "process_elapsed_ns": 132289485,
+      "reconciliation_ns": 637551,
+      "solver_ns": 8213585,
+      "total_ns": 34485121,
+      "validation_ns": 0
+    },
+    "trial_id": "b2d640592d8d280ee32d92999469b5fa377c501ef7e0f4451c876397ee071cd7"
+  },
+  {
+    "attempt_id": "ab5aa9d2-07e2-4810-9c85-a0edd7412901",
+    "batch_id": "3db63fd9-6545-4199-a1ea-cf74bdd50444",
+    "censoring": {
+      "scope": "evaluations",
+      "threshold": 20
+    },
+    "config_id": "sa-c1",
+    "counters": {
+      "algorithm_counters": {
+        "accepted_moves": 19
+      },
+      "algorithm_counters.accepted_moves": 19,
+      "cache_hits": 0,
+      "evaluations_completed": 20,
+      "evaluations_started": 20,
+      "full_evaluations": 20,
+      "incremental_evaluations": 0,
+      "iteration_unit": "move",
+      "iterations_completed": 19,
+      "partial_iteration": null,
+      "restarts": 0,
+      "validations_completed": 0,
+      "validations_started": 0
+    },
+    "identity": {
+      "algorithm": "sa",
+      "budget": {
+        "max_elapsed_ns": 5000000000,
+        "max_evaluations": 20,
+        "max_iterations": null
+      },
+      "configuration_sha256": "d4b0b6e0759c0f9f791fe08798d1b698e352693088410979d05bcee049342d62",
+      "external_timeout_ns": 120000000000,
+      "instance_id": "graph1",
+      "instance_sha256": "124c185cebd9782e037bf16c88cb26002352e10e3ab634bf51ff481296c2e0b2",
+      "phase": "smoke",
+      "protocol_id": "fhcp-m6-v3",
+      "seed_decimal": "17",
+      "variant": "geometric_swap_v1"
+    },
+    "issues": [],
+    "iteration_unit": "move",
+    "normalized_cost": 0.9090909090909091,
+    "outcome": "exhausted",
+    "peak_rss_bytes": 43192320,
+    "record_path": "experiments/results/3db63fd9-6545-4199-a1ea-cf74bdd50444/attempts/ab5aa9d2-07e2-4810-9c85-a0edd7412901/cli/f33eda55-0920-4836-9298-b3aa39af4fc1/run.json",
+    "record_sha256": "4b2e320d8f7ce2422d4198626e3446ad33472f52c04e5de8692d3cc24d469c5e",
+    "resolved": true,
+    "role": "primary",
+    "run_id": "f33eda55-0920-4836-9298-b3aa39af4fc1",
+    "timings": {
+      "capture_write_ns": 4711567,
+      "finalization_ns": 27848,
+      "first_success_ns": null,
+      "load_ns": null,
+      "overrun_ns": 0,
+      "preparation_ns": 30369603,
+      "process_elapsed_ns": 164562810,
+      "reconciliation_ns": 690951,
+      "solver_ns": 8936390,
+      "total_ns": 39391936,
+      "validation_ns": 0
+    },
+    "trial_id": "53a25f4428a4a0ad02ee440d3952f7a2ca33fcacad37f20ab20d8b95b3199ec1"
+  },
+  {
+    "attempt_id": "8b6a2ae7-a9c6-4e41-8a07-e33cd97acfd0",
+    "batch_id": "3db63fd9-6545-4199-a1ea-cf74bdd50444",
+    "censoring": {
+      "scope": "evaluations",
+      "threshold": 20
+    },
+    "config_id": "pso-c1",
+    "counters": {
+      "algorithm_counters": {},
+      "cache_hits": 0,
+      "evaluations_completed": 20,
+      "evaluations_started": 20,
+      "full_evaluations": 20,
+      "incremental_evaluations": 0,
+      "iteration_unit": "round",
+      "iterations_completed": 0,
+      "partial_iteration": null,
+      "restarts": 0,
+      "validations_completed": 0,
+      "validations_started": 0
+    },
+    "identity": {
+      "algorithm": "pso",
+      "budget": {
+        "max_elapsed_ns": 5000000000,
+        "max_evaluations": 20,
+        "max_iterations": null
+      },
+      "configuration_sha256": "f6d5b59180a5968d02363261adafa7240bf97803a789c6105afcf79a78b348cc",
+      "external_timeout_ns": 120000000000,
+      "instance_id": "graph1",
+      "instance_sha256": "124c185cebd9782e037bf16c88cb26002352e10e3ab634bf51ff481296c2e0b2",
+      "phase": "smoke",
+      "protocol_id": "fhcp-m6-v3",
+      "seed_decimal": "17",
+      "variant": "global_real_keys_v1"
+    },
+    "issues": [],
+    "iteration_unit": "round",
+    "normalized_cost": 0.8787878787878788,
+    "outcome": "exhausted",
+    "peak_rss_bytes": 42942464,
+    "record_path": "experiments/results/3db63fd9-6545-4199-a1ea-cf74bdd50444/attempts/8b6a2ae7-a9c6-4e41-8a07-e33cd97acfd0/cli/27d41e85-dfbd-404c-a17d-e78b844c908c/run.json",
+    "record_sha256": "58e27633270d0d6bc3a0fe7277a6a35345e2a56924c1f3d96979c70344271813",
+    "resolved": true,
+    "role": "primary",
+    "run_id": "27d41e85-dfbd-404c-a17d-e78b844c908c",
+    "timings": {
+      "capture_write_ns": 5935025,
+      "finalization_ns": 29777,
+      "first_success_ns": null,
+      "load_ns": null,
+      "overrun_ns": 0,
+      "preparation_ns": 27807178,
+      "process_elapsed_ns": 164400701,
+      "reconciliation_ns": 596896,
+      "solver_ns": 13686070,
+      "total_ns": 41606660,
+      "validation_ns": 0
+    },
+    "trial_id": "faba402abb91fd4e2877668f235dd0f5e796435024db1ae0767155b519258aec"
+  },
+  {
+    "attempt_id": "5f301930-db73-4520-bc7a-687f44780a8b",
+    "batch_id": "3db63fd9-6545-4199-a1ea-cf74bdd50444",
+    "censoring": {
+      "scope": "evaluations",
+      "threshold": 20
+    },
+    "config_id": "ga-c1",
+    "counters": {
+      "algorithm_counters": {},
+      "cache_hits": 0,
+      "evaluations_completed": 20,
+      "evaluations_started": 20,
+      "full_evaluations": 20,
+      "incremental_evaluations": 0,
+      "iteration_unit": "generation",
+      "iterations_completed": 0,
+      "partial_iteration": null,
+      "restarts": 0,
+      "validations_completed": 0,
+      "validations_started": 0
+    },
+    "identity": {
+      "algorithm": "ga",
+      "budget": {
+        "max_elapsed_ns": 5000000000,
+        "max_evaluations": 20,
+        "max_iterations": null
+      },
+      "configuration_sha256": "59a1cc3d3d223c4674c79892156614d172918350b9f4e1a3db2adbc7a71a867f",
+      "external_timeout_ns": 120000000000,
+      "instance_id": "graph2",
+      "instance_sha256": "6c92d89c11eea9c48dd1ec895b793cb634dd9ae56e524ab8b84ad33ff9a15c4c",
+      "phase": "smoke",
+      "protocol_id": "fhcp-m6-v3",
+      "seed_decimal": "17",
+      "variant": "generational_ox_swap_v1"
+    },
+    "issues": [],
+    "iteration_unit": "generation",
+    "normalized_cost": 0.9142857142857143,
+    "outcome": "exhausted",
+    "peak_rss_bytes": 44716032,
+    "record_path": "experiments/results/3db63fd9-6545-4199-a1ea-cf74bdd50444/attempts/5f301930-db73-4520-bc7a-687f44780a8b/cli/fb3ff043-c059-48f1-afca-7b7c9ba4eef4/run.json",
+    "record_sha256": "034e2dbea40ab96b760353f46902e3fe860359bad32108a2888770c6fa719cf5",
+    "resolved": true,
+    "role": "primary",
+    "run_id": "fb3ff043-c059-48f1-afca-7b7c9ba4eef4",
+    "timings": {
+      "capture_write_ns": 2988368,
+      "finalization_ns": 21692,
+      "first_success_ns": null,
+      "load_ns": null,
+      "overrun_ns": 0,
+      "preparation_ns": 26208795,
+      "process_elapsed_ns": 133019038,
+      "reconciliation_ns": 1236636,
+      "solver_ns": 7233022,
+      "total_ns": 33505740,
+      "validation_ns": 0
+    },
+    "trial_id": "5674459b66ccec320762c7070d69f62228b48786bb348a28860022f4842e79d6"
+  },
+  {
+    "attempt_id": "9edf457a-f82a-4ccc-9a09-12c3bb65de6f",
+    "batch_id": "3db63fd9-6545-4199-a1ea-cf74bdd50444",
+    "censoring": {
+      "scope": "evaluations",
+      "threshold": 20
+    },
+    "config_id": "as-c1",
+    "counters": {
+      "algorithm_counters": {
+        "construction_steps": 1300,
+        "constructions_started": 20
+      },
+      "algorithm_counters.construction_steps": 1300,
+      "algorithm_counters.constructions_started": 20,
+      "cache_hits": 0,
+      "evaluations_completed": 20,
+      "evaluations_started": 20,
+      "full_evaluations": 20,
+      "incremental_evaluations": 0,
+      "iteration_unit": "round",
+      "iterations_completed": 0,
+      "partial_iteration": {
+        "completed_items": 20,
+        "phase": "round",
+        "planned_items": 21
+      },
+      "restarts": 0,
+      "validations_completed": 0,
+      "validations_started": 0
+    },
+    "identity": {
+      "algorithm": "as",
+      "budget": {
+        "max_elapsed_ns": 5000000000,
+        "max_evaluations": 20,
+        "max_iterations": null
+      },
+      "configuration_sha256": "00771df87cc7889292b39b6315e74b1eaed3617f41f0d832a042676b350c67ed",
+      "external_timeout_ns": 120000000000,
+      "instance_id": "graph1",
+      "instance_sha256": "124c185cebd9782e037bf16c88cb26002352e10e3ab634bf51ff481296c2e0b2",
+      "phase": "smoke",
+      "protocol_id": "fhcp-m6-v3",
+      "seed_decimal": "17",
+      "variant": "ant_system_missing_pairs_v1"
+    },
+    "issues": [],
+    "iteration_unit": "round",
+    "normalized_cost": 0.12121212121212122,
+    "outcome": "exhausted",
+    "peak_rss_bytes": 47091712,
+    "record_path": "experiments/results/3db63fd9-6545-4199-a1ea-cf74bdd50444/attempts/9edf457a-f82a-4ccc-9a09-12c3bb65de6f/cli/bf5bf14a-c53d-418a-bc59-701325eea9dc/run.json",
+    "record_sha256": "d56d47d42e5215c1db623d0dc16250e537934e41d95ff52c557c44c20aa0988f",
+    "resolved": true,
+    "role": "primary",
+    "run_id": "bf5bf14a-c53d-418a-bc59-701325eea9dc",
+    "timings": {
+      "capture_write_ns": 5694828,
+      "finalization_ns": 30665,
+      "first_success_ns": null,
+      "load_ns": null,
+      "overrun_ns": 0,
+      "preparation_ns": 26486531,
+      "process_elapsed_ns": 266000658,
+      "reconciliation_ns": 647518,
+      "solver_ns": 123522004,
+      "total_ns": 150097342,
+      "validation_ns": 0
+    },
+    "trial_id": "4762d26a5757ae34bc61036230e72d0c1f433214d3ad7d24d0a6b2f1f696576f"
+  },
+  {
+    "attempt_id": "e607d03f-eef4-4011-af22-71e15cb69c91",
+    "batch_id": "3db63fd9-6545-4199-a1ea-cf74bdd50444",
+    "censoring": {
+      "scope": "evaluations",
+      "threshold": 20
+    },
+    "config_id": "de-c1",
+    "counters": {
+      "algorithm_counters": {},
+      "cache_hits": 0,
+      "evaluations_completed": 20,
+      "evaluations_started": 20,
+      "full_evaluations": 20,
+      "incremental_evaluations": 0,
+      "iteration_unit": "generation",
+      "iterations_completed": 0,
+      "partial_iteration": null,
+      "restarts": 0,
+      "validations_completed": 0,
+      "validations_started": 0
+    },
+    "identity": {
+      "algorithm": "de",
+      "budget": {
+        "max_elapsed_ns": 5000000000,
+        "max_evaluations": 20,
+        "max_iterations": null
+      },
+      "configuration_sha256": "b17b742913d85f89d061b16e18f16a8aeda1b23b5c68cd7fcb62e94670f19b96",
+      "external_timeout_ns": 120000000000,
+      "instance_id": "graph2",
+      "instance_sha256": "6c92d89c11eea9c48dd1ec895b793cb634dd9ae56e524ab8b84ad33ff9a15c4c",
+      "phase": "smoke",
+      "protocol_id": "fhcp-m6-v3",
+      "seed_decimal": "17",
+      "variant": "rand_1_bin_real_keys_v1"
+    },
+    "issues": [],
+    "iteration_unit": "generation",
+    "normalized_cost": 0.9142857142857143,
+    "outcome": "exhausted",
+    "peak_rss_bytes": 44593152,
+    "record_path": "experiments/results/3db63fd9-6545-4199-a1ea-cf74bdd50444/attempts/e607d03f-eef4-4011-af22-71e15cb69c91/cli/388392c5-9010-4fbc-960a-c13867633f28/run.json",
+    "record_sha256": "38d3628b90aa0ec91384aa26046fdb0ed51aee9315c3dd8328d52fa208734782",
+    "resolved": true,
+    "role": "primary",
+    "run_id": "388392c5-9010-4fbc-960a-c13867633f28",
+    "timings": {
+      "capture_write_ns": 4786599,
+      "finalization_ns": 21981,
+      "first_success_ns": null,
+      "load_ns": null,
+      "overrun_ns": 0,
+      "preparation_ns": 25546894,
+      "process_elapsed_ns": 165180140,
+      "reconciliation_ns": 701074,
+      "solver_ns": 12964774,
+      "total_ns": 38575030,
+      "validation_ns": 0
+    },
+    "trial_id": "782b45ed4e8446c1df10aefcd80bde524fb045e1f3e33dbf0249fcb71ddf44f3"
+  },
+  {
+    "attempt_id": "42dc3c7d-4fe0-48e9-bae5-67a884af8387",
+    "batch_id": "3db63fd9-6545-4199-a1ea-cf74bdd50444",
+    "censoring": {
+      "scope": "evaluations",
+      "threshold": 20
+    },
+    "config_id": "abc-c1",
+    "counters": {
+      "algorithm_counters": {},
+      "cache_hits": 0,
+      "evaluations_completed": 20,
+      "evaluations_started": 20,
+      "full_evaluations": 20,
+      "incremental_evaluations": 0,
+      "iteration_unit": "abc_cycle",
+      "iterations_completed": 0,
+      "partial_iteration": null,
+      "restarts": 0,
+      "validations_completed": 0,
+      "validations_started": 0
+    },
+    "identity": {
+      "algorithm": "abc",
+      "budget": {
+        "max_elapsed_ns": 5000000000,
+        "max_evaluations": 20,
+        "max_iterations": null
+      },
+      "configuration_sha256": "afde5b5312b39b0c6d24dc9ec92772fa6149bf6e6427d28ce976ea49d811075d",
+      "external_timeout_ns": 120000000000,
+      "instance_id": "graph2",
+      "instance_sha256": "6c92d89c11eea9c48dd1ec895b793cb634dd9ae56e524ab8b84ad33ff9a15c4c",
+      "phase": "smoke",
+      "protocol_id": "fhcp-m6-v3",
+      "seed_decimal": "17",
+      "variant": "sequential_partner_swap_v1"
+    },
+    "issues": [],
+    "iteration_unit": "abc_cycle",
+    "normalized_cost": 0.9142857142857143,
+    "outcome": "exhausted",
+    "peak_rss_bytes": 44613632,
+    "record_path": "experiments/results/3db63fd9-6545-4199-a1ea-cf74bdd50444/attempts/42dc3c7d-4fe0-48e9-bae5-67a884af8387/cli/b2d7ac18-a68b-407e-a62f-f10be7f0ea14/run.json",
+    "record_sha256": "eba20b7f11e27d2f709471d4a1a6610f0dc725c8c3a67054b3c43c074de50430",
+    "resolved": true,
+    "role": "primary",
+    "run_id": "b2d7ac18-a68b-407e-a62f-f10be7f0ea14",
+    "timings": {
+      "capture_write_ns": 5962982,
+      "finalization_ns": 23790,
+      "first_success_ns": null,
+      "load_ns": null,
+      "overrun_ns": 0,
+      "preparation_ns": 26198290,
+      "process_elapsed_ns": 132443155,
+      "reconciliation_ns": 700707,
+      "solver_ns": 7333939,
+      "total_ns": 33597741,
+      "validation_ns": 0
+    },
+    "trial_id": "1f7c016c0a377c2ecfc5c4f7d6ecf9bf05980937c25f7f03b1c2ada054428755"
+  },
+  {
+    "attempt_id": "011282f3-7d5d-4a4f-9886-a51a1d039646",
+    "batch_id": "3db63fd9-6545-4199-a1ea-cf74bdd50444",
+    "censoring": {
+      "scope": "evaluations",
+      "threshold": 20
+    },
+    "config_id": "as-c1",
+    "counters": {
+      "algorithm_counters": {
+        "construction_steps": 1380,
+        "constructions_started": 20
+      },
+      "algorithm_counters.construction_steps": 1380,
+      "algorithm_counters.constructions_started": 20,
+      "cache_hits": 0,
+      "evaluations_completed": 20,
+      "evaluations_started": 20,
+      "full_evaluations": 20,
+      "incremental_evaluations": 0,
+      "iteration_unit": "round",
+      "iterations_completed": 0,
+      "partial_iteration": {
+        "completed_items": 20,
+        "phase": "round",
+        "planned_items": 21
+      },
+      "restarts": 0,
+      "validations_completed": 0,
+      "validations_started": 0
+    },
+    "identity": {
+      "algorithm": "as",
+      "budget": {
+        "max_elapsed_ns": 5000000000,
+        "max_evaluations": 20,
+        "max_iterations": null
+      },
+      "configuration_sha256": "00771df87cc7889292b39b6315e74b1eaed3617f41f0d832a042676b350c67ed",
+      "external_timeout_ns": 120000000000,
+      "instance_id": "graph2",
+      "instance_sha256": "6c92d89c11eea9c48dd1ec895b793cb634dd9ae56e524ab8b84ad33ff9a15c4c",
+      "phase": "smoke",
+      "protocol_id": "fhcp-m6-v3",
+      "seed_decimal": "17",
+      "variant": "ant_system_missing_pairs_v1"
+    },
+    "issues": [],
+    "iteration_unit": "round",
+    "normalized_cost": 0.11428571428571428,
+    "outcome": "exhausted",
+    "peak_rss_bytes": 47263744,
+    "record_path": "experiments/results/3db63fd9-6545-4199-a1ea-cf74bdd50444/attempts/011282f3-7d5d-4a4f-9886-a51a1d039646/cli/c37cdf80-3647-4ac3-ac8c-578bf45e7bae/run.json",
+    "record_sha256": "010cefc295a87e0d658a7155916f559b0631af6a2c9b0d5ae190911e74be4022",
+    "resolved": true,
+    "role": "primary",
+    "run_id": "c37cdf80-3647-4ac3-ac8c-578bf45e7bae",
+    "timings": {
+      "capture_write_ns": 4750985,
+      "finalization_ns": 29275,
+      "first_success_ns": null,
+      "load_ns": null,
+      "overrun_ns": 0,
+      "preparation_ns": 27414043,
+      "process_elapsed_ns": 301396013,
+      "reconciliation_ns": 655594,
+      "solver_ns": 135788578,
+      "total_ns": 163297354,
+      "validation_ns": 0
+    },
+    "trial_id": "d2675885b2deb3460402b616ac2b2ae6339d697a1671b10d58d58c4654e9405f"
+  }
+]

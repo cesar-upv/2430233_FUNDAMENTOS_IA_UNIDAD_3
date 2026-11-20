@@ -1,0 +1,66 @@
+{
+  "schema_version": "fhcp-incident-review/1",
+  "reviewed_at_utc": "2026-11-13T04:48:29.991871+00:00",
+  "campaign_id": "e390b61f-aae4-4248-ba71-4467920d7bac",
+  "batch_manifest": "experiments/results/ef9646e3-1985-47b6-8f58-6744b2f70810/manifest.json",
+  "incident": {
+    "at_utc": "2026-11-13T04:47:08.140096+00:00",
+    "attempt_id": "2781ee0b-7951-493d-89ab-3594f97e2e3a",
+    "code": "resource_incident",
+    "issues": [
+      "swap_activity"
+    ]
+  },
+  "resource_before": {
+    "ac_online": true,
+    "at_utc": "2026-11-13T04:46:59.346311+00:00",
+    "available_ram_bytes": 25090105344,
+    "governor": "powersave",
+    "load_1m": 1.50537109375,
+    "suspend_offset_ns": 28323065329107,
+    "swap_pages": {
+      "pswpin": 104,
+      "pswpout": 491
+    }
+  },
+  "resource_after": {
+    "ac_online": true,
+    "at_utc": "2026-11-13T04:47:08.140073+00:00",
+    "available_ram_bytes": 25013641216,
+    "governor": "powersave",
+    "load_1m": 1.5078125,
+    "suspend_offset_ns": 28323065329579,
+    "swap_pages": {
+      "pswpin": 105,
+      "pswpout": 491
+    }
+  },
+  "last_attempt_outcome": "exhausted",
+  "last_attempt_exit_code": 0,
+  "findings": {
+    "completed_smoke": 12,
+    "completed_tuning": 39,
+    "pending_tuning": 81,
+    "verified_attempts": 51,
+    "artifact_checksums": "passed",
+    "run_record_checksums": "passed",
+    "batch_manifest_hash_chains": "passed",
+    "stderr_empty": true,
+    "all_attempts_finished": true,
+    "code_and_environment_unchanged": true
+  },
+  "current_sample": {
+    "available_ram_bytes": 24829800448,
+    "swap_pages": {
+      "pswpin": 106,
+      "pswpout": 491
+    },
+    "ac_online": true,
+    "governor": "powersave",
+    "suspend_offset_ns": 28323065328436,
+    "load_1m": 0.837890625,
+    "at_utc": "2026-11-13T04:48:29.992989+00:00"
+  },
+  "explanation": "Global pswpin increased from 104 to 105 during the completed ABC attempt. The responsible process and timing impact cannot be established from the global samples. About 23.3 GiB remained available. No solver crash was recorded.",
+  "recovery": "A six-second observation found stable swap counters at pswpin=106 and pswpout=491, AC power and unchanged governor. Resume pending trials in the same campaign only after the launch preflight succeeds. Keep all 39 original tuning primaries, including the affected attempt. Do not retry automatically or relax incident thresholds."
+}
