@@ -1,0 +1,14 @@
+# Entornos de Python, cachés y archivos temporales de Jupyter
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Configuración local
+.env
+.env.*
+!.env.example
+!.env.sample
+.DS_Store
+Thumbs.db
